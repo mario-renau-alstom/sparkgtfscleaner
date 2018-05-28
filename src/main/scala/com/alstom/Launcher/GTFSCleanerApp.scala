@@ -35,7 +35,7 @@ object GTFSCleanerApp extends App {
       //spark.conf.set("spark.sql.autoBroadcastJoinThreshold", -1)
     spark.sparkContext.setCheckpointDir("/tmp/")
    // Logging
-    val logPath = "C:/Users/407255/Desktop/AlstomData/Logfile.log"
+    val logPath = "C:/Users/407255/Desktop/AlstomData/Logfile1.log"
     val logLevel = Level.DEBUG
 
   // GetOpts
