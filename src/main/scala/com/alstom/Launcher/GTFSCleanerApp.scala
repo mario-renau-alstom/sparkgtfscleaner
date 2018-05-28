@@ -21,7 +21,7 @@ object GTFSCleanerApp extends App {
   var ONLINE_RAW : String = ONLINE_ROOT.concat("raw/")
 
   // GeoJson paths
-    var PARIS_GJSON = List(("01SystemXGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/paris/GeoJson/01SystemXGeoJson.geojson"))
+    var PARIS_GJSON = List(("01SystemXGeoJson1.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/paris/GeoJson/01SystemXGeoJson.geojson"))
 
     var LYON_GJSON = List(("01TclLigneBusGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/01TclLigneBusGeoJson.geojson"),
       ("02TclLigneMetroGeojson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/02TclLigneMetroGeojson.geojson"),
