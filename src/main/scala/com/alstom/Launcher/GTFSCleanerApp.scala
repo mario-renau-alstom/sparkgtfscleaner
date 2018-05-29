@@ -118,6 +118,10 @@ object GTFSCleanerApp extends App {
       val LyonProcess = new Lyon
       LyonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON, spark)
 
+    case "torrejon" => feedURL = "http://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data"
+      val TorrejonProcess = new Torrejon
+      TorrejonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON, spark)
+
     case _ => println("No option matched")
       sys.exit(1)
   }
