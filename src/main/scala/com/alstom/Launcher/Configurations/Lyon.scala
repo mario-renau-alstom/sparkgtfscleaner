@@ -1,20 +1,22 @@
 package com.alstom.Launcher.Configurations
 
-import com.alstom.GTFSOperations.IOOperations.{fs, getFileNameAndExtFromPath}
-import com.alstom.GTFSOperations.{GTFSMethods, IOOperations, UDFS}
+import com.alstom.GTFSOperations.IOOperations._
+import com.alstom.GTFSOperations.{GTFSMethods, IOOperations}
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.Path
-import org.apache.spark.sql.expressions.Window
+import org.apache.spark.sql.expressions.{Window, WindowSpec}
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.storage.StorageLevel
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
-import scala.util.Try
 
-class Lyon  {
+class Lyon (implicit spark: SparkSession) {
 
- def Configure (workpath: String, urlfile: String): Unit = {
+  import spark.implicits._
+
+  def Configure (workpath: String, urlfile: String): Unit = {
 
   val DownloadURL = urlfile
   val ResultURL = "stif/stif_gtfs_clean.zip"
@@ -23,9 +25,12 @@ class Lyon  {
   val ProcessedFileName = "stif_gtfs_clean.zip"
 }
 
- def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, geoJsonPath: List[(String,String)], spark: SparkSession) = {
+ def Process(workPath: String, backupPath: String,
+             sourcesPath: String, rawPath: String,
+             urlfile: String, geoJsonPath: List[(String,String)])
+             = {
 
-   import spark.implicits._
+   //import spark.implicits._
    println("Lyon GTFS Processing")
    println("URL: " + urlfile)
    println("-----------------------------------------------")
@@ -36,19 +41,20 @@ class Lyon  {
    println("Finish Clean environment")
    println("")
    //fs.delete(new Path("adl:///data/staging/GTFSCLEAN/GeoJson/"), true)
-   IOOperations.ExtractFiles(urlfile, "lyon_gtfs", workPath, backupPath, sourcesPath, spark)
+   IOOperations.ExtractFiles(urlfile, "lyon_gtfs", workPath, backupPath, sourcesPath, spark )
 
-   var dataframes = FixOperations(sourcesPath, "lyon_gtfs",  spark)
+   val initialDataframeList = FixOperations(sourcesPath, "lyon_gtfs")
 
    println("Start Complete shapes point by point")
-   dataframes = CompleteShapesPointByPoint(dataframes, "lyon", spark)
+   var dataframeList = CompleteShapesPointByPoint(initialDataframeList, "lyon")
    println("Finish Complete shapes point by point")
    println("")
 
-   println("Start download GeoJson")
-   val outputPath = new Path(workPath.concat("GeoJson"))
+   val outputPath = workPath.concat("GeoJson")
+   println(s"Start download GeoJson: $outputPath")
    try {
-     fs.mkdirs(outputPath)
+     //fs.mkdirs(outputPath)
+     createDirectory(outputPath)
      for(geojson <- geoJsonPath) {
        IOOperations.DownloadGeoJson(geojson._1, geojson._2, outputPath)
      }
@@ -62,17 +68,22 @@ class Lyon  {
 
    println("Start Add Shapes from GeoJson")
 
-   val listOfFiles = fs.listStatus(outputPath)
    val geoJsonPaths_list = ArrayBuffer[String]()
-   listOfFiles.foreach(x => geoJsonPaths_list += x.getPath.toString)
-   val originalShapes = dataframes(8)
+
+   if (isLocalEnv)
+     getFilesInLocalDirectory(outputPath).foreach(file => geoJsonPaths_list += file.toString)
+   else
+     getFilesInHdfsDirectory(outputPath).foreach(file => geoJsonPaths_list += file.getPath.toString)
+
+
+   val originalShapes = dataframeList(8)
    var shapesGenerated = new mutable.ListBuffer[DataFrame]
    for (geojsonPath <- geoJsonPaths_list) {
 
      val (fileName, fileExtension) = IOOperations.getFileNameAndExtFromPath(geojsonPath.toString)
      println(fileName)
-     dataframes = GTFSMethods.AddGeoJsonToReplaceShapes(dataframes, fileName,  geojsonPath, originalShapes, spark)
-     shapesGenerated += dataframes(8)
+     dataframeList = GTFSMethods.AddGeoJsonToReplaceShapes(dataframeList, fileName,  geojsonPath, originalShapes, spark)
+     shapesGenerated += dataframeList(8)
    }
    println("Finish Add Shapes from GeoJson")
 
@@ -81,21 +92,26 @@ class Lyon  {
 
    // Generate final shape df
    val shapes_cloned = originalShapes.toDF("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled")
-   val shapesDFlast = shapes_cloned.alias("shapeDF").join(shapesToUpdate.select("shape_id").alias("shapesToUpdate"), Seq("shape_id"), "leftouter").
-     where($"shapesToUpdate.shape_id".isNull).drop($"shapesToUpdate.shape_id").union(shapesToUpdate).dropDuplicates().orderBy("shape_id","shape_pt_sequence")
+   val shapesDFlast = shapes_cloned.alias("shapeDF")
+     .join(shapesToUpdate.select("shape_id")
+       .alias("shapesToUpdate"), Seq("shape_id"), "leftouter")
+     .where($"shapesToUpdate.shape_id".isNull)
+     .drop($"shapesToUpdate.shape_id")
+     .union(shapesToUpdate)
+     .dropDuplicates()
+     .orderBy("shape_id","shape_pt_sequence")
 
-   val dfOutput = dataframes.updated(8,shapesDFlast)
+   val dfOutput = dataframeList.updated(8,shapesDFlast)
    println("Finish Union shapes generated by Geojsons")
 
    println("Start Uploading result to Azure Storage")
-   UploadAzure(dfOutput, rawPath, spark)
+   // peta y mucho!!!!
+   UploadAzure(dfOutput, rawPath)
    println("Finish Uploading result to Azure Storage")
 
 }
 
-  def FixOperations(sourcesPath: String, fileName: String, spark: SparkSession) : List[DataFrame] = {
-
-    import spark.implicits._
+  def FixOperations(sourcesPath: String, fileName: String) : List[DataFrame] = {
     val sources_path = sourcesPath.concat("GTFSCLEAN/" + fileName + "/")
     var dataframes = new mutable.ListBuffer[DataFrame]
 
@@ -142,7 +158,7 @@ class Lyon  {
 
   }
 
-  def CompleteShapesPointByPoint(dataframes: List[org.apache.spark.sql.DataFrame], location: String, spark: SparkSession) : List[org.apache.spark.sql.DataFrame] = {
+  def CompleteShapesPointByPoint(dataframes: List[org.apache.spark.sql.DataFrame], location: String) : List[org.apache.spark.sql.DataFrame] = {
 
     var dataframesOutput = new mutable.ListBuffer[DataFrame]
 
@@ -179,7 +195,8 @@ class Lyon  {
       withColumn("shape_id", hash(concat_ws(";", $"listToHash"))).
       select("trip_id","shape_id")
 
-    val wSpec2 = Window.partitionBy("shape_id").orderBy("stop_sequence")
+    val wSpec2: WindowSpec = Window.partitionBy("shape_id").orderBy("stop_sequence")
+
     val stopTimes_WithShapeId = stop_times_selected_fields.join(dict_tripId_shapeId, "trip_id").
       select("stop_id","stop_sequence","shape_id").distinct()
 
@@ -247,13 +264,17 @@ class Lyon  {
 
     // master_shapes_dist.checkpoint()
 
-    @transient val finalt = master_shapes_dist.orderBy($"stop_sequence",$"stop_sequence_dest",$"distance").
-      withColumn("ZZZ", collect_list("stop_id_dest").over(wSpec3)).
-      withColumnRenamed("shape_id","shape_id_a").
-      withColumnRenamed("stop_id_dest","stop_id_dest_a").
-      withColumnRenamed("stop_id","stop_id_a").
-      withColumnRenamed("stop_sequence","stop_sequence_a").
-      withColumnRenamed("stop_sequence_dest","stop_sequence_dest_a")
+    @transient val finalt = master_shapes_dist.orderBy($"stop_sequence",$"stop_sequence_dest",$"distance")
+      .withColumn("ZZZ", collect_list("stop_id_dest").over(wSpec3))
+      .withColumnRenamed("shape_id","shape_id_a")
+      .withColumnRenamed("stop_id_dest","stop_id_dest_a")
+      .withColumnRenamed("stop_id","stop_id_a")
+      .withColumnRenamed("stop_sequence","stop_sequence_a")
+      .withColumnRenamed("stop_sequence_dest","stop_sequence_dest_a")
+
+    finalt.persist(StorageLevel.MEMORY_ONLY)
+    println(s"FinalT size is ${finalt.count}")
+
 
     val tabfinal = dictprop.join(finalt,dictprop("stop_id")===finalt("stop_id_a")&&
       dictprop("stop_id_dest")===finalt("stop_id_dest_a")&&
@@ -261,14 +282,20 @@ class Lyon  {
       filter($"distance" < 25).
       drop("stop_id_a","stop_id_dest_a","stop_sequence_a","stop_sequence_dest_a","shape_id_a")
 
+    tabfinal.persist(StorageLevel.MEMORY_ONLY)
+    println(s"TabFinal size is ${tabfinal.count}")
+
     val wSpec5 = Window.partitionBy("shape_id").orderBy("stop_sequence").rowsBetween(Long.MinValue, 0)
     val wSpec6 = Window.partitionBy("shape_id").orderBy("stop_sequence_a").rowsBetween(Long.MinValue, 0)
 
-    val tabtofile=tabfinal.
-      withColumn("stop_sequence",'stop_sequence.cast("int")).
-      orderBy("shape_id","stop_sequence").coalesce(1).withColumn("incremental",lit(1)).withColumn("ZZZ",when($"ZZZ".isNull, array($"stop_id")).otherwise($"ZZZ"))
-      .withColumn("test1", explode($"ZZZ")).
-      withColumn("Test", sum($"incremental").over(wSpec5))
+    val tabtofile=tabfinal.withColumn("stop_sequence",'stop_sequence
+      .cast("int"))
+      .orderBy("shape_id","stop_sequence")
+      .coalesce(1)
+      .withColumn("incremental",lit(1))
+      .withColumn("ZZZ",when($"ZZZ".isNull, array($"stop_id")).otherwise($"ZZZ"))
+      .withColumn("test1", explode($"ZZZ"))
+      .withColumn("Test", sum($"incremental").over(wSpec5))
 
     val dict_final = tabtofile.select("shape_id","test1","Test").withColumnRenamed("test1","stop_id").withColumnRenamed("Test","stop_sequence").
       union(tabtofile.filter($"stop_sequence"===0).select("shape_id","stop_id","stop_sequence")).
@@ -300,22 +327,31 @@ class Lyon  {
       select("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence")
 
     import org.apache.spark.sql.functions
-    val wDist = Window.partitionBy("shape_id").orderBy("shape_pt_sequence")
-    val shapesDF = shapesEnv.alias("shapesEnv").join(preJoin.select("shape_id").alias("preJoin"), Seq("shape_id"), "leftouter").where($"preJoin.shape_id".isNull).drop($"preJoin.shape_id").union(preJoin).orderBy("shape_id","shape_pt_sequence").
-      withColumn("shape_pt_sequence",      'shape_pt_sequence.cast("Int")).
-      withColumn("shape_pt_lat",      'shape_pt_lat.cast("Double")).
-      withColumn("shape_pt_lon",      'shape_pt_lon.cast("Double")).
-      withColumn("stop_lat_prev", lag("shape_pt_lat", 1,0).over(wDist)).withColumn("stop_lon_prev", lag("shape_pt_lon", 1,0).over(wDist)).
-      withColumn("a", functions.sin(functions.radians($"stop_lat_prev" - $"shape_pt_lat") / 2) * functions.sin(functions.radians($"stop_lat_prev" - $"shape_pt_lat") / 2) + functions.cos(functions.radians($"shape_pt_lat")) * functions.cos(functions.radians($"stop_lat_prev")) * functions.sin(functions.radians($"stop_lon_prev" - $"shape_pt_lon") / 2) * functions.sin(functions.radians($"stop_lon_prev" - $"shape_pt_lon") / 2)).withColumn("c", functions.atan2(functions.sqrt($"a"), functions.sqrt(-$"a" + 1)) * 2)
-      .withColumn("shape_dist_traveled",  when($"shape_pt_sequence" === 0, 0).otherwise($"c" * 6371000)).
-      select("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled")
+    val wDist = Window.partitionBy("shape_id")
+      .orderBy("shape_pt_sequence")
+    val shapesDF = shapesEnv.alias("shapesEnv")
+      .join(
+      preJoin.select("shape_id").alias("preJoin"), Seq("shape_id"), "leftouter")
+      .where($"preJoin.shape_id".isNull).drop($"preJoin.shape_id")
+      .union(preJoin).orderBy("shape_id","shape_pt_sequence")
+      .withColumn("shape_pt_sequence",      'shape_pt_sequence.cast("Int"))
+      .withColumn("shape_pt_lat",      'shape_pt_lat.cast("Double"))
+      .withColumn("shape_pt_lon",      'shape_pt_lon.cast("Double"))
+      .withColumn("stop_lat_prev", lag("shape_pt_lat", 1,0)
+      .over(wDist)).withColumn("stop_lon_prev", lag("shape_pt_lon", 1,0)
+      .over(wDist))
+      .withColumn("a", functions.sin(functions.radians($"stop_lat_prev" - $"shape_pt_lat") / 2) * functions.sin(functions.radians($"stop_lat_prev" - $"shape_pt_lat") / 2) + functions.cos(functions.radians($"shape_pt_lat")) * functions.cos(functions.radians($"stop_lat_prev")) * functions.sin(functions.radians($"stop_lon_prev" - $"shape_pt_lon") / 2) * functions.sin(functions.radians($"stop_lon_prev" - $"shape_pt_lon") / 2))
+      .withColumn("c", functions.atan2(functions.sqrt($"a"), functions.sqrt(-$"a" + 1)) * 2)
+      .withColumn("shape_dist_traveled",  when($"shape_pt_sequence" === 0, 0)
+      .otherwise($"c" * 6371000))
+      .select("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled")
 
     // Generate stop_times DF
 
     val shapes_new = shapesDF.withColumnRenamed("shape_pt_lat", "stop_lat").
       withColumnRenamed("shape_pt_lon", "stop_lon").
       withColumnRenamed("shape_pt_sequence", "stop_sequence")
-    shapes_new.checkpoint()
+    shapes_new.persist(StorageLevel.MEMORY_ONLY)
 
     // Generate tripsDF & stop_times
     var tripsDF = trips.select("route_id")
@@ -360,7 +396,7 @@ class Lyon  {
 
   }
 
-  def UploadAzure(dataframes: List[DataFrame], rawPath: String, spark: SparkSession) = {
+  def UploadAzure(dataframes: List[DataFrame], rawPath: String) = {
 
     import org.apache.hadoop.fs.{FileSystem, Path}
     val raw_path = rawPath.concat("GTFSCLEAN/" + "lyon_gtfs/")
@@ -374,9 +410,7 @@ class Lyon  {
     val transfers = dataframes(7)
     val shapes = dataframes(8)
 
-    import org.apache.hadoop.fs.FileStatus
     import java.io.IOException
-    import java.util
 
     @throws[IOException]
     def copyMerge(srcFS: FileSystem, srcDir: Path, dstFS: FileSystem, dstFile: Path, deleteSource: Boolean, conf: Configuration, addString: String) = {
