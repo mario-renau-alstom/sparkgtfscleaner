@@ -1,0 +1,1920 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+OGR42,TAG,"42","MEYLAN La Détourbe / LA TRONCHE Grand Sablon","",3,,000000,FFFFFF
+OMP42,TAM,"42","Montpellier Mosson - Murviel-lès-Montpellier La Rouvière Longue","",3,,000000,FFFFFF
+O384110,transisere,"4110","LA MURE-LA MOTTE D'AVEILLANS-GRENOBLE","",3,,000000,FFFFFF
+O384120,transisere,"4120","CHANTELOUVE-LA MURE","",3,,000000,FFFFFF
+OM142OM179,rtm,"42","METRO 5 AVENUES-DEPOT LA ROSE","",3,,000000,FFFFFF
+OM142TOM179,rtm,"42T","METRO 5 AVENUES-LES BARONNIES","",3,,000000,FFFFFF
+OZU51,azur,"42","Le Riou - Collège Pagnol","",3,,000000,FFFFFF
+OET42,etang,"42","Velaux - Ste Marie - St louis","",3,,000000,FFFFFF
+OGR41,TAG,"41","CORENC La Garenne / LA TRONCHE Grand Sablon","",3,,000000,FFFFFF
+OMP41,TAM,"41","Castelnau-le-Lez : Charles de Gaulle - Clinique du Parc","",3,,000000,FFFFFF
+OAC4000,cpa,"4000","Lambesc   St Cannat   Aix","",3,,000000,FFFFFF
+OAC4001,cpa,"4001","MFR Garachon","",3,,000000,FFFFFF
+O384100,transisere,"4100","CORPS-LA MURE-GRENOBLE","",3,,000000,FFFFFF
+O384101,transisere,"4101","GRENOBLE-GAP","",3,,000000,FFFFFF
+OM141OM179,rtm,"41","METRO ROND POINT DU PRADO-CANEBIERE BOURSE","",3,,000000,FFFFFF
+OZU53,azur,"41","Parc des Sports - Vallon des Vaux","",3,,000000,FFFFFF
+OMA436,ulysse,"436","Circuit Istres - Miramas","",3,,000000,FFFFFF
+OMA437,ulysse,"437","Circuit Istres - PSL","",3,,000000,FFFFFF
+OMA434,ulysse,"434","Circuit Engrenier / Pont du Roy - Ets Istres","",3,,000000,FFFFFF
+OMA435,ulysse,"435","Circuit Fos - Istres - Miramas","",3,,000000,FFFFFF
+OZU57,azur,"44","Square Bourdet - Château Vieux-Bourg","",3,,000000,FFFFFF
+OGR44,TAG,"44","LE GUA Les Saillants / LE GUA Prélenfrey Église / MIRIBEL-LANCHÂTRE Le Vernay /","",3,,000000,FFFFFF
+OMA438,ulysse,"438","Circuit Pt Rhau - Grans - Cornillon","",3,,000000,FFFFFF
+OMA439,ulysse,"439","Circuit Istres - St Chamas","",3,,000000,FFFFFF
+OGR43,TAG,"43","GIÈRES Gare - Universités / VENON Le Chapon","",3,,000000,FFFFFF
+OAC4300,cpa,"4300","Les Pennes Mirabeau   Aix","",3,,000000,FFFFFF
+OET43,etang,"43","La Verane - Collège Roquepertuse","",3,,000000,FFFFFF
+DGL43Aa1,tcl,"43","Gare de Vaise --> Genay Proulieu...","",3,,00FFFF,FFFFFF
+OMA432,ulysse,"432","Circuit Centre Ville - Ets Istres","",3,,000000,FFFFFF
+OMA433,ulysse,"433","Circuit Plan d'Arens - Ets Istres","",3,,000000,FFFFFF
+OMA431,ulysse,"431","Circuit Carabins - Ets Istres","",3,,000000,FFFFFF
+O384310,transisere,"4310","L'ALPE DU GRAND SERRE-LA MURE","",3,,000000,FFFFFF
+OM240,ciotabus,"40","Gare routière / Bais des Anges / Gare SNCF","",3,,000000,FFFFFF
+OM138OM179,rtm,"38","METRO BOUGAINVILLE-METRO MALPASSE","",3,,000000,FFFFFF
+OMP38,TAM,"38","Montpellier Rondelet - Lavérune - Pignan - Cournonterral -Cournonsec Les Clavoux","",3,,000000,FFFFFF
+OM137AOM179,rtm,"37A","LA BATARELLE-COLLEGE JEAN GIONO","",3,,000000,FFFFFF
+OM137SOM179,rtm,"37S","METRO MALPASSE-LA BATARELLE ETOILE","",3,,000000,FFFFFF
+DGL38Ar2,tcl,"38","Caluire - Place de la bascule --> Gare Part-Dieu Vivier Merle","",3,,00FFFF,FFFFFF
+OAC3800,cpa,"3800","Eguilles   Aix","",3,,000000,FFFFFF
+OM938,bsd,"38","Salon / Pélissanne (marché de Pélissanne)","",3,,000000,FFFFFF
+OZU3,azur,"38","Gustavin / Parc Vigier - Résidence des Baumettes","",3,,000000,FFFFFF
+OM937,bsd,"37","Charleval / Mallemort / Sénas (marché de Sénas)","",3,,000000,FFFFFF
+OMP37,TAM,"37","Montpellier Place de l'Europe - Castelnau-le-Lez Notre-Dame de Sablassou","",3,,000000,FFFFFF
+OM136BOM179,rtm,"36B","METRO BOUGAINVILLE-ESTAQUE GARE","",3,,000000,FFFFFF
+OM137OM179,rtm,"37","METRO MALPASSE-LA BATARELLE","",3,,000000,FFFFFF
+OET37,etang,"37","Ecole des Vignettes","",3,,000000,FFFFFF
+OAC3700,cpa,"3700","Eguilles   CLG Chateau Double","",3,,000000,FFFFFF
+OZU1267,azur,"37","Résidence Universitaire Montebello - Square Normandie Niemen","",3,,000000,FFFFFF
+DGL37Aa3,tcl,"37","College des Charpennes --> Vaulx-en-Velin  Marcel Cachin","",3,,00FFFF,FFFFFF
+OMA4,ulysse,"4","Grande Plage - Aquaron","",3,,000000,FFFFFF
+OM84,envia,"4","Clémenceau <> Cc La Plaine de Montmajour","",3,,000000,FFFFFF
+OVO4OVO20,voironnais,"4","ST JEAN DE MOIRANS   GYMNASE LA GARENNE","",3,,000000,FFFFFF
+OM94,bsd,"4","Aires de la Dime / Estamaire / Les broquetiers","",3,,000000,FFFFFF
+DGL40Ar14,tcl,"40","Pont Masaryk --> Bellecour Le Viste","",3,,00FFFF,FFFFFF
+OMP40,TAM,"40","Montpellier Mosson - Saint-Georges d'Orques Zone Artisanale","",3,,000000,FFFFFF
+OGR40,TAG,"40","GRENOBLE Victor Hugo / GRENOBLE Le Rabot","",3,,000000,FFFFFF
+OM140OM179,rtm,"40","METRO LA TIMONE-LA SOLITUDE","",3,,000000,FFFFFF
+DGL39Ar2,tcl,"39","Solaize Mairie --> Parc de Parilly","",3,,00FFFF,FFFFFF
+OAC3900,cpa,"3900","Jouques Peyrolles Meyrargues   Aix","",3,,000000,FFFFFF
+OM139OM179,rtm,"39","METRO MALPASSE-RESIDENCE FONDACLE","",3,,000000,FFFFFF
+OMP39,TAM,"39","Jacou : Jacou - La Draye","",3,,000000,FFFFFF
+DGL4Ar2,tcl,"4","Campus Lyon Ouest --> Gare de Vaise","",3,,00FFFF,FFFFFF
+OIV4OIV19,viennois,"4","STADE MALISSOL   GARE DE VIENNE   ESTRES","",3,,000000,FFFFFF
+OM14OM179,rtm,"4","METRO LA ROSE-LA VALENTINE CENTRE COMMERCIAL","",3,,000000,FFFFFF
+OET4,etang,"4","Square Gal De Gaulle - Plan de Campagne /  Barnéoud","",3,,000000,FFFFFF
+OM144OM179,rtm,"44","METRO ROND POINT DU PRADO-COLLEGE ROY D'ESPAGNE","",3,,000000,FFFFFF
+OM250,ciotabus,"50","Gare SNCF / Ecole des Séveriers / Lycée Lumière","",3,,000000,FFFFFF
+OM150OM179,rtm,"50","CASTELLANE-LES ESCOURTINES","",3,,000000,FFFFFF
+DGL50Aa3,tcl,"50","St Priest Hotel de Ville --> La Fouillouse Acacias","",3,,00FFFF,FFFFFF
+OGR50,TAG,"50","FONTAINE La Poya / SASSENAGE Les Côtes","",3,,000000,FFFFFF
+O385020,transisere,"5020","PONT EN ROYANS-ST ROMANS-ST MARCELLIN","",3,,000000,FFFFFF
+OM1509OM179,rtm,"509","CANEBIERE BOURSE-LES CAILLOLS (CENTRE URBAIN)","",3,,000000,FFFFFF
+OAC5000,cpa,"5000","St Paul   Jou   Pey   Mey   Pertuis","",3,,000000,FFFFFF
+O385000,transisere,"5000","PONT EN ROYANS-GRENOBLE","",3,,000000,FFFFFF
+OIV5OIV19,viennois,"5","GARE DE VIENNE   HOPITAL L. HUSSEL","",3,,000000,FFFFFF
+OM85,envia,"5","Clémenceau <> 9 Collines / Piscine Montmajour","",3,,000000,FFFFFF
+OM14BOM179,rtm,"4B","METRO LA ROSE-LES 3 LUCS","",3,,000000,FFFFFF
+OM15OM179,rtm,"5","METRO LA ROSE-LA PARADE","",3,,000000,FFFFFF
+OET5,etang,"5","Technoparc 2 - Rebuty","",3,,000000,FFFFFF
+OM95,bsd,"5","Parking Joseph d'Arbaud / Les Gabins","",3,,000000,FFFFFF
+OMA5,ulysse,"5","ZA Lavalduc - Engrenier","",3,,000000,FFFFFF
+DGL5Aa1,tcl,"5","Pont Mouton --> Charbonnieres Les Verrieres","",3,,00FFFF,FFFFFF
+OMA5105,ulysse,"5105","COLLEGE P ELUARD / LEP J MOULIN","",3,,000000,FFFFFF
+OMA5106,ulysse,"5106","LEP J MONGRAND","",3,,000000,FFFFFF
+OMA5103,ulysse,"5103","Collège Pagnol - Lurçat - Langevin","",3,,000000,FFFFFF
+OMA5104,ulysse,"5104","COLLEGE P ELUARD / LEP J MOULIN","",3,,000000,FFFFFF
+OMA5109,ulysse,"5109","LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5110,ulysse,"5110","LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+OMA5107,ulysse,"5107","COLLEGE M PAGNOL / LYCEE J LURCAT / P LANGEVIN","",3,,000000,FFFFFF
+OMA5108,ulysse,"5108","COLLEGE WALLON / LYCEE P LANGEVIN","",3,,000000,FFFFFF
+OZU1084,azur,"51","Stade des Iscles - Nice la plaine","",3,,000000,FFFFFF
+OM151OM179,rtm,"51","LA VALENTELLE-LA REYNARDE","",3,,000000,FFFFFF
+OGR51,TAG,"51","VEUREY-VOROIZE Châtelard / VEUREY-VOROIZE Mairie","",3,,000000,FFFFFF
+OM251,ciotabus,"51","Gare SNCF / Athélia 1","",3,,000000,FFFFFF
+OMA5101,ulysse,"5101","COLLEGE G PHILIPPE","",3,,000000,FFFFFF
+OMA5102,ulysse,"5102","Collège Pagnol - Lurçat - Langevin","",3,,000000,FFFFFF
+O385100,transisere,"5100","VILLARD DE LANS-ENGINS-GRENOBLE","",3,,000000,FFFFFF
+OAC5100,cpa,"5100","Venelles   Aix","",3,,000000,FFFFFF
+OET49,etang,"49","Halte de Velaux - M. Genevoix","",3,,000000,FFFFFF
+OET46,etang,"46","Circuit N°2-1","",3,,000000,FFFFFF
+OGR46,TAG,"46","SAINT-PAUL-DE-VARCES Place / VARCES-ALLIÈRES-ET-RISSET République","",3,,000000,FFFFFF
+DGL46Ar2,tcl,"46","Boyer --> Perrache","",3,,00FFFF,FFFFFF
+OZU1073,azur,"46","Le Taude - Bergerie","",3,,000000,FFFFFF
+OM146SOM179,rtm,"46S","METRO STE MARGUERITE DROMEL-LA PANOUSE","",3,,000000,FFFFFF
+OZU1123,azur,"47","Le Baou des Noirs - Halte Routière de l'Ara","",3,,000000,FFFFFF
+OAC4600,cpa,"4600","St Esteve   Le Puy   Aix","",3,,000000,FFFFFF
+O384600,transisere,"4600","MENS-LA MURE","",3,,000000,FFFFFF
+OGR45,TAG,"45","VIF Mairie / VARCES-ALLIÈRES-ET-RISSET République","",3,,000000,FFFFFF
+OM145OM179,rtm,"45","METRO ROND POINT DU PRADO-MARSEILLEVEYRE","",3,,000000,FFFFFF
+OAC4400,cpa,"4400","Milles Eguilles Lamb CLG Chesneraie","",3,,000000,FFFFFF
+DGL45Aa1,tcl,"45","Croix-Rousse --> Valdo","",3,,00FFFF,FFFFFF
+OAC4500,cpa,"4500","Pertuis   LYC Val de Durance","",3,,000000,FFFFFF
+OM146OM179,rtm,"46","METRO STE MARGUERITE DROMEL-VALMANTE","",3,,000000,FFFFFF
+OET45,etang,"45","Circuit N° 2-3","",3,,000000,FFFFFF
+O384500,transisere,"4500","MENS-MONESTIER DE CLERMONT-GRENOBLE","",3,,000000,FFFFFF
+OAC4800,cpa,"4800","St Esteve  Primaires et Maternelles","",3,,000000,FFFFFF
+OM148TOM179,rtm,"48T","METRO STE MARGUERITE DROMEL-CLAIRVAL VALLON DU REDON","",3,,000000,FFFFFF
+OET48,etang,"48","Les frégates - J. Monnet","",3,,000000,FFFFFF
+OM148OM179,rtm,"48","METRO STE MARGUERITE DROMEL-CLAIRVAL VALLON DU REDON","",3,,000000,FFFFFF
+OZU1080,azur,"49","Gare SNCF Cagnes-sur-Mer - La Gaude Stade / Le Peyron","",3,,000000,FFFFFF
+DGL49Ar2,tcl,"49","Ste Foy Chatelain --> Perrache.","",3,,00FFFF,FFFFFF
+OGR49,TAG,"49","SEYSSINET-PARISET Cimetière / SEYSSINS Clinique du Dauphiné","",3,,000000,FFFFFF
+OM149OM179,rtm,"49","CANEBIERE BOURSE-REFORMES CANEBIERE","",3,,000000,FFFFFF
+OGR47,TAG,"47","CLAIX Val d’Allières / CLAIX Pont Rouge","",3,,000000,FFFFFF
+OAC4700,cpa,"4700","Aix BoucBelAir Vitrolles Les Pennes","",3,,000000,FFFFFF
+OM147OM179,rtm,"47","METRO STE MARGUERITE DROMEL-VIEILLE CHAPELLE","",3,,000000,FFFFFF
+OET47,etang,"47","Les Romarins - Cousteau","",3,,000000,FFFFFF
+OMA474,ulysse,"474","Robespierre / Henry Leroy","",3,,000000,FFFFFF
+OGR48,TAG,"48","CLAIX Cossey / CLAIX Pont Rouge","",3,,000000,FFFFFF
+OMA472,ulysse,"472","Jean Moulin / Mongrand","",3,,000000,FFFFFF
+OMA473,ulysse,"473","Lurçat / Brise Lames / Langevin","",3,,000000,FFFFFF
+OAC3600,cpa,"3600","St Paul Jou Mey   Pey   CLG Jaures","",3,,000000,FFFFFF
+OZU1146,azur,"27","Vauban - Square Daudet","",3,,000000,FFFFFF
+OET27,etang,"27","Pierre Plantée - Croix Route","",3,,000000,FFFFFF
+O382610,transisere,"2610","BEAUREPAIRE-PEAGE DE ROUSSILLON","",3,,000000,FFFFFF
+OMP27,TAM,"27","Castelnau-le-Lez Notre-Dame de Sablassou - Castries - Sussargues - Beaulieu","",3,,000000,FFFFFF
+OAC270,cpa,"270","Les Pennes Mirabeau   Aix","",3,,000000,FFFFFF
+OAC2700,cpa,"2700","Mimet   Primaires et Maternelles","",3,,000000,FFFFFF
+DGL27Ar2,tcl,"27","Villeurbanne Centre --> Vieux Lyon","",3,,00FFFF,FFFFFF
+OM127OM179,rtm,"27","METRO LA ROSE-LYCEE SAINT-EXUPERY","",3,,000000,FFFFFF
+OAC252,cpa,"252","La Roque St Esteve Le Puy   Pertuis","",3,,000000,FFFFFF
+DGL26Ar2,tcl,"26","Manissieux Pierre Blanche --> Lycee Lumiere.","",3,,00FFFF,FFFFFF
+OAC250,cpa,"250","La Roque   Rognes   Aix","",3,,000000,FFFFFF
+OAC2500,cpa,"2500","Meyreuil   Fuveau   HDA  CLG Fuveau","",3,,000000,FFFFFF
+OIA26,ruban,"26","26","",3,,000000,FFFFFF
+OAC260,cpa,"260","St Esteve   Le Puy   Aix","",3,,000000,FFFFFF
+OMP26,TAM,"26","Montpellier Occitanie - Montferrier-sur-Lez Cirad de Baillarguet","",3,,000000,FFFFFF
+OMA26,ulysse,"26","VIGNEROS / PLACE DES AIRES","",3,,000000,FFFFFF
+OMA29,ulysse,"29","ISTRES - Gare Routière / ST MITRE / MARTIGUES - Place des Aires","",3,,000000,FFFFFF
+DGL29Ar10,tcl,"29","Ratabizet --> Meyzieu Z.i.","",3,,00FFFF,FFFFFF
+OAC2800,cpa,"2800","Peynier   Primaires et Maternelles","",3,,000000,FFFFFF
+OMP29,TAM,"29","Castelnau-le-Lez Notre-Dame de Sablassou - Baillargues - Saint-Brès","",3,,000000,FFFFFF
+OAC2900,cpa,"2900","Puyloubier   Aix","",3,,000000,FFFFFF
+DGL296a1,tcl,"296","Gare Part-Dieu Villette --> St-Pierre-de-Chandieu - Rajat.","",3,,00FFFF,FFFFFF
+OAC290,cpa,"290","Mimet   Gardanne   Aix en Provence","",3,,000000,FFFFFF
+O382900,transisere,"2900","VIENNE-LA COTE ST ANDRE","",3,,000000,FFFFFF
+OIV2760OIV19,viennois,"2760","Valencin - St Just Chaleyssin - Luzinay - Serpaize - Vienne","",3,,000000,FFFFFF
+OMP28,TAM,"28","Pérols : Parc Expo - Cabanes de Pérols","",3,,000000,FFFFFF
+O382700,transisere,"2700","BEAUREPAIRE-LA COTE ST ANDRE","",3,,000000,FFFFFF
+OAC271,cpa,"271","Les Pennes Gare TGV Plan d Aillane","",3,,000000,FFFFFF
+DGL28Aa5,tcl,"28","Meyzieu Z.i. --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+OMA28,ulysse,"28","CENTRE COMMERCIAL / AIGUES DOUCES","",3,,000000,FFFFFF
+OM128OM179,rtm,"28","METRO BOUGAINVILLE-LES AYGALADES","",3,,000000,FFFFFF
+OET28,etang,"28","Coll. Claudel - Les cèdres","",3,,000000,FFFFFF
+OIA25,ruban,"25","25","",3,,000000,FFFFFF
+OMA23,ulysse,"23","PLACE DES AIRES / LA GRAVADE","",3,,000000,FFFFFF
+OMP23,TAM,"23","Montpellier Occitanie - Prades-le-Lez Les Baronnes","",3,,000000,FFFFFF
+OIA23,ruban,"23","23","",3,,000000,FFFFFF
+OZU28,azur,"23","Vallon des Fleurs / Bella Vista - Centre Commercial","",3,,000000,FFFFFF
+OMP24,TAM,"24","Grabels : La Valsière - Le Pradas","",3,,000000,FFFFFF
+OM124OM179,rtm,"24","METRO STE MARGUERITE DROMEL-CAMPUS DE LUMINY","",3,,000000,FFFFFF
+OAB23,aixenbus,"23","BELLEGARDE <> PARC RIGAUD","",3,,000000,FFFFFF
+OAC230,cpa,"230","Eguilles   Aix","",3,,000000,FFFFFF
+OM8227,envia,"227","Arles <> Tarascon <> Beaucaire","",3,,000000,FFFFFF
+OM8228,envia,"228","Arles <> St Martin de Crau","",3,,000000,FFFFFF
+OM8225,envia,"225","Touzazibus 225","",3,,000000,FFFFFF
+OM8226,envia,"226","Gageron Interne","",3,,000000,FFFFFF
+DGL23Ar2,tcl,"23","Rocade des Monts d'Or --> Gare de Vaise","",3,,00FFFF,FFFFFF
+OGR23,TAG,"23","VIZILLE Le Péage / GIÈRES Gare - Universités / SAINT-MARTIN-D'HÈRES Sciences Soc","",3,,000000,FFFFFF
+OM122SOM179,rtm,"22S","METRO ROND POINT DU PRADO-LA SEIGNEURIE","",3,,000000,FFFFFF
+OM123OM179,rtm,"23","METRO ROND POINT DU PRADO-BEAUVALLON","",3,,000000,FFFFFF
+OMP25,TAM,"25","Montpellier Mosson - Juvignac Le Martinet","",3,,000000,FFFFFF
+OAB25,aixenbus,"25","LA POSTE-GRANDE TERRE <> GARE ROUTIERE","",3,,000000,FFFFFF
+OM124BOM179,rtm,"24B","METRO STE MARGUERITE DROMEL-REDON","",3,,000000,FFFFFF
+OM124TOM179,rtm,"24T","METRO STE MARGUERITE DROMEL-VAUFREGES","",3,,000000,FFFFFF
+DGL25Aa1,tcl,"25","Gare Part-Dieu Vivier Merle --> Sept Chemins","",3,,00FFFF,FFFFFF
+OMA25,ulysse,"25","MIRAMAS - Gare SNCF / ISTRES - Gare Routière / MARTIGUES - Place des Aires","",3,,000000,FFFFFF
+OZU48,azur,"25","Vauban - Cernuschi","",3,,000000,FFFFFF
+OM125OM179,rtm,"25","METRO BOUGAINVILLE-ST ANTOINE","",3,,000000,FFFFFF
+OZU1144,azur,"24","Cimiez / Hôpital - Saint-Sylvestre / Col de Bast","",3,,000000,FFFFFF
+OIA24,ruban,"24","24","",3,,000000,FFFFFF
+DGL24Aa3,tcl,"24","Grange Blanche --> Sept Chemins.","",3,,00FFFF,FFFFFF
+OAB24,aixenbus,"24","BELGES GARE-ROUTIERE / CIMETIERE GRAND ST JEAN","",3,,000000,FFFFFF
+OAC2400,cpa,"2400","Meyreuil   Aix","",3,,000000,FFFFFF
+OAC241,cpa,"241","Lambesc St Cannat  Les Milles","",3,,000000,FFFFFF
+OMA24,ulysse,"24","MARTIGUES - Gueule d'enfer / ST MITRE LES REMPARTS - Zac des Etangs","",3,,000000,FFFFFF
+OAC240,cpa,"240","Lambesc   St Cannat   Aix","",3,,000000,FFFFFF
+O382960,transisere,"2960","ST JEAN DE BOURNAY-LYON","",3,,000000,FFFFFF
+DGL33Aa1,tcl,"33","Croix-Rousse --> Rillieux - Les Alagniers","",3,,00FFFF,FFFFFF
+OZU1108,azur,"33","Lingostière Gare - Collège de l'Archet","",3,,000000,FFFFFF
+OMP33,TAM,"33","Saint-Jean de Védas Centre - Fabrègues Lou Paillas / Saussan Pascaou","",3,,000000,FFFFFF
+OM133OM179,rtm,"33","REFORMES CANEBIERE-ST JEROME IUT","",3,,000000,FFFFFF
+OMA331,ulysse,"331","Miramas-Cocteau/Alpilles/Miramaris/Camus","",3,,000000,FFFFFF
+OMA332,ulysse,"332","Miramas- Cocteau/Alpilles/Miramaris/Camus","",3,,000000,FFFFFF
+OM233,ciotabus,"33","Coopérative / Les Bastides du Garlaban","",3,,000000,FFFFFF
+OAC330,cpa,"330","Aix Calade   TDV","",3,,000000,FFFFFF
+OM132OM179,rtm,"32","CANEBIERE BOURSE-ST JEROME IUT","",3,,000000,FFFFFF
+OMA32,ulysse,"32","BOTTAI / JARDINS DE LOUIS","",3,,000000,FFFFFF
+OMA314,ulysse,"314","Miramas Camus/Jean Moulin","",3,,000000,FFFFFF
+OMA315,ulysse,"315","Miramas Village","",3,,000000,FFFFFF
+OAC3200,cpa,"3200","Vauvenargues St Marc Jaumegarde Aix","",3,,000000,FFFFFF
+OMA321,ulysse,"321","Miramas- Collège Carraire","",3,,000000,FFFFFF
+OM232,ciotabus,"32","La Garde / Bucelle / Fardeloup / Piscine / Lycée Lumière","",3,,000000,FFFFFF
+OMP32,TAM,"32","Montpellier Garcia Lorca - Villeneuve-lès-Maguelone Avenue de la Gare","",3,,000000,FFFFFF
+OAC3500,cpa,"3500","Rognes   St Cannat   CLG Garrigues","",3,,000000,FFFFFF
+OM135SOM179,rtm,"35S","JOLIETTE-PLAGES DE CORBIERES","",3,,000000,FFFFFF
+OET35,etang,"35","Vitrolles - EREA Louis Aragon","",3,,000000,FFFFFF
+DGL35Ar2,tcl,"35","Venissieux Le Charreard --> Bellecour Charite","",3,,00FFFF,FFFFFF
+OMP36,TAM,"36","Castelnau-le-Lez Charles de Gaulle - Clapiers - Saint-Drézéry - Montaud Stade","",3,,000000,FFFFFF
+OZU31,azur,"36","Rimiez Saint-George - Las Planas / Sappia","",3,,000000,FFFFFF
+OM135TOM179,rtm,"35T","JOLIETTE-TERMINAL CROISIERES","",3,,000000,FFFFFF
+OM136OM179,rtm,"36","METRO BOUGAINVILLE-LA NERTHE","",3,,000000,FFFFFF
+OZU8,azur,"34","Collège de l'Archet - Géronima","",3,,000000,FFFFFF
+OM134OM179,rtm,"34","REFORMES CANEBIERE-LE MERLAN","",3,,000000,FFFFFF
+OMA333,ulysse,"333","Miramas-Alpilles/Miramaris/Camus","",3,,000000,FFFFFF
+OM133SOM179,rtm,"33S","REFORMES CANEBIERE-LE MERLAN","",3,,000000,FFFFFF
+OMP35,TAM,"35","Castelnau-le-Lez : Mas de Rochet - Aube Rouge / Les Aires","",3,,000000,FFFFFF
+OM135OM179,rtm,"35","JOLIETTE-ESTAQUE RIAUX","",3,,000000,FFFFFF
+OMP34,TAM,"34","Montpellier Mosson - Pignan - Cournonterral - Cournonsec Les Clavoux","",3,,000000,FFFFFF
+OAC3400,cpa,"3400","Coudoux   Ventabren   Aix","",3,,000000,FFFFFF
+OMA313,ulysse,"313","Miramas-Jules Ferry / Chantegrive","",3,,000000,FFFFFF
+OMA30,ulysse,"30","PLACE DES AIRES / LE PORT","",3,,000000,FFFFFF
+OMP30,TAM,"30","Le Crès : Maumarin - Via Domitia - Jean Jaurès","",3,,000000,FFFFFF
+OVO3OVO20,voironnais,"3","FATON - CRIEL CHAMPFEUILLET","",3,,000000,FFFFFF
+OZU9,azur,"30","Vauban - Promenade des Arts","",3,,000000,FFFFFF
+O383000,transisere,"3000","BOURG D'OISANS-VIZILLE-GRENOBLE","",3,,000000,FFFFFF
+OAC3000,cpa,"3000","Rousset   Primaires et Maternelles","",3,,000000,FFFFFF
+OM130OM179,rtm,"30","METRO BOUGAINVILLE-LA SAVINE","",3,,000000,FFFFFF
+OM230,ciotabus,"30","Gare routière /  La Garde","",3,,000000,FFFFFF
+DGL3Ar4,tcl,"3","Limonest Le Puy d'Or --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OM13OM179,rtm,"3","METRO LA ROSE-ST JEROME PARKING RELAIS","",3,,000000,FFFFFF
+O382990,transisere,"2990","BOURGOIN JALLIEU-L'ISLE D'ABEAU-VIENNE","",3,,000000,FFFFFF
+DGL2EXr2,tcl,"2EX","Le Pont --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OM93,bsd,"3","Tallagard / C. Cial Aires de  la  Dîme","",3,,000000,FFFFFF
+OMA3,ulysse,"3","Douane - Pôle Jeunesse","",3,,000000,FFFFFF
+OIV3OIV19,viennois,"3","ESTRESSIN   GARE DE VIENNE   COLLEGE DE","",3,,000000,FFFFFF
+OM83,envia,"3","Tournesol <> La Crau","",3,,000000,FFFFFF
+DGL31Ar2,tcl,"31","Cite Edouard Herriot --> Perrache","",3,,00FFFF,FFFFFF
+OMA31,ulysse,"31","MARTIGUES - La Halle / PORT DE BOUC - Carrefour","",3,,000000,FFFFFF
+OZU4,azur,"31","La Madeleine - Hameaux de la Costière","",3,,000000,FFFFFF
+OM131OM179,rtm,"31","CANEBIERE BOURSE-LES AYGALADES","",3,,000000,FFFFFF
+OMA311,ulysse,"311","Miramas- Molières 2/ Jean Mace","",3,,000000,FFFFFF
+OMA312,ulysse,"312","Miramas-Molières 2/ Jean Mace","",3,,000000,FFFFFF
+OM64503,cigales,"310","SAINT CLAIR > COLLEGE DE GEMENOS","",3,,000000,FFFFFF
+OAC3100,cpa,"3100","Simiane  BBA Mimet CLG MITTERRAND","",3,,000000,FFFFFF
+O383030,transisere,"3030","LES DEUX ALPES-BOURG D'OISANS-GRENOBLE","",3,,000000,FFFFFF
+O383040,transisere,"3040","BOURG D'OISANS-LA BERARDE","",3,,000000,FFFFFF
+O383010,transisere,"3010","BOURG D'OISANS-ALLEMONT-VAUJANY (TAD)","",3,,000000,FFFFFF
+O383020,transisere,"3020","L'ALPE D'HUEZ-BOURG D'OISANS-GRENOBLE","",3,,000000,FFFFFF
+OMP31,TAM,"31","Castelnau-le-Lez Notre-Dame de Sablassou - Castries - Restinclières - Beaulieu","",3,,000000,FFFFFF
+OM231,ciotabus,"31","Gare routière / Bucelle","",3,,000000,FFFFFF
+O383050,transisere,"3050","SECHILIENNE-L'ALPE DU GRD SERRE","",3,,000000,FFFFFF
+O383070,transisere,"3070","AURIS EN OISANS-BOURG D'OISANS","",3,,000000,FFFFFF
+OZU42,azur,"72","PN Gambetta - Righi","",3,,000000,FFFFFF
+OET72,etang,"72","Les pennes Mirabeau - St Marie - St Louis","",3,,000000,FFFFFF
+OIV719OIV19,viennois,"719","PRIMAIRE LONGES","",3,,000000,FFFFFF
+OM172OM179,rtm,"72","METRO BOUGAINVILLE-METRO ROND POINT DU PRADO","",3,,000000,FFFFFF
+OET73,etang,"73","Le Relais - Monod","",3,,000000,FFFFFF
+DGL73Ar8,tcl,"73","Brindas Centre --> Gorge de Loup","",3,,00FFFF,FFFFFF
+DGL72Br14,tcl,"72","Les Terres St G. les Ollieres --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OAC7200,cpa,"7200","MFR de la Roque d Antheron","",3,,000000,FFFFFF
+OIV711OIV19,viennois,"711","CONDRIEU   VIENNE","",3,,000000,FFFFFF
+O387110,transisere,"7110","PONT DE BEAUVOISIN-VOIRON","",3,,000000,FFFFFF
+OGR71,TAG,"71","CHAMPAGNIER Place du Laca / JARRIE Gare","",3,,000000,FFFFFF
+OAC7100,cpa,"7100","Gardanne   Aix","",3,,000000,FFFFFF
+OIV716OIV19,viennois,"716","LES HAIES   CONDRIEU","",3,,000000,FFFFFF
+OIV718OIV19,viennois,"718","PRIMAIRE LONGES","",3,,000000,FFFFFF
+OIV712OIV19,viennois,"712","ECHALAS   GIVORS","",3,,000000,FFFFFF
+OIV713OIV19,viennois,"713","LES HAIES   CONDRIEU","",3,,000000,FFFFFF
+OMA7306,ulysse,"7306","COLLEGE F MISTRAL - M PAGNOL - LYCEE BRISES-LAMES - J LURCAT","",3,,000000,FFFFFF
+OMA7307,ulysse,"7307","COLLEGE M PAGNOL / LYCEE BRISE-LAME / J LURCAT","",3,,000000,FFFFFF
+OMA7304,ulysse,"7304","LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+OMA7305,ulysse,"7305","COLLEGE M PAGNOL - LYCEE BRISE LAMES - J LURCAT","",3,,000000,FFFFFF
+OZU1238,azur,"731","Lantosque - Belvédère Village","",3,,000000,FFFFFF
+OMA7310,ulysse,"7310","COLLEGE PAUL ELUARD / LEP C. MONGRAND","",3,,000000,FFFFFF
+OMA7308,ulysse,"7308","COLLEGE M PAGNOL / LYCEE BRISE-LAME / J LURCAT","",3,,000000,FFFFFF
+OMA7309,ulysse,"7309","COLLEGE PAUL ELUARD / LEP JEAN MOULIN","",3,,000000,FFFFFF
+OZU1237,azur,"730","Vauban - Saint Martin Vésubie","",3,,000000,FFFFFF
+O387300,transisere,"7300","BEAUREPAIRE-MOIRANS-GRENOBLE","",3,,000000,FFFFFF
+OM173OM179,rtm,"73","VALLON DE L'ORIOL-METRO STE MARGUERITE DROMEL","",3,,000000,FFFFFF
+OZU22,azur,"73","Carras / Frémont - Carras / Frémont","",3,,000000,FFFFFF
+OMA7302,ulysse,"7302","LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+OMA7303,ulysse,"7303","LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+OAC7300,cpa,"7300","Gardanne Lycee Valabre","",3,,000000,FFFFFF
+OMA7301,ulysse,"7301","COLLEGE F MISTRAL / LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+DGL71Ar2,tcl,"71","Ecoles de Collonges --> Gare de Vaise","",3,,00FFFF,FFFFFF
+OIV7OIV19,viennois,"7","CHASSE SUR RHONE   VIENNE","",3,,000000,FFFFFF
+OM87,envia,"7","Clémenceau <> Ile des Sables","",3,,000000,FFFFFF
+OAC6900,cpa,"6900","Mimet   CLG Greasque","",3,,000000,FFFFFF
+OMA7,ulysse,"7","- ZI Retortier - Coutarel (par Bardin)","",3,,000000,FFFFFF
+DGL7Aa5,tcl,"7","Laurent Bonnevay --> Bonnevay - Bel Air","",3,,00FFFF,FFFFFF
+OMP7,TAM,"7","Hôtel du Département - La Martelle / Les Bouisses","",3,,000000,FFFFFF
+OM17OM179,rtm,"7","FOCH 5 AVENUES-LES 3 LUCS ENCO DE BOTTE","",3,,000000,FFFFFF
+OET7,etang,"7","Pierre Plantée - Collège J. Prévert","",3,,000000,FFFFFF
+OZU1226,azur,"68","La Médiathèque - RUE 18bis","",3,,000000,FFFFFF
+DGL68Br2,tcl,"68","Les Grandes Terres --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+OZU1265,azur,"67B","Langevin - Carros Village/Le Broc","",3,,000000,FFFFFF
+OGR68,TAG,"68","BRESSON Lagay / ÉCHIROLLES La Rampe - Centre Ville","",3,,000000,FFFFFF
+OET69,etang,"69","Genevoix - La Glacière","",3,,000000,FFFFFF
+DGL69Aa5,tcl,"69","Manufacture Montluc --> Clinique du Tonkin","",3,,00FFFF,FFFFFF
+OAC6800,cpa,"6800","Meyreuil   Gardanne","",3,,000000,FFFFFF
+OZU1227,azur,"69","Juliette Gréco - Lei Feirriero","",3,,000000,FFFFFF
+OZU1244,azur,"705","Le Broc Village - Juliette Gréco","",3,,000000,FFFFFF
+OZU1245,azur,"706","Gattières Mairie - Centre Commercial","",3,,000000,FFFFFF
+OIV702OIV19,viennois,"702","AMPUIS   CONDRIEU","",3,,000000,FFFFFF
+OZU1243,azur,"702","Colomars La Manda/ Leî Feirreiro - Gattières Mairie/ St-Jeannet Le Peyron","",3,,000000,FFFFFF
+OM170SOM179,rtm,"70S","CANEBIERE BOURSE-LYCEE SAINT-EXUPERY","",3,,000000,FFFFFF
+OZU26,azur,"71","Gare SNCF - Corniche Bellevue","",3,,000000,FFFFFF
+OZU1246,azur,"707","Centre Commercial - La Médiathèque","",3,,000000,FFFFFF
+OZU1280,azur,"70e","T Express ZI Carros","",3,,000000,FFFFFF
+OM170OM179,rtm,"70","CANEBIERE BOURSE-LYCEE SAINT-EXUPERY","",3,,000000,FFFFFF
+DGL70Ar2,tcl,"70","Neuville (direction Lyon) --> Gare Part-Dieu Vivier Merle","",3,,00FFFF,FFFFFF
+OZU1228,azur,"70","Cathédrale Vieille Ville /Trésorerie - Carros Pagnol","",3,,000000,FFFFFF
+OGR70,TAG,"70","MONTCHABOUD Le Village / CHAMPS-SUR-DRAC ZA La Plaine","",3,,000000,FFFFFF
+O387000,transisere,"7000","ST PIERRE DE CHARTREUSE-GRENOBLE","",3,,000000,FFFFFF
+O387010,transisere,"7010","VOIRON-CHAMBERY","",3,,000000,FFFFFF
+OM270,ciotabus,"70","Fardeloup / Grande Plage / Abeille","",3,,000000,FFFFFF
+OAC7000,cpa,"7000","Lycee Fourcade   Lycee Valabre","",3,,000000,FFFFFF
+OMA7311,ulysse,"7311","COLLEGE PAUL ELUARD / F MISTRAL / LEP C. MONGRAND / J MOULIN","",3,,000000,FFFFFF
+DGL79Aa1,tcl,"79","La Borelle --> Decines Grand Large..","",3,,00FFFF,FFFFFF
+OM17BOM179,rtm,"7B","FOCH 5 AVENUES-BOIS LEMAITRE","",3,,000000,FFFFFF
+OET79,etang,"79","St Antoine - M. Genevoix","",3,,000000,FFFFFF
+OZU1097,azur,"79","Cimetiere de Cap-d'Ail / Les Genêts - Savorani","",3,,000000,FFFFFF
+DGL8Ar2,tcl,"8","Oullins Clement Desormes --> Perrache","",3,,00FFFF,FFFFFF
+OIV8OIV19,viennois,"8","CIRCULAIRE LES HAUTS DE VIENNE","",3,,000000,FFFFFF
+OM17TOM179,rtm,"7T","FOCH 5 AVENUES-ALLAUCH BARBARAOU","",3,,000000,FFFFFF
+OMA8,ulysse,"8","CCial Cognets - GR Istres (par Clinique)","",3,,000000,FFFFFF
+DGL77Ar2,tcl,"77","Pont de Fontaines --> Montessuy Gutenberg","",3,,00FFFF,FFFFFF
+OIV770OIV19,viennois,"770","TREVES   CONDRIEU","",3,,000000,FFFFFF
+OIV769OIV19,viennois,"769","LOIRE SUR RHONE   GIVORS","",3,,000000,FFFFFF
+OET77,etang,"77","Tante Rose - Ste Elisabeth","",3,,000000,FFFFFF
+OET78,etang,"78","Tante Rose - LEP Caucadis","",3,,000000,FFFFFF
+DGL78Br6,tcl,"78","Vernaison La Rossignole --> Gare d'Oullins","",3,,00FFFF,FFFFFF
+OET77a,etang,"77a","Tante Rose - Ste Elisabeth","",3,,000000,FFFFFF
+OET77b,etang,"77b","Tante Rose - Ste Elisabeth","",3,,000000,FFFFFF
+OZU1063,azur,"82","Vauban - Plateau de la Justice","",3,,000000,FFFFFF
+OM182OM179,rtm,"82","PHARO CATALANS-EUROMED ARENC","",3,,000000,FFFFFF
+OM181OM179,rtm,"81","LE PHARO-METRO ST JUST","",3,,000000,FFFFFF
+OZU1053,azur,"81","Promenade des Arts - Port de Saint-Jean","",3,,000000,FFFFFF
+OM183OM179,rtm,"83","CANEBIERE VIEUX PORT-METRO ROND POINT DU PRADO","",3,,000000,FFFFFF
+DGL83Aa1,tcl,"83","Vaulx-en-Velin La Soie --> Grand Parc Miribel Jonage","",3,,00FFFF,FFFFFF
+OM182SOM179,rtm,"82S","PHARO CATALANS-GARE ST CHARLES","",3,,000000,FFFFFF
+OZU1077,azur,"83","Plage / Beaulieu - Plateau de la Justice","",3,,000000,FFFFFF
+OM98,bsd,"8","Vernègues / Aurons / Pélissanne / Salon","",3,,000000,FFFFFF
+OMP8,TAM,"8","Cité de l'Arme - Gare Saint-Roch (Pont de Sète)","",3,,000000,FFFFFF
+OM88,envia,"8","EAD ZI Sud","",3,,000000,FFFFFF
+OET8,etang,"8","Les Frégates - Hameau des Barjaquets","",3,,000000,FFFFFF
+OZU1083,azur,"80","Le Gentilhomme - Riquier","",3,,000000,FFFFFF
+DGL81Ar10,tcl,"81","Gare de  Givors Ville --> Plateau de Montrond","",3,,00FFFF,FFFFFF
+DGL80Ar6,tcl,"80","Gare de Givors Ville --> Grigny La Colombe","",3,,00FFFF,FFFFFF
+OM180OM179,rtm,"80","CANEBIERE BOURSE-EGLISE D'ENDOUME","",3,,000000,FFFFFF
+OIV764OIV19,viennois,"764","AMPUIS   CONDRIEU","",3,,000000,FFFFFF
+OET74,etang,"74","Le Relais - Pierre Plantée","",3,,000000,FFFFFF
+OZU1240,azur,"740","Vauban - Auron","",3,,000000,FFFFFF
+O387360,transisere,"7360","LA COTE ST ANDRE-APPRIEU-VOIRON","",3,,000000,FFFFFF
+OM174OM179,rtm,"74","THIERS REFORMES-VALLON MONTEBELLO","",3,,000000,FFFFFF
+OZU1282,azur,"742","Vauban - Collège Jean Franco","",3,,000000,FFFFFF
+OZU1283,azur,"743","Vauban - Lycée de la Montagne","",3,,000000,FFFFFF
+OAC7400,cpa,"7400","Greasque   Gardanne","",3,,000000,FFFFFF
+OZU1281,azur,"741","Vauban - Collège St-Blaise","",3,,000000,FFFFFF
+OMA7315,ulysse,"7315","ECOLE PRIMAIRE ROMAIN ROLLAND","",3,,000000,FFFFFF
+OMA7316,ulysse,"7316","RESTAURANT SCOLAIRE M PAGNOL","",3,,000000,FFFFFF
+OMA7312,ulysse,"7312","COLLEGE PAUL ELUARD / F MISTRAL / LEP C. MONGRAND / J MOULIN","",3,,000000,FFFFFF
+OMA7313,ulysse,"7313","ECOLE DES ARCADES - GROUPE SCOLAIRE M PAGNOL","",3,,000000,FFFFFF
+O387330,transisere,"7330","LA COTE ST ANDRE-GRENOBLE","",3,,000000,FFFFFF
+O387350,transisere,"7350","LA COTE ST ANDRE-RIVES-VOIRON","",3,,000000,FFFFFF
+O387320,transisere,"7320","EXPRESS BEAUREPAIRE-GRENOBLE","",3,,000000,FFFFFF
+OZU1301,azur,"733","Corniglion Molinier - Berthemont les Bains","",3,,000000,FFFFFF
+OZU1163,azur,"75D","Gare SNCF - Magnan","",3,,000000,FFFFFF
+OET76,etang,"76","Le Brusq - Pierre Plantée","",3,,000000,FFFFFF
+OET75A,etang,"75A","Les Pallières -Ste Elisabeth","",3,,000000,FFFFFF
+OET75B,etang,"75B","Le Brusq - Monod","",3,,000000,FFFFFF
+OIV760OIV19,viennois,"760","TREVES   SAINT ROMAIN EN GAL","",3,,000000,FFFFFF
+OIV762OIV19,viennois,"762","ST ROMAIN EN GAL   ST ROMAIN EN GAL","",3,,000000,FFFFFF
+OZU16,azur,"76","Place Fontaine du Temple - Saint Blaise","",3,,000000,FFFFFF
+DGL76Ar7,tcl,"76","Decines Grand Large --> Corbas Les Balmes","",3,,00FFFF,FFFFFF
+OZU1241,azur,"746","Rimplas Gare - La Colmiane","",3,,000000,FFFFFF
+OET7476,etang,"7476","Le Relais - Pierre Plantée","",3,,000000,FFFFFF
+OZU1284,azur,"744","Vauban - Collège Jean Saline","",3,,000000,FFFFFF
+OZU1285,azur,"745","St Martin Vésubie - Vauban","",3,,000000,FFFFFF
+O387500,transisere,"7500","ST PIERRE D'ENTREMONT-ST LAURENT DU PONT","",3,,000000,FFFFFF
+OAC7500,cpa,"7500","Gardanne   Colleges","",3,,000000,FFFFFF
+OZU21,azur,"75","Gare SNCF - Hameaux de la Costière","",3,,000000,FFFFFF
+OET75,etang,"75","Les Pallières - Monod","",3,,000000,FFFFFF
+OZU1264,azur,"67A","Le Broc/Carros Village - Juliette Gréco","",3,,000000,FFFFFF
+OM1530OM179,rtm,"530","CANEBIERE BOURSE-LA SAVINE","",3,,000000,FFFFFF
+OAC5300,cpa,"5300","Venelles  CLG St Eutrope","",3,,000000,FFFFFF
+OM153OM179,rtm,"53","METRO ST JUST-LES FLAMANTS","",3,,000000,FFFFFF
+OGR53,TAG,"53","NOYAREY Parc des Biches / Fontaine La Poya","",3,,000000,FFFFFF
+OGR54,TAG,"54","GRENOBLE Presqu’Île / SASSENAGE Les Engenières / SAINT-ÉGRÈVE Pont de Vence","",3,,000000,FFFFFF
+OET54,etang,"54","Circuit 54 CARBONEL - JEAN COCTEAU","",3,,000000,FFFFFF
+OM1533OM179,rtm,"533","CANEBIERE BOURSE-ST JEROME IUT","",3,,000000,FFFFFF
+OM1535OM179,rtm,"535","CANEBIERE BOURSE-ESTAQUE RIAUX","",3,,000000,FFFFFF
+OMA5232,ulysse,"5232","LYCEE P LANGEVIN","",3,,000000,FFFFFF
+OMA5233,ulysse,"5233","COLLEGE M PAGNOL / LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5230,ulysse,"5230","COLLEGE M PAGNOL / LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5231,ulysse,"5231","COLLEGE DAUMIER","",3,,000000,FFFFFF
+O385250,transisere,"5250","ROYBON-ST MARCELLIN","",3,,000000,FFFFFF
+OM1526OM179,rtm,"526","CANEBIERE BOURSE-HOPITAL NORD","",3,,000000,FFFFFF
+OMA5234,ulysse,"5234","ECOLES PRIMAIRE J JAURES & H TRANCHIER","",3,,000000,FFFFFF
+OMA5235,ulysse,"5235","ECOLE PRIMAIRE CANTO PERDRIX","",3,,000000,FFFFFF
+OGR56,TAG,"56","SAINT-MARTIN-LE-VINOUX Col de Clémencières / GRENOBLE Casamaures - Village","",3,,000000,FFFFFF
+OZU1067,azur,"56","Pont des Pugets - La Grange Rimade","",3,,000000,FFFFFF
+OGR55,TAG,"55","SAINT-MARTIN-LE-VINOUX Col de Clémencières / SAINT-MARTIN-LE-VINOUX Hôtel de vil","",3,,000000,FFFFFF
+OAC5500,cpa,"5500","Vitrolles   Aix","",3,,000000,FFFFFF
+OM157OM179,rtm,"57","CANEBIERE BOURSE-VAUBAN LA POSTE","",3,,000000,FFFFFF
+OET57,etang,"57","Groupe Scolaire  Carbonel -  maternelle PDL","",3,,000000,FFFFFF
+OAC5600,cpa,"5600","La Roque   Rognes   Aix","",3,,000000,FFFFFF
+OZU1263,azur,"57","Gare SNCF Cagnes-sur-Mer - Le Gué 1","",3,,000000,FFFFFF
+OZU1058,azur,"54","Centre Commercial - -La Pompe","",3,,000000,FFFFFF
+OM1540OM179,rtm,"540","CANEBIERE BOURSE-LA SOLITUDE","",3,,000000,FFFFFF
+DGL54Ar2,tcl,"54","Corbas Les Taillis --> Gare de Venissieux","",3,,00FFFF,FFFFFF
+OM154OM179,rtm,"54","CATALANS-METRO LA TIMONE","",3,,000000,FFFFFF
+DGL55Ar4,tcl,"55","Campus Lyon Ouest --> Perrache","",3,,00FFFF,FFFFFF
+OZU1122,azur,"55","Centre Commercial - Saint-Jeannet","",3,,000000,FFFFFF
+OAC5400,cpa,"5400","Ventabren Primaires et  Maternelles","",3,,000000,FFFFFF
+OM155OM179,rtm,"55","JOLIETTE-ROUCAS BLANC","",3,,000000,FFFFFF
+OMA5229,ulysse,"5229","COLLEGE M PAGNOL / LYCEE J LURCAT","",3,,000000,FFFFFF
+OZU1278,azur,"51C","Pont des Pugets - Lycée Thierry Maulnier","",3,,000000,FFFFFF
+OZU1279,azur,"51D","La Baronne Place - Lycée Thierry Maulnier","",3,,000000,FFFFFF
+O385130,transisere,"5130","CORRENCON-VILLARD DE LANS (TAD)","",3,,000000,FFFFFF
+OM1518OM179,rtm,"518","CANEBIERE BOURSE-LA ROUVIERE","",3,,000000,FFFFFF
+OGR52,TAG,"52","SAINT-ÉGRÈVE Gare / VEUREY-VOROIZE Mairie","",3,,000000,FFFFFF
+OM152OM179,rtm,"52","BELLE DE MAI LA FRICHE-METRO LA TIMONE","",3,,000000,FFFFFF
+OZU56,azur,"52","Les Pugets / Aicard - Station J.C. Bermond","",3,,000000,FFFFFF
+DGL52Aa1,tcl,"52","Vaulx-en-Velin La Grappiniere --> Parilly Universite Hippodrome.","",3,,00FFFF,FFFFFF
+OMA5112,ulysse,"5112","LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5113,ulysse,"5113","COLLEGE G PHILIPPE","",3,,000000,FFFFFF
+O385110,transisere,"5110","LANS EN VERCORS-ST NIZIER-GRENOBLE","",3,,000000,FFFFFF
+OMA5111,ulysse,"5111","LYCEE PAUL LANGEVIN","",3,,000000,FFFFFF
+OMA5116,ulysse,"5116","ECOLE PRIMAIRE LA COURONNE","",3,,000000,FFFFFF
+O385120,transisere,"5120","VILLARD DE LANS-MEAUDRE-AUTRANS-LANS","",3,,000000,FFFFFF
+OMA5114,ulysse,"5114","COLLEGE G PHILIPPE","",3,,000000,FFFFFF
+OMA5115,ulysse,"5115","ECOLE PRIMAIRE SAINT PIERRE","",3,,000000,FFFFFF
+OMA5223,ulysse,"5223","COLLEGE H WALLON","",3,,000000,FFFFFF
+OMA5224,ulysse,"5224","LYCEE P LANGEVIN","",3,,000000,FFFFFF
+OMA5221,ulysse,"5221","COLLEGE DAUMIER","",3,,000000,FFFFFF
+OMA5222,ulysse,"5222","COLLEGE DAUMIER","",3,,000000,FFFFFF
+OMA5227,ulysse,"5227","COLLEGE M PAGNOL / LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5228,ulysse,"5228","COLLEGE M PAGNOL / LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5225,ulysse,"5225","LYCEE J LURCAT","",3,,000000,FFFFFF
+OMA5226,ulysse,"5226","COLLEGE H WALLON","",3,,000000,FFFFFF
+OAC5200,cpa,"5200","Peyrolles Venelles   CLG Chesneraie","",3,,000000,FFFFFF
+OM1521OM179,rtm,"521","GARE SAINT CHARLES-LUMINY","",3,,000000,FFFFFF
+OM252,ciotabus,"52","Athélia 1 / Ecole des Séveriers / Lycée Lumière / Gare Routière","",3,,000000,FFFFFF
+O385200,transisere,"5200","ST MARCELLIN-MOIRANS-GRENOBLE","",3,,000000,FFFFFF
+OMA5219,ulysse,"5219","LEP J MONTGRAND","",3,,000000,FFFFFF
+OMA5220,ulysse,"5220","COLLEGE DAUMIER","",3,,000000,FFFFFF
+OMA5217,ulysse,"5217","LEP J MOULIN","",3,,000000,FFFFFF
+OMA5218,ulysse,"5218","LEP J MONTGRAND","",3,,000000,FFFFFF
+DGL57Aa1,tcl,"57","Laurent Bonnevay --> Vaulx-en-Velin  Marcel Cachin","",3,,00FFFF,FFFFFF
+OZU46,azur,"63","Borriglione - Cernuschi","",3,,000000,FFFFFF
+OAC6300,cpa,"6300","Roque Rognes Le Puy CLG Chesneraie","",3,,000000,FFFFFF
+DGL63Aa1,tcl,"63","Perrache --> Oullins Le Golf","",3,,00FFFF,FFFFFF
+OGR63,TAG,"63","MONT-SAINT-MARTIN Chemin de Namière / SAINT-ÉGRÈVE Gare","",3,,000000,FFFFFF
+OAC6400,cpa,"6400","St Marc Jaumegarde   Aix","",3,,000000,FFFFFF
+OET65,etang,"65","Marignane - EREA Louis ARAGON","",3,,000000,FFFFFF
+OZU1111,azur,"64","Gare SNCF - Saint-Pancrace","",3,,000000,FFFFFF
+OGR64,TAG,"64","ÉCHIROLLES Marie Curie / PONT-DE-CLAIX Flottibulle / PONT-DE-CLAIX ZI des Îles","",3,,000000,FFFFFF
+OAC6100,cpa,"6100","Eguilles   L.I. Luynes","",3,,000000,FFFFFF
+OET62,etang,"62","Parc Camoin - Ste Marie","",3,,000000,FFFFFF
+OM161OM179,rtm,"61","CANEBIERE BOURSE-BOMPARD","",3,,000000,FFFFFF
+OZU1252,azur,"61","Station J.C. Bermond - Croix de Berra","",3,,000000,FFFFFF
+DGL62Aa5,tcl,"62","Gare de Venissieux. --> Mions Jules Valles","",3,,00FFFF,FFFFFF
+O386200,transisere,"6200","ALLEVARD-GRENOBLE","",3,,000000,FFFFFF
+OZU17,azur,"62","Station J.C. Bermond - Fort Casal Colomars","",3,,000000,FFFFFF
+OGR62,TAG,"62","SARCENAS Pont du Croz / SARCENAS Col de Porte / GRENOBLE Notre-Dame - Musée","",3,,000000,FFFFFF
+DGL67Aa3,tcl,"67","Laurent Bonnevay --> Meyzieu Plantees","",3,,00FFFF,FFFFFF
+OGR67,TAG,"67","HERBEYS Le Bourg / GRENOBLE Grand’place","",3,,000000,FFFFFF
+OET66,etang,"66","Le Jaî - Lycée M. Genevoix","",3,,000000,FFFFFF
+OAC6600,cpa,"6600","Trets Peynier Rous Chateau Gardanne","",3,,000000,FFFFFF
+OAC6700,cpa,"6700","Greasque   Aix","",3,,000000,FFFFFF
+OAC6710,cpa,"6710","Greasque   Mimet   Gardanne","",3,,000000,FFFFFF
+OET67,etang,"67","E. De Mirabeau - J. Prévert","",3,,000000,FFFFFF
+OM167OM179,rtm,"67","METRO CHARTREUX-LA BLANCARDE","",3,,000000,FFFFFF
+OZU1110,azur,"65","Carras / Frémont - Carras / Frémont","",3,,000000,FFFFFF
+OAC6500,cpa,"6500","Gar Mimet Simiane BBA Ste Elisabeth","",3,,000000,FFFFFF
+OGR65,TAG,"65","EYBENS Le Bourg / BRIÉ-ET-ANGONNES Église / VIZILLE Chantefeuille","",3,,000000,FFFFFF
+DGL65Ar4,tcl,"65","Charcot - La Source --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OGR66,TAG,"66","JARRIE Clos Jouvin / ÉCHIROLLES Gare","",3,,000000,FFFFFF
+DGL66Ar2,tcl,"66","Champagne Ecoles --> St Just","",3,,00FFFF,FFFFFF
+OAC6510,cpa,"6510","Gardanne Maternelles Primaires CLG","",3,,000000,FFFFFF
+O386550,transisere,"6550","ST BERNARD DU TOUVET-LA TRONCHE","",3,,000000,FFFFFF
+OGR61,TAG,"61","QUAIX-EN-CHARTREUSE La Cime de Mont-Quaix / SAINT-ÉGRÈVE Muret","",3,,000000,FFFFFF
+OM9T1,bsd,"6","TAD Magatis / Viougues / Croix-blanche / Centre-ville","",3,,000000,FFFFFF
+OM16OM179,rtm,"6","FOCH 5 AVENUES-BOIS LEMAITRE","",3,,000000,FFFFFF
+OAC5900,cpa,"5900","Pertuis   Nativite   Zola","",3,,000000,FFFFFF
+OM86,envia,"6","Lamartine <> C.F.A. / Gimeaux","",3,,000000,FFFFFF
+DGL6Ar2,tcl,"6","Techlid Le Paisy --> Gare de Vaise","",3,,00FFFF,FFFFFF
+OET6,etang,"6","Le Jaï  - Les Fortunés","",3,,000000,FFFFFF
+OMP6,TAM,"6","Euromédecine - Pas du Loup","",3,,000000,FFFFFF
+OET58,etang,"58","Pré Fleuri - Pierre Plantée","",3,,000000,FFFFFF
+OAC5800,cpa,"5800","CLG Le Puy Ste Reparade","",3,,000000,FFFFFF
+OAC5700,cpa,"5700","Fuveau Primaires et Maternelles","",3,,000000,FFFFFF
+OZU1076,azur,"58","Centre Commercial - Collège A. Malraux","",3,,000000,FFFFFF
+OZU1125,azur,"59","Plan du Var - Trésorerie / Cathédrale Vieille Ville","",3,,000000,FFFFFF
+OET59,etang,"59","Le Tholonet - Lycée M. Genevoix","",3,,000000,FFFFFF
+OM1582OM179,rtm,"582","CANEBIERE BOURSE-FOCH 5 AVENUES","",3,,000000,FFFFFF
+OM1583OM179,rtm,"583","CANEBIERE BOURSE-MADRAGUE DE MONTREDON","",3,,000000,FFFFFF
+O386021,transisere,"6021","ST NAZAIRE-LA TRONCHE GRAND SABLON","",3,,000000,FFFFFF
+O386051,transisere,"6051","LE PINET-URIAGE-GIERES GARE","",3,,000000,FFFFFF
+O386010,transisere,"6010","CHAMROUSSE-GRENOBLE","",3,,000000,FFFFFF
+O386020,transisere,"6020","CROLLES-MEYLAN-GRENOBLE","",3,,000000,FFFFFF
+O386070,transisere,"6070","GIERES-CAMPUS-MONTBONNOT-BERNIN","",3,,000000,FFFFFF
+DGL61Aa1,tcl,"61","Gare de Vaise --> Lissieu - Montluzin","",3,,00FFFF,FFFFFF
+O386052,transisere,"6052","BELMONT-URIAGE-GIERES GARE-CAMPUS","",3,,000000,FFFFFF
+O386060,transisere,"6060","CHAMBERY-CHAPAREILLAN-GRENOBLE","",3,,000000,FFFFFF
+OM260,ciotabus,"60","Gare SNCF / Abeille / Salis / Piscine / Fardeloup","",3,,000000,FFFFFF
+OM160OM179,rtm,"60","MUCEM ST JEAN-NOTRE DAME DE LA GARDE","",3,,000000,FFFFFF
+OMA6,ulysse,"6","Bayanne - Rassuen","",3,,000000,FFFFFF
+OIV6OIV19,viennois,"6","GARE DE VIENNE   CANCANNE   GENETS   C.","",3,,000000,FFFFFF
+OGR60,TAG,"60","PROVEYSIEUX Planfay Haut / SAINT-ÉGRÈVE Muret","",3,,000000,FFFFFF
+OAC6000,cpa,"6000","Coudoux   Ventabren   L.I. Luynes","",3,,000000,FFFFFF
+DGL60Aa1,tcl,"60","Perrache --> Feyzin Les Razes","",3,,00FFFF,FFFFFF
+OZU2,azur,"60","Magnan - Croix de Berra","",3,,000000,FFFFFF
+STEOCE464860STEOCESN,sncf,"","Cars Arvant / Millau","",3,,,
+STEOCE460859STEOCESN,sncf,"","Cars Clermont Fd / Mauriac","",3,,,
+STEOCE156704STEOCESN,sncf,"","Cars Clermont-Fd - Montbrison - St-Etienne","",3,,,
+STEOCE941884STEOCESN,sncf,"","Cars Valence - Die","",3,,,
+STEOCE480859STEOCESN,sncf,"","Cars Neussargues / St Chély d'Apcher","",3,,,
+STEOCE480864STEOCESN,sncf,"","Cars Vic Le Comte / Brioude","",3,,,
+STEOCE424860STEOCESN,sncf,"","Cars St Eloy / Montluçon","",3,,,
+STEOCE432859STEOCESN,sncf,"","Cars Lapeyrouse / St Eloy/St Gervais","",3,,,
+STEOCE156701STEOCESN,sncf,"","Cars Roanne - Lyon","",3,,,
+STEOCE144649STEOCESN,sncf,"","Cars Lyon - Lozanne - Paray-Le-Monial","",3,,,
+STEOCE140644STEOCESN,sncf,"","Cars Chambéry - Chamonix","",3,,,
+STEOCE140645STEOCESN,sncf,"","Cars Chambéry - Annecy - Evians","",3,,,
+STEOCE140639STEOCESN,sncf,"","Cars Grenoble - Annemasse - Evian","",3,,,
+STEOCE260844STEOCESN,sncf,"","Cars Valence - St-Etienne","",3,,,
+STEOCE160703STEOCESN,sncf,"","Cars Ambérieu - Bourg-en-Bresse","",3,,,
+STEOCE232739STEOCESN,sncf,"","Cars Lyon St Paul - Lozanne","",3,,,
+STEOCE484866STEOCESN,sncf,"","Cars St Georges / Langeac","",3,,,
+STEOCE725907STEOCESN,sncf,"","Paray-le-Monial - Moulins-sur-Allier","",3,,,
+STEOCE532907STEOCESN,sncf,"","Cars Clermont Fd / Arlanc","",3,,,
+STEOCE428859STEOCESN,sncf,"","Cars Montluçon / Clermont Fd","",3,,,
+STEOCE725930STEOCESN,sncf,"","Nevers - Moulins","",3,,,
+STEOCE140664STEOCESN,sncf,"","ligne routière Nîmes Le Grau du Roi","",3,,,
+STEOCE725908STEOCESN,sncf,"","Digoin - Paray-le-Monial - Lozanne","",3,,,
+STEOCE420859STEOCESN,sncf,"","Cars Clermont Fd / Ussel","",3,,,
+STEOCE396880STEOCESN,sncf,"","Cars Vichy / Montluçon","",3,,,
+STEOCE572935STEOCESN,sncf,"","Cars Clermont Fd / St Etienne","",3,,,
+STEOCE432860STEOCESN,sncf,"","Cars  St Gervais / Riom","",3,,,
+STEOCE456859STEOCESN,sncf,"","Cars Bort Les Orgues / Neussargues","",3,,,
+STEOCE540929STEOCESN,sncf,"","Cars Montluçon / St Amand","",3,,,
+STEOCE540927STEOCESN,sncf,"","Cars Montluçon / St Germain","",3,,,
+STEOCE416859STEOCESN,sncf,"","Cars Clermont Fd / Le Mont Dore","",3,,,
+STEOCE540928STEOCESN,sncf,"","Cars  Gannat / Clermont Fd","",3,,,
+STEOCE140646STEOCESN,sncf,"","Cars Lyon - Oyonnax - St-Claude - Morez","",3,,,
+STEOCE496868STEOCESN,sncf,"","Cars Lyon - Bellegarde - Genève","",3,,,
+STEOCE156699STEOCESN,sncf,"","Cars Lyon - (LTP - AMB) - Chambéry","",3,,,
+STEOCESN-87741009-87723478STEOCESN,sncf,"","Chambéry-Chal.-les-Eaux - La Tour-du-Pin","",3,,,
+STEOCE252844STEOCESN,sncf,"","Cars Grenoble - Chambery","",3,,,
+STEOCE160697STEOCESN,sncf,"","Cars Lyon - Grenoble","",3,,,
+STEOCE180695STEOCESN,sncf,"","Bus 4733 4734 Toulouse Ax - Foix Tarascon Latour de Carol","",3,,,
+STEOCE140637STEOCESN,sncf,"","Cars Annecy - Genève","",3,,,
+STEOCE697634STEOCESN,sncf,"","Cars Lyon - St Etienne","",3,,,
+STEOCE140638STEOCESN,sncf,"","Cars Grenoble - Chamonix","",3,,,
+STEOCE140659STEOCESN,sncf,"","ligne routière Mende Marvejols St chély","",3,,,
+STEOCE140662STEOCESN,sncf,"","ligne routière Carcassonne Quillan","",3,,,
+STEOCE140641STEOCESN,sncf,"","Cars Grenoble - Annonay","",3,,,
+STEOCE140647STEOCESN,sncf,"","Cars Bourg-en-Bresse - Chambéry","",3,,,
+STEOCE496863STEOCESN,sncf,"","Cars Grenoble - Aubenas","",3,,,
+STEOCE140640STEOCESN,sncf,"","Cars Lyon - Chamonix","",3,,,
+STEOCE140656STEOCESN,sncf,"","ligne routière Mende Clermont Ferrand","",3,,,
+STEOCE140661STEOCESN,sncf,"","ligne routière Mende Le Puy","",3,,,
+STEOCE156687STEOCESN,sncf,"","Cars Lyon - Annecy","",3,,,
+STEOCE252843STEOCESN,sncf,"","Cars Grenoble - Valence","",3,,,
+STEOCE144650STEOCESN,sncf,"","ligne routière Béziers Bédarieux","",3,,,
+STEOCE532920STEOCESN,sncf,"","Montluçon - Guéret","",3,,,
+STEOCE140658STEOCESN,sncf,"","ligne routière Montpellier Millau St Affrique","",3,,,
+STEOCE140657STEOCESN,sncf,"","ligne routière St Chély Millau","",3,,,
+STEOCE140660STEOCESN,sncf,"","ligne routière La Bastide Langogne Mende","",3,,,
+OAB01,aixenbus,"01","ROI RENE","",3,,000000,FFFFFF
+OAB02,aixenbus,"02","BOUFFAN <> ANOUAR EL SADATE","",3,,000000,FFFFFF
+STEOCE889872STEOCESN,sncf,"","Cars travaux GE - VCE (61)","",3,,,
+OZU37,azur,"03","Square Normandie Niemen - La Madeleine","",3,,000000,FFFFFF
+OAB03,aixenbus,"03","VAL ST ANDRE <> GRANDE BASTIDE","",3,,000000,FFFFFF
+OAB02S,aixenbus,"02S","BOUFFAN <> ROTONDE-TOUR DE VILLE","",3,,000000,FFFFFF
+STEOCE232738STEOCESN,sncf,"","Cars Mâcon - Lyon","",3,,,
+STEOCE140636STEOCESN,sncf,"","Cars Bellegarde - Chamonix","",3,,,
+STEOCE156689STEOCESN,sncf,"","Cars Lyon - Ambérieu - St Rambert en B","",3,,,
+STEOCESN-87723429-87723494STEOCESN,sncf,"","Bourgoin-Jallieu - St-André-le-Gaz","",3,,,
+STEOCESN-87698332-87721605STEOCESN,sncf,"","Lyon-St-Paul-Quai-Bondy - Sain-Bel","",3,,,
+STEOCE156695STEOCESN,sncf,"","Cars St-Claude - Oyonnax - Bourg - Lyon","",3,,,
+STEOCE160693STEOCESN,sncf,"","Cars (Aix) - Chambéry- Bourg-St-Maurice","",3,,,
+STEOCESN-87698340-87721605STEOCESN,sncf,"","Lyon-St-Paul-la-Feuilée - Sain-Bel","",3,,,
+OAB06,aixenbus,"06","PARKING 3 BONS DIEUX <> GARE ROUTIERE","",3,,000000,FFFFFF
+OAB07,aixenbus,"07","P+R BRUNET-GARE ROUTIERE <> P+R KRYPTON","",3,,000000,FFFFFF
+OZU14,azur,"06","Les Chênes Verts - Vauban / Université","",3,,000000,FFFFFF
+OAB08,aixenbus,"08","FOUR D'EYGLUN <> VAL DE L'ARC","",3,,000000,FFFFFF
+OZU36,azur,"07","Riquier - Saint-Sylvestre","",3,,000000,FFFFFF
+OZU5,azur,"04","Hôpital Pasteur - Las Planas / Henri Sappia","",3,,000000,FFFFFF
+OAB04,aixenbus,"04","VAL SAINT-ANDRE<> POLE D'ACTIVITES","",3,,000000,FFFFFF
+OAB03S,aixenbus,"03S","TOUR DE VILLE <> GRANDE BASTIDE","",3,,000000,FFFFFF
+OAB05S,aixenbus,"05S","PORTAIL CEZANNE <> BELLEGARDE","",3,,000000,FFFFFF
+OAB05,aixenbus,"05","P+R BRUNET <> CLUB HIPPIQUE CENTRE/Cial DES MILLES","",3,,000000,FFFFFF
+STEOCESN-87335521-87697128STEOCESN,sncf,"","Grenoble-Gare-Routière - Lyon-Part-Dieu-Gare-Rou","",3,,,
+STEOCESN-87756056-87756817STEOCESN,sncf,"","Nice-Ville - Touet-de-l'Escarène","",3,,,
+STEOCE889861STEOCESN,sncf,"","Cars travaux ROA - SE","",3,,,
+STEOCE556927STEOCESN,sncf,"","Cars Vichy / Arlanc","",3,,,
+STEOCE452859STEOCESN,sncf,"","Cars Laqueuille / Ussel","",3,,,
+STEOCE156697STEOCESN,sncf,"","Cars Ambérieu - Chambéry","",3,,,
+STEOCE164707STEOCESN,sncf,"","Cars Grenoble - Gap - Briancon","",3,,,
+STEOCESN-87756056-87756825STEOCESN,sncf,"","Nice-Ville - Sospel","",3,,,
+STEOCE629126STEOCESN,sncf,"","Cars St Priest - St Pierre de Chandieu","",3,,,
+STEOCE532896STEOCESN,sncf,"","Cars Ambert / Le Puy","",3,,,
+STEOCE484888STEOCESN,sncf,"","Cars Dunières / Firminy","",3,,,
+STEOCE725918STEOCESN,sncf,"","Seurre - Bourg-en-Bresse","",3,,,
+STEOCE140665STEOCESN,sncf,"","ligne routière Alès Nîmes","",3,,,
+STEOCE572936STEOCESN,sncf,"","Cars Thiers / Noirétable","",3,,,
+STEOCE452861STEOCESN,sncf,"","Cars Laqueuille / Le Mont Dore","",3,,,
+STEOCE484868STEOCESN,sncf,"","Cars Arvant / Le Puy","",3,,,
+STEOCE484887STEOCESN,sncf,"","Cars Le Puy / Firminy","",3,,,
+STEOCE160699STEOCESN,sncf,"","Cars Bellegarde - Evian","",3,,,
+STEOCE140635STEOCESN,sncf,"","Cars Chambéry - Aix-Les-Bains - Annecy","",3,,,
+STEOCESN-87395814-87732206STEOCESN,sncf,"","Clermont-Paulines - St-Germain-des-Fossés","",3,,,
+STEOCESN-87732206-87732008STEOCESN,sncf,"","St-Germain-des-Fossés - Vichy","",3,,,
+STEOCESN-87784009-87784686STEOCESN,sncf,"","Perpignan - Villefranche-Vernet-l.B","",3,,,
+STEOCE164703STEOCESN,sncf,"","Cars Lyon - Bourg-en-Bresse (via Villars)","",3,,,
+STEOCE629127STEOCESN,sncf,"","Cars Communay Sérézin","",3,,,
+STEOCE652STEOCESN,sncf,"","Béziers-Neussargues","",3,,,
+STEOCE160691STEOCESN,sncf,"","Cars Chambéry - Modane","",3,,,
+STEOCE156710STEOCESN,sncf,"","Cars Villefranche - Lyon - Vienne","",3,,,
+STEOCE156693STEOCESN,sncf,"","Cars Macon - Bourg-en-Bresse","",3,,,
+STEOCE168688STEOCESN,sncf,"","Cars Lyon St-Paul - Sain Bel","",3,,,
+STEOCESN-87696328-87694687STEOCESN,sncf,"","Moulins-sur-Allier - Paray-le-Monial","",3,,,
+STEOCESN-87645002-87645507STEOCESN,sncf,"","Aurillac - Neussargues","",3,,,
+STEOCE156691STEOCESN,sncf,"","Cars Roanne - St-Etienne","",3,,,
+STEOCESN-87694307-87696328STEOCESN,sncf,"","Montchanin - Moulins-sur-Allier","",3,,,
+STEOCESN-87746008-87741009STEOCESN,sncf,"","Annecy - Chambéry-Chal.-les-Eaux","",3,,,
+STEOCESN-87723429-87741009STEOCESN,sncf,"","Bourgoin-Jallieu - Chambéry-Chal.-les-Eaux","",3,,,
+STEOCE889873STEOCESN,sncf,"","Cars travaux GE - GAP","",3,,,
+STEOCESN-87747626-87335521STEOCESN,sncf,"","Clelles-Mens - Grenoble-Gare-Routière","",3,,,
+STEOCESN-87741009-87741470STEOCESN,sncf,"","Chambéry-Chal.-les-Eaux - Pont-de-Beauvoisin","",3,,,
+STEOCE889858STEOCESN,sncf,"","Cars travaux LPU - FNY - SE - LY","",3,,,
+STEOCESN-87741009-87741439STEOCESN,sncf,"","Chambéry-Chal.-les-Eaux - Lépin-le-Lac-la-Bauche","",3,,,
+STEOCESN-87741009-87723494STEOCESN,sncf,"","Chambéry-Chal.-les-Eaux - St-André-le-Gaz","",3,,,
+STEOCESN-87742007-87742320STEOCESN,sncf,"","Modane - St-Jean-de-Maurienne-A.","",3,,,
+STEOCESN-87335521-87763300STEOCESN,sncf,"","Grenoble-Gare-Routière - Veynes-Dévoluy","",3,,,
+STEOCESN-87763003-87335521STEOCESN,sncf,"","Gap - Grenoble-Gare-Routière","",3,,,
+STEOCESN-87745497-87746305STEOCESN,sncf,"","Annemasse - La Roche-sur-Foron","",3,,,
+STEOCE889870STEOCESN,sncf,"","Cars travaux CR - MOD (Maurienne)","",3,,,
+STEOCESN-87741009-87742007STEOCESN,sncf,"","Chambéry-Chal.-les-Eaux - Modane","",3,,,
+STEOCE889867STEOCESN,sncf,"","Cars travaux ACY - SGB","",3,,,
+STEOCE1081891STEOCESN,sncf,"","Cars travaux LY - SGB","",3,,,
+STEOCE889860STEOCESN,sncf,"","Cars travaux CLE - MOB - SE","",3,,,
+STEOCE889865STEOCESN,sncf,"","Cars travaux AE - ACY","",3,,,
+STEOCESN-87696013-87697128STEOCESN,sncf,"","Bourg-En-Bresse-Gare-Ro - Lyon-Part-Dieu-Gare-Rou","",3,,,
+STEOCESN-87741132-87741009STEOCESN,sncf,"","Aix-les-Bains-le-Revard - Chambéry-Chal.-les-Eaux","",3,,,
+STEOCE889864STEOCESN,sncf,"","Cars travaux LY - BGD-  AE - EV","",3,,,
+OAC1900,cpa,"1900","Haut de l Arc   Aix","",3,,000000,FFFFFF
+OAC191,cpa,"191","Gardanne Simiane BBA ZA Milles","",3,,000000,FFFFFF
+DGL19Aa1,tcl,"19","Hotel de Ville - L. Pradel --> Ecully Le Perollier","",3,,00FFFF,FFFFFF
+OAC190,cpa,"190","Simiane   Bouc Bel Air   Aix","",3,,000000,FFFFFF
+O381940,transisere,"1940","EXPRESS VILLEFONTAINE-LYON","",3,,000000,FFFFFF
+O381980,transisere,"1980","SAINT ROMAIN DE JALIONAS - MEYZIEU","",3,,000000,FFFFFF
+O381920,transisere,"1920","EXPRESS BOURGOIN-L'ISLE D'ABEAU-LYON","",3,,000000,FFFFFF
+O381930,transisere,"1930","EXPRESS L'ISLE D'ABEAU-LYON","",3,,000000,FFFFFF
+OAC184,cpa,"184","ZA Avon   Ecole St Joseph","",3,,000000,FFFFFF
+OAC182,cpa,"182","Collevielle Cauvet Gare Routiere","",3,,000000,FFFFFF
+OAC183,cpa,"183","8 Mai 1945   Gare Routiere SNCF","",3,,000000,FFFFFF
+OM119OM179,rtm,"19","CASTELLANE-MADRAGUE DE MONTREDON","",3,,000000,FFFFFF
+OMP19,TAM,"19","Pierre de Coubertin - Hôtel du Département","",3,,000000,FFFFFF
+OGR19,TAG,"19","SASSENAGE L’Ovalie / SEYSSINET-PARISET Village","",3,,000000,FFFFFF
+OAB19,aixenbus,"19","CHATEAU DE GALICE <> VAL DE L'ARC","",3,,000000,FFFFFF
+OMA2,ulysse,"2","Martigues - Port de Bouc - Fos sur Mer - Port St Louis","",3,,000000,FFFFFF
+OVO2OVO20,voironnais,"2","PARVIS - COUBLEVIE","",3,,000000,FFFFFF
+OIV2OIV19,viennois,"2","COLLEGE DE L ISLE   GARE DE VIENNE   MAL","",3,,000000,FFFFFF
+DGL2Aa1,tcl,"2","Croix-Rousse --> Plateaux de St Rambert","",3,,00FFFF,FFFFFF
+OM92,bsd,"2","Tallagard / St Jean","",3,,000000,FFFFFF
+OM12OM179,rtm,"2","METRO LA ROSE-CITE LA MARIE HAUTE","",3,,000000,FFFFFF
+OET2,etang,"2","Jas de Rhodes - Tante Rose","",3,,000000,FFFFFF
+OM82,envia,"2","Hôpital <> Cc La Plaine de Montmajour","",3,,000000,FFFFFF
+OM119BOM179,rtm,"19B","METRO ROND POINT DU PRADO-POINTE ROUGE PORT","",3,,000000,FFFFFF
+OAB19S,aixenbus,"19S","CHATEAU DE GALICE <> PARKING CARCASSONNE","",3,,000000,FFFFFF
+O381981,transisere,"1981","BOUVESSE QUIRIEU-PONT DE CHERUY","",3,,000000,FFFFFF
+O381982,transisere,"1982","AOSTE-MORESTEL-CREMIEU","",3,,000000,FFFFFF
+DGL1EXr12,tcl,"1EX","Grange Blanche --> Colombier-Saugnieu Les Salines","",3,,00FFFF,FFFFFF
+OM11SOM179,rtm,"1S","METRO LA ROSE-LA PARADE","",3,,000000,FFFFFF
+OM119TOM179,rtm,"19T","METRO ROND POINT DU PRADO-MADRAGUE DE MONTREDON","",3,,000000,FFFFFF
+OAC1810,cpa,"1810","Fuveau   Gardanne","",3,,000000,FFFFFF
+OAC160,cpa,"160","Haut de l Arc   Aix en Provence","",3,,000000,FFFFFF
+OAC1600,cpa,"1600","Cabries   CLG Mauron","",3,,000000,FFFFFF
+OZU45,azur,"16","Vauban / Université - Ariane Saramito","",3,,000000,FFFFFF
+OAB16S,aixenbus,"16S","ARC DE MEYRAN <> BONAPARTE","",3,,000000,FFFFFF
+OM116TOM179,rtm,"16T","METRO STE MARGUERITE DROMEL-COLLEGE GYPTIS","",3,,000000,FFFFFF
+OAC161,cpa,"161","Haut de l Arc vers ZA Les Milles","",3,,000000,FFFFFF
+OM116SOM179,rtm,"16S","METRO STE MARGUERITE DROMEL-LYCEE JEAN PERRIN","",3,,000000,FFFFFF
+OM115SOM179,rtm,"15S","METRO STE MARGUERITE DROMEL-LA VALENTELLE","",3,,000000,FFFFFF
+OAC1500,cpa,"1500","BBA Simiane Cabries LI Luynes","",3,,000000,FFFFFF
+OAC152,cpa,"152","St Paul   Jou   Pey   Mey   Pertuis","",3,,000000,FFFFFF
+OAB16,aixenbus,"16","P+R KRYPTON <> BONAPARTE","",3,,000000,FFFFFF
+DGL16Ar2,tcl,"16","Decines Grand Large --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+OM116OM179,rtm,"16","METRO STE MARGUERITE DROMEL-CC ST LOUP","",3,,000000,FFFFFF
+OGR16,TAG,"16","MEYLAN Lycée du Grésivaudan / CORENC Montfleury / PONT-DE-CLAIX La Luire","",3,,000000,FFFFFF
+OAB18,aixenbus,"18","DURANNE ECOLE <> GARE ROUTIERE","",3,,000000,FFFFFF
+OMP18,TAM,"18","Montpellier Sabines - Maurin - Lattes Centre","",3,,000000,FFFFFF
+DGL171a1,tcl,"171","Pont Guillotiere RD --> Crepieux Les Brosses","",3,,00FFFF,FFFFFF
+OAC172,cpa,"172","Fuveau Greasque Gardanne","",3,,000000,FFFFFF
+OAC180,cpa,"180","Gardanne   Meyreuil   Aix","",3,,000000,FFFFFF
+OAC1800,cpa,"1800","Fuveau   Aix","",3,,000000,FFFFFF
+OM118OM179,rtm,"18","CASTELLANE-LE BOSQUET","",3,,000000,FFFFFF
+DGL18Ba3,tcl,"18","Gare d'Oullins --> Vernaison Place","",3,,00FFFF,FFFFFF
+DGL17Ba7,tcl,"17","Ste Foy Place Saint Luc --> St Genis Lycee Descartes","",3,,00FFFF,FFFFFF
+OMP17,TAM,"17","Lavandin - Sabines","",3,,000000,FFFFFF
+OGR17,TAG,"17","GRENOBLE Victor Hugo / LE GUA Les Saillants","",3,,000000,FFFFFF
+OAC170,cpa,"170","Greasque   Fuveau   Aix","",3,,000000,FFFFFF
+OAC1700,cpa,"1700","Ch le Rouge   Prim et Maternelles","",3,,000000,FFFFFF
+OZU24,azur,"17","Hopital Cimiez - Entrée CPAM","",3,,000000,FFFFFF
+OM117OM179,rtm,"17","METRO STE MARGUERITE DROMEL-PARC DES BRUYERES","",3,,000000,FFFFFF
+OAB20,aixenbus,"20","POLE D'ACTIVITES <> LA MAYANELLE","",3,,000000,FFFFFF
+OMA216,ulysse,"216","Circuit Louise Michel","",3,,000000,FFFFFF
+OM8217,envia,"217","Raphèle <> Moules <> Arles","",3,,000000,FFFFFF
+OMA215,ulysse,"215","Circuit des Mas","",3,,000000,FFFFFF
+OM8216,envia,"216","Raphèle Interne","",3,,000000,FFFFFF
+OM8219,envia,"219","Salin de Giraud <> Arles","",3,,000000,FFFFFF
+OM122OM179,rtm,"22","METRO ROND POINT DU PRADO-LES BAUMETTES","",3,,000000,FFFFFF
+OM8218,envia,"218","Saliers <> Arles","",3,,000000,FFFFFF
+O382180,transisere,"2180","BEAUREPAIRE-VIENNE","",3,,000000,FFFFFF
+OM8212,envia,"212","St Martin de Crau Interne","",3,,000000,FFFFFF
+OAC2120,cpa,"2120","Trets Pey Rous Chate MFR Puyloubier","",3,,000000,FFFFFF
+OAC2110,cpa,"2110","Puy Trets Peynier Rous Chat CLG Zay","",3,,000000,FFFFFF
+OMA212,ulysse,"212","Circuit Del Corso","",3,,000000,FFFFFF
+OMA214,ulysse,"214","Circuit Giono / Mauron","",3,,000000,FFFFFF
+OM8215,envia,"215","Moules Interne","",3,,000000,FFFFFF
+OM8213,envia,"213","Mas Thibert Interne","",3,,000000,FFFFFF
+OMA213,ulysse,"213","Circuit Jonquière / d'Arbaud","",3,,000000,FFFFFF
+OAC2200,cpa,"2200","Haut de l Arc   CLISS","",3,,000000,FFFFFF
+OMA221,ulysse,"221","Collège Malraux","",3,,000000,FFFFFF
+OM8220,envia,"220","Saint Martin de Crau <> Arles","",3,,000000,FFFFFF
+OAC220,cpa,"220","Coudoux Ventabren ZI Eguilles Aix","",3,,000000,FFFFFF
+OM8223,envia,"223","Salin de Giraud <> Port St Louis","",3,,000000,FFFFFF
+OM8224,envia,"224","Touzazibus 224","",3,,000000,FFFFFF
+OM8221,envia,"221","Tarascon <> Arles","",3,,000000,FFFFFF
+OM8222,envia,"222","Tarascon Interne","",3,,000000,FFFFFF
+OGR22,TAG,"22","GRENOBLE Presqu’île / SAINT-ÉGRÈVE Gare","",3,,000000,FFFFFF
+OIA22,ruban,"22","22","",3,,000000,FFFFFF
+OAB22,aixenbus,"22","CELONY ECOLE <> POMPIDOU","",3,,000000,FFFFFF
+DGL22Ar2,tcl,"22","St Fortunat --> Gare de Vaise","",3,,00FFFF,FFFFFF
+OMP22,TAM,"22","Montpellier Saint-Éloi - Clapiers - Jacou","",3,,000000,FFFFFF
+OMA22,ulysse,"22","MARTIGUES - Figuerolles  / PORT DE BOUC - Aigues Douces","",3,,000000,FFFFFF
+OZU29,azur,"22","Hôpital St Roch - Croix de Berra","",3,,000000,FFFFFF
+OVO22OVO20,voironnais,"22","MOIRANS GARE   ST JEAN MOIRANS ROSSIGNOL","",3,,000000,FFFFFF
+OMA211,ulysse,"211","Circuit Gérachios","",3,,000000,FFFFFF
+OAC200,cpa,"200","Plan de Campagne   Cabries   Aix","",3,,000000,FFFFFF
+OM2200,ciotabus,"200","Gare routière / Ceyreste dimanches et jours fériés","",3,,000000,FFFFFF
+OZU32,azur,"20","Le Port - Saint-Sylvestre","",3,,000000,FFFFFF
+OIA20,ruban,"20","20","",3,,000000,FFFFFF
+OIV2060OIV19,viennois,"2060","Chasse sur Rhone - Givors","",3,,000000,FFFFFF
+O382070,transisere,"2070","HEYRIEUX-ROCHE-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+OIV201OIV19,viennois,"201","SAINT SORLIN   JARDIN   HTS CHARLEMAGNE","",3,,000000,FFFFFF
+OIV2040OIV19,viennois,"2040","Chasse sur Rhone - Seyssuel - Vienne","",3,,000000,FFFFFF
+OM220,ciotabus,"20","Abeille / Maurelle Nord /  Gare routière","",3,,000000,FFFFFF
+DGL20Aa3,tcl,"20","Gare de Vaise --> Lycee Jean Perrin","",3,,00FFFF,FFFFFF
+OM824,envia,"20","Les Saintes Maries de la Mer - Arles","",3,,000000,FFFFFF
+OVO20OVO20,voironnais,"20","ST JEAN DE MOIRANS - MOIRANS - CENTR'ALP","",3,,000000,FFFFFF
+OMA20,ulysse,"20","CONSERVATOIRE / L'ILE / PLACE DES AIRES","",3,,000000,FFFFFF
+OMP20,TAM,"20","Saint-Jean de Védas : La Lauze - Saint-Hubéry","",3,,000000,FFFFFF
+OM120OM179,rtm,"20","MADRAGUE DE MONTREDON-CALLELONGUE","",3,,000000,FFFFFF
+OGR20,TAG,"20","SEYSSINET-PARISET Hôtel de Ville / SASSENAGE Château / VEUREY-VOROIZE Mairie","",3,,000000,FFFFFF
+OAB21,aixenbus,"21","J16 <> BELLEGARDE","",3,,000000,FFFFFF
+OVO21OVO20,voironnais,"21","VOREPPE   CENTR ALP","",3,,000000,FFFFFF
+OMA21,ulysse,"21","GUSTAVE EIFFEL / CANTO PERDRIX","",3,,000000,FFFFFF
+OIA21,ruban,"21","21","",3,,000000,FFFFFF
+OM8211,envia,"211","Gageron <> Arles","",3,,000000,FFFFFF
+OAC211,cpa,"211","Vitrolles Gare TGV Plan d Aillane","",3,,000000,FFFFFF
+OGR21,TAG,"21","SEYSSINS Le Prisme / CLAIX Pont Rouge","",3,,000000,FFFFFF
+OAC210,cpa,"210","Vitrolles   Aix","",3,,000000,FFFFFF
+OIA2091,ruban,"2091","2091","",3,,000000,FFFFFF
+O382080,transisere,"2080","VALENCIN-ARTAS-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+O382090,transisere,"2090","ST JEAN DE BOURNAY-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+DGL21Aa1,tcl,"21","Gare de Vaise --> Limonest Cimetiere","",3,,00FFFF,FFFFFF
+OM121OM179,rtm,"21","CASTELLANE-LUMINY","",3,,000000,FFFFFF
+OMP21,TAM,"21","Castelnau-le-Lez Notre-Dame de Sablassou - Vendargues Paul Gauguin","",3,,000000,FFFFFF
+OM221,ciotabus,"21","Gare routière / Maurelle Nord / Garce SNCF / Ceyreste","",3,,000000,FFFFFF
+OAC150,cpa,"150","St Paul   Pey   Mey   Venelles   Aix","",3,,000000,FFFFFF
+OMP11,TAM,"11","Les Bouisses - Tournezy","",3,,000000,FFFFFF
+O381060,transisere,"1060","PONT DE CHERUY-VILLEFONTAINE (ex 1210)","",3,,000000,FFFFFF
+OAB10S,aixenbus,"10S","ROTONDE-TOUR DE VILLE <> PONT DE L'ARC-MAIRIE","",3,,000000,FFFFFF
+OET11,etang,"11","Pierre Plantée - Collège F. Léger","",3,,000000,FFFFFF
+DGL11Br2,tcl,"11","Thurins Mairie --> Gare d'Oullins","",3,,00FFFF,FFFFFF
+OAB11,aixenbus,"11","VILLAGE DU SOLEIL <> LUYNES MAIL","",3,,000000,FFFFFF
+OGR11,TAG,"11","Echirolles Comboire / Gières Universités - Biologie / Universités IUT - UFRAPS","",3,,000000,FFFFFF
+OAC103,cpa,"103","Piscine Zac Terre du Fort","",3,,000000,FFFFFF
+OAC104,cpa,"104","Croix de Gon Gare SNCF","",3,,000000,FFFFFF
+O381020,transisere,"1020","MORESTEL-VIGNIEU-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+OIA1021,ruban,"1021","1021","",3,,000000,FFFFFF
+O381050,transisere,"1050","PONT DE CHERUY-BOURGOIN JALLIEU (ex 1202)","",3,,000000,FFFFFF
+OAC106,cpa,"106","Saint Joseph Gare SNCF","",3,,000000,FFFFFF
+O381040,transisere,"1040","PONT DE CHERUY-L'ISLE D'ABEAU (ex 1201)","",3,,000000,FFFFFF
+OAC105,cpa,"105","Lycee Val de Durance Gare SNCF","",3,,000000,FFFFFF
+OMA112,ulysse,"112","Circuit Calamand","",3,,000000,FFFFFF
+OMA113,ulysse,"113","Circuit Clos de la Roche","",3,,000000,FFFFFF
+DGL111Aa1,tcl,"111","Parilly --> Jacques Prevert","",3,,00FFFF,FFFFFF
+DGL112Aa1,tcl,"112","Parilly --> Corbas Rue du Midi","",3,,00FFFF,FFFFFF
+OMA114,ulysse,"114","Circuit Gouin","",3,,000000,FFFFFF
+O381140,transisere,"1140","LA COTE ST ANDRE-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+O381130,transisere,"1130","LE GRAND LEMPS-MONTREVEL-BOURGOIN","",3,,000000,FFFFFF
+OIA1131,ruban,"1131","1131","",3,,000000,FFFFFF
+OZU55,azur,"11","Carras / Frémont - Centre Commercial / St Isidore","",3,,000000,FFFFFF
+OMA11,ulysse,"11","Village de Marques - Pont de la Gare","",3,,000000,FFFFFF
+OM111OM179,rtm,"11","METRO LA ROSE-PLATEAU DE LA CROIX ROUGE","",3,,000000,FFFFFF
+OM911,bsd,"11","Val de Sibourg / Lançon / Salon / Lamanon / Sénas","",3,,000000,FFFFFF
+OAC1100,cpa,"1100","Bouc Bel Air   CLG Brassens","",3,,000000,FFFFFF
+OMA111,ulysse,"111","Circuit Prédina > Armanet","",3,,000000,FFFFFF
+OAC110,cpa,"110","Puyloubier St Anto Beau Tholo Aix","",3,,000000,FFFFFF
+OAC1020,cpa,"1020","Les Milles   La Duranne","",3,,000000,FFFFFF
+OM91,bsd,"1","Tallagard / Les Pastourelles","",3,,000000,FFFFFF
+OIV1OIV19,viennois,"1","ESTRABLIN   MALISSOL   GARE DE VIENNE","",3,,000000,FFFFFF
+OM11OM179,rtm,"1","METRO LA ROSE-CHATEAU GOMBERT","",3,,000000,FFFFFF
+OMA1,ulysse,"1","Miramas - Istres - Fos sur Mer - Port Saint Louis du Rhone","",3,,000000,FFFFFF
+OM110OM179,rtm,"10","METRO LA FOURRAGERE-LES CAILLOLS HOPITAL","",3,,000000,FFFFFF
+OMP10,TAM,"10","Aiguelongue (Jussieu) - Celleneuve","",3,,000000,FFFFFF
+OM81,envia,"1","Barriol <> Cc l'Aurelienne","",3,,000000,FFFFFF
+OMA14,ulysse,"1 BIS","Ligne 1 Bis","",3,,000000,FFFFFF
+OZU1191,azur,"09","Defly / Klein - St Laurent du Var Gare","",3,,000000,FFFFFF
+OZU25,azur,"08","Promenade des arts - Caucade / Place Ste Marguerite","",3,,000000,FFFFFF
+OAB08S,aixenbus,"08S","FOUR D'EYGLUN <> ARC DE MEYRAN","",3,,000000,FFFFFF
+OET1,etang,"1","Saint Antoine - Av Général Leclerc","",3,,000000,FFFFFF
+OVO1OVO20,voironnais,"1","BLANCHISSERIES - PAVIOT","",3,,000000,FFFFFF
+OAB09,aixenbus,"09","MAGNAN <> SAINT MITRE","",3,,000000,FFFFFF
+OAB09S,aixenbus,"09S","SAINT MITRE <> BEAUSOLEIL","",3,,000000,FFFFFF
+OAC1000,cpa,"1000","Aix   Primaires et Maternelles","",3,,000000,FFFFFF
+O381000,transisere,"1000","LES AVENIERES-LA TOUR DU PIN","",3,,000000,FFFFFF
+DGL100Aa1,tcl,"100","Vaulx-en-Velin La Soie --> Eurexpo Entree Principale.","",3,,00FFFF,FFFFFF
+OAC100,cpa,"100","Pertuis   Aix en Provence","",3,,000000,FFFFFF
+OAC1010,cpa,"1010","Puyricard","",3,,000000,FFFFFF
+OAC102,cpa,"102","Boiry Gare SNCF","",3,,000000,FFFFFF
+OAC101,cpa,"101","Pertuis   Venelles   Z.A. Les Milles","",3,,000000,FFFFFF
+O381010,transisere,"1010","MORESTEL-LA TOUR DU PIN","",3,,000000,FFFFFF
+OM210,ciotabus,"10","Fardeloup / Gare routière / Abeille / Gare SNCF","",3,,000000,FFFFFF
+OMA10,ulysse,"10","Boulevard d'Espagne - Camus","",3,,000000,FFFFFF
+OM910,bsd,"10","Lamanon / Eyguières / Salon","",3,,000000,FFFFFF
+OET10,etang,"10","Les Vignettes - Vieux Village","",3,,000000,FFFFFF
+OM2100,ciotabus,"100","Gare routière / Athélia 1","",3,,000000,FFFFFF
+OVO10OVO20,voironnais,"10","URBAIN RIVES","",3,,000000,FFFFFF
+OAB10,aixenbus,"10","PONT DE L'ARC-MAIRIE <> PONT DES CORNEILLES","",3,,000000,FFFFFF
+OIA1141,ruban,"1141","1141","",3,,000000,FFFFFF
+OGR14,TAG,"14","GRENOBLE Verdun - Préfecture / GIÈRES Gare - Universités","",3,,000000,FFFFFF
+OZU49,azur,"14","Alberti - Mont Boron","",3,,000000,FFFFFF
+OAB14,aixenbus,"14","AERODROME <> GARE ROUTIERE","",3,,000000,FFFFFF
+OMP14,TAM,"14","La Pompignane (Les Lacs) - Léon Blum","",3,,000000,FFFFFF
+OAC141,cpa,"141","St Marc de Jaumegarde   Aix","",3,,000000,FFFFFF
+O381410,transisere,"1410","PONT DE BEAUVOISIN-SAINT LAURENT DE MURE","",3,,000000,FFFFFF
+OAC140,cpa,"140","Vauvenargues   St Marc   Aix","",3,,000000,FFFFFF
+OAC1400,cpa,"1400","BBA  Simiane  Cabries  Mimet  Aix","",3,,000000,FFFFFF
+O381380,transisere,"1380","LES ABRETS-VOIRON","",3,,000000,FFFFFF
+OIA1390,ruban,"1390","1390","",3,,000000,FFFFFF
+OMA135,ulysse,"135","Circuit Tour Etang > Ets Secondaires","",3,,000000,FFFFFF
+O381350,transisere,"1350","SATOLAS ET BONCE-LYON","",3,,000000,FFFFFF
+OET14,etang,"14","Le Drignon - Collège F. Léger","",3,,000000,FFFFFF
+DGL14Ba1,tcl,"14","Gare d'Oullins --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OM914,bsd,"14","Salon / Pelissanne / La Barben / Lançon","",3,,000000,FFFFFF
+OAB15,aixenbus,"15","EUROPOLE L'ARBOIS-DURANNE ECOLE <> GARE ROUTIERE","",3,,000000,FFFFFF
+O381450,transisere,"1450","DOLOMIEU-MONTCARRA-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+OM115OM179,rtm,"15","METRO STE MARGUERITE DROMEL-LES ESCOURTINES","",3,,000000,FFFFFF
+OZU1164,azur,"15","Rimiez  - Deloye / Dubouchage","",3,,000000,FFFFFF
+OGR15,TAG,"15","GRENOBLE Verdun - Préfecture / DOMÈNE Chenevières / DOMÈNE Les Arnauds","",3,,000000,FFFFFF
+DGL15Aa5,tcl,"15","Bellecour Charite --> Vernaison Place..","",3,,00FFFF,FFFFFF
+OAC1420,cpa,"1420","Lycee de Luynes   Lycee Valabre","",3,,000000,FFFFFF
+OM1142SOM179,rtm,"142JET","METRO LA ROSE-LA FEVE","",3,,000000,FFFFFF
+OAC1410,cpa,"1410","BBA   Cabries   Simiane   Gardanne","",3,,000000,FFFFFF
+OM1142OM179,rtm,"142","METRO LA ROSE-LA FEVE","",3,,000000,FFFFFF
+OM1144SOM179,rtm,"144JET","METRO LA ROSE-ALLAUCH","",3,,000000,FFFFFF
+OM1145OM179,rtm,"145","METRO LA ROSE-ALLAUCH","",3,,000000,FFFFFF
+OM1143OM179,rtm,"143","METRO LA ROSE-LA MONTADE","",3,,000000,FFFFFF
+OM1144OM179,rtm,"144","METRO LA ROSE-ALLAUCH","",3,,000000,FFFFFF
+OIV134OIV19,viennois,"134","CONDRIEU   GIVORS","",3,,000000,FFFFFF
+OM112OM179,rtm,"12","METRO LA TIMONE-EOURES","",3,,000000,FFFFFF
+OZU33,azur,"12","Gare SNCF - Vittone","",3,,000000,FFFFFF
+DGL12Br2,tcl,"12","St Genis 2 --> Gare d'Oullins","",3,,00FFFF,FFFFFF
+OMP12,TAM,"12","Catalpas - Gare Saint-Roch (Pont de Sète)","",3,,000000,FFFFFF
+OAC120,cpa,"120","Jouques   Aix","",3,,000000,FFFFFF
+OAC1200,cpa,"1200","BBA   Primaires et Maternelles","",3,,000000,FFFFFF
+OMA12,ulysse,"12","ligne 12","",3,,000000,FFFFFF
+OM912,bsd,"12","Charleval / Mallemort / Cazan / Alleins / Lamanon / Salon","",3,,000000,FFFFFF
+OMA118,ulysse,"118","Ecole Bayanne","",3,,000000,FFFFFF
+DGL118Aa1,tcl,"118","Gare de Vaise --> Bois Dieu","",3,,00FFFF,FFFFFF
+O381150,transisere,"1150","MONTALIEU VERCIEU-MORESTEL","",3,,000000,FFFFFF
+OMA116,ulysse,"116","Circuit C Pierron > L King","",3,,000000,FFFFFF
+OGR12,TAG,"12","Eybens Maisons Neuves / Saint-Martin-d'Hères Les Alloves","",3,,000000,FFFFFF
+OAB12,aixenbus,"12","COUTERON EGLISE <> NIOLLON","",3,,000000,FFFFFF
+OET12,etang,"12","Pierre Plantée - Quatre tours","",3,,000000,FFFFFF
+OET13,etang,"13","Velaux Halte Routière - Berre l'étang Mairie","",3,,000000,FFFFFF
+OAC1300,cpa,"1300","Beaurecueil   Aix","",3,,000000,FFFFFF
+OGR13,TAG,"13","Meylan Lycée du Grésivaudan / Poisat Prémol","",3,,000000,FFFFFF
+OMA132,ulysse,"132","Circuit Capeau > Ets Secondaires","",3,,000000,FFFFFF
+OMA133,ulysse,"133","Circuit  Entressen > Ets Secondaires","",3,,000000,FFFFFF
+OAC131,cpa,"131","Aix   Arena   P.A.   Plan d Aillane","",3,,000000,FFFFFF
+OMA131,ulysse,"131","Circuit Bayanne - Ets secondaires","",3,,000000,FFFFFF
+O381230,transisere,"1230","MONTALIEU VERCIEU-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+OM112BOM179,rtm,"12B","METRO LA TIMONE-LES CAMOINS","",3,,000000,FFFFFF
+OM1121OM179,rtm,"121","HOPITAL NORD-SEPTEMES CENTRE","",3,,000000,FFFFFF
+OM1122OM179,rtm,"122","HOPITAL NORD-SEPTEMES CENTRE","",3,,000000,FFFFFF
+OMA13,ulysse,"13","Miramas Gare SNCF - Istres Gare Routière","",3,,000000,FFFFFF
+OAB13,aixenbus,"13","PUYRICARD CENTRE <> PALETTE-LE THOLONET","",3,,000000,FFFFFF
+OM112SOM179,rtm,"12S","METRO LA TIMONE-LA TREILLE","",3,,000000,FFFFFF
+OAB12S,aixenbus,"12S","COUTERON-D13 <> ROTONDE TOUR DE VILLE","",3,,000000,FFFFFF
+OGESCO4BOGE23,gresivaudan,"SCO4B","Les Adrets - La Pierre - Goncelin","",3,,000000,FFFFFF
+OGESCO4COGE23,gresivaudan,"SCO4C","Hurtières - Theys - Goncelin","",3,,000000,FFFFFF
+OGESCO3HOGE23,gresivaudan,"SCO3H","Crolles - La Terrasse - Le Touvet","",3,,000000,FFFFFF
+OGESCO4AOGE23,gresivaudan,"SCO4A","Le Cheylas - Goncelin","",3,,000000,FFFFFF
+OGESCO4FOGE23,gresivaudan,"SCO4F","Doussagne - Theys","",3,,000000,FFFFFF
+OGESCO4GOGE23,gresivaudan,"SCO4G","Route des Gauthiers - Theys","",3,,000000,FFFFFF
+OGESCO4DOGE23,gresivaudan,"SCO4D","Le Champ-Près-Froges - Tencin - Goncelin","",3,,000000,FFFFFF
+OGESCO4EOGE23,gresivaudan,"SCO4E","Ecole de Les Adrets","",3,,000000,FFFFFF
+OGESCO3BOGE23,gresivaudan,"SCO3B","St Bernard du Touvet - St Hilaire du Touvet","",3,,000000,FFFFFF
+OGESCO3COGE23,gresivaudan,"SCO3C","Ecole Le Touvet","",3,,000000,FFFFFF
+OGESCO2MOGE23,gresivaudan,"SCO2M","Lumbin - Crolles - Lycée Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO3AOGE23,gresivaudan,"SCO3A","Les Margains - St Hilaire du Touvet","",3,,000000,FFFFFF
+OGESCO3FOGE23,gresivaudan,"SCO3F","St Hilaire - St Bernard - Le Touvet","",3,,000000,FFFFFF
+OGESCO3GOGE23,gresivaudan,"SCO3G","Ste-Marie-du-Mont - La Flachère - Le Touvet","",3,,000000,FFFFFF
+OGESCO3DOGE23,gresivaudan,"SCO3D","St-Hilaire - La Terrasse","",3,,000000,FFFFFF
+OGESCO3EOGE23,gresivaudan,"SCO3E","La Flachère - St Vincent-de-Mercuze - Le Touvet","",3,,000000,FFFFFF
+OGESCO5JOGE23,gresivaudan,"SCO5J","Brignoud - Froges - Tencin - Goncelin - Pontcharra","",3,,000000,FFFFFF
+OGESCO5KOGE23,gresivaudan,"SCO5K","Ecole de Pontcharra","",3,,000000,FFFFFF
+OGESCO5HOGE23,gresivaudan,"SCO5H","La Flachère - St Vincent-de-Mercuze - Le Touvet - Pontcharra","",3,,000000,FFFFFF
+OGESCO5IOGE23,gresivaudan,"SCO5I","Chapareillan - Barraux - Pontcharra","",3,,000000,FFFFFF
+OGESCO6AOGE23,gresivaudan,"SCO6A","Montgoutoux - St Pierre-d Allevard","",3,,000000,FFFFFF
+OGESCO6BOGE23,gresivaudan,"SCO6B","Moretel-de-Mailles - Allevard","",3,,000000,FFFFFF
+OGESCO5LOGE23,gresivaudan,"SCO5L","Ecole de St Vincent de Mercuze","",3,,000000,FFFFFF
+OGESCO5MOGE23,gresivaudan,"SCO5M","Ste-Marie-du-Mont - La Flachère","",3,,000000,FFFFFF
+OGESCO5BOGE23,gresivaudan,"SCO5B","La Buissière - La Flachère - Ste Marie d Alloix","",3,,000000,FFFFFF
+OGESCO5COGE23,gresivaudan,"SCO5C","Ecoles le Cheylas","",3,,000000,FFFFFF
+OGESCO4HOGE23,gresivaudan,"SCO4H","Hurtières - Theys","",3,,000000,FFFFFF
+OGESCO5AOGE23,gresivaudan,"SCO5A","Ecoles de Barraux","",3,,000000,FFFFFF
+OGESCO5FOGE23,gresivaudan,"SCO5F","Le Cheylas - Pontcharra","",3,,000000,FFFFFF
+OGESCO5GOGE23,gresivaudan,"SCO5G","Crolles - Lumbin - La Terrasse - Le Touvet - Pontcharra","",3,,000000,FFFFFF
+OGESCO5DOGE23,gresivaudan,"SCO5D","Ecoles de Chapareillan","",3,,000000,FFFFFF
+OGESCO5EOGE23,gresivaudan,"SCO5E","Les Plantées - Pontcharra","",3,,000000,FFFFFF
+OGESCO2LOGE23,gresivaudan,"SCO2L","Le Versoud - Villard-Bonnot","",3,,000000,FFFFFF
+DGLS7Aa1,tcl,"S7","La Chaux Ecole de Champlong --> La Chaux Ecole de Champlong","",3,,00FFFF,FFFFFF
+DGLS8Ar2,tcl,"S8","Rillieux Victor Hugo --> La Buissiere Viralamande","",3,,00FFFF,FFFFFF
+DGLS5Aa3,tcl,"S5","Caluire - Bords de Saone --> Cuire","",3,,00FFFF,FFFFFF
+DGLS6Ar4,tcl,"S6","Croix-Rousse --> Terreaux","",3,,00FFFF,FFFFFF
+OIASATOLA,ruban,"SATOLA","SATOLA","",3,,000000,FFFFFF
+O38SCF01,transisere,"SCF01","VENERIEU-ST H.DE BRENS-TREPT-ST CHEF","",3,,000000,FFFFFF
+DGLS9Aa1,tcl,"S9","Jean Giono --> Moly","",3,,00FFFF,FFFFFF
+O38SAN01,transisere,"SAN01","STE ANNE SUR GERVONDE-ST AGNIN SUR BION","",3,,000000,FFFFFF
+DGLS14Aa5,tcl,"S14","Neuville --> Neuville","",3,,00FFFF,FFFFFF
+DGLS15Aa1,tcl,"S15","Ecully Le Trouillat --> Les Sources","",3,,00FFFF,FFFFFF
+DGLS11Ar2,tcl,"S11","Le Chateau Duchere --> Gare de Vaise","",3,,00FFFF,FFFFFF
+DGLS12Ar2,tcl,"S12","Croix-Rousse --> Hotel de Ville - L. Pradel","",3,,00FFFF,FFFFFF
+DGLS3Ba1,tcl,"S3","Allee des Hetres --> Collonges Gare","",3,,00FFFF,FFFFFF
+DGLS4Aa1,tcl,"S4","Croix-Rousse --> Croix-Rousse.","",3,,00FFFF,FFFFFF
+DGLS16Aa1,tcl,"S16","Ecully Le Perollier --> Collonges Gare","",3,,00FFFF,FFFFFF
+DGLS2Aa1,tcl,"S2","La Tour de Salvagny Mairie --> La Tour de Salvagny Mairie","",3,,00FFFF,FFFFFF
+OGESCO2FOGE23,gresivaudan,"SCO2F","Les Adrets - Le-Champ-Prés-Froges - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO2GOGE23,gresivaudan,"SCO2G","Laval - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO2DOGE23,gresivaudan,"SCO2D","Ecoles de Revel","",3,,000000,FFFFFF
+OGESCO2EOGE23,gresivaudan,"SCO2E","Froges - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO2JOGE23,gresivaudan,"SCO2J","Theys - Tencin - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO2KOGE23,gresivaudan,"SCO2K","Tencin - Froges - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO2HOGE23,gresivaudan,"SCO2H","St Mury Monteymond - St Agnes - Villard Bonnot","",3,,000000,FFFFFF
+OGESCO2IOGE23,gresivaudan,"SCO2I","La Combe-de-Lancey - Villard-Bonnot","",3,,000000,FFFFFF
+OGESCO1BOGE23,gresivaudan,"SCO1B","Crolles - Bernin - St Nazaire - St Ismier","",3,,000000,FFFFFF
+OGESCO1COGE23,gresivaudan,"SCO1C","Goncelin - Villard Bonnot - Saint-Ismier","",3,,000000,FFFFFF
+O38SCF02,transisere,"SCF02","VIGNIEU-MONTCARRA-SALAGNON-ST CHEF","",3,,000000,FFFFFF
+OGESCO1AOGE23,gresivaudan,"SCO1A","La Terrasse - Lumbin - Crolles","",3,,000000,FFFFFF
+OGESCO2BOGE23,gresivaudan,"SCO2B","Ecole de Froges","",3,,000000,FFFFFF
+OGESCO2COGE23,gresivaudan,"SCO2C","Ecole de Laval","",3,,000000,FFFFFF
+OGESCO1DOGE23,gresivaudan,"SCO1D","La Batie - Le Buttit - St Ismier","",3,,000000,FFFFFF
+OGESCO2AOGE23,gresivaudan,"SCO2A","St Mury Monteymond - St Agnes","",3,,000000,FFFFFF
+OGESCO6COGE23,gresivaudan,"SCO6C","Le Moutaret - Allevard","",3,,000000,FFFFFF
+OVOTAD-DOVO20,voironnais,"TAD-D","TAD LIGNE D","",3,,000000,FFFFFF
+OVOTAD-EOVO20,voironnais,"TAD-E","VELANNE LA SAUGE   VOIRON GARE NORD","",3,,000000,FFFFFF
+OZU1179,azur,"T66","Pont Michel - La Turbie / Peille Village","",3,,000000,FFFFFF
+OVOTAD-COVO20,voironnais,"TAD-C","TAD LIGNE C","",3,,000000,FFFFFF
+OVOTAD-WOVO20,voironnais,"TAD-W","POMMIER PALLACHERE   VOREPPE GARE SNCF","",3,,000000,FFFFFF
+OVOTADHOPOVO20,voironnais,"TADHOP","VOIRON GARE NORD   VOIRON MEDECINE","",3,,000000,FFFFFF
+OVOTAD-FOVO20,voironnais,"TAD-F","TAD LIGNE F","",3,,000000,FFFFFF
+OVOTAD-GOVO20,voironnais,"TAD-G","TAD LIGNE G","",3,,000000,FFFFFF
+OM44044,mtm,"SS01","Lycee St Exupery / College Marc Ferrandi","",3,,000000,FFFFFF
+OM44046,mtm,"SS03","Lycee St Exupery / College Marc Ferrandi","",3,,000000,FFFFFF
+O38SMH03,transisere,"SMH03","TENCIN-LE VERSOUD-ST MARTIN D'HERES","",3,,000000,FFFFFF
+O38SQF01,transisere,"SQF01","BONNEFAMILLE-ST QUENTIN FALLAVIER","",3,,000000,FFFFFF
+OZU1286,azur,"T/Y","Parc des Sports - Collège A. Malraux","",3,,000000,FFFFFF
+OZU1276,azur,"T29","Pont Michel - Complexe Sportif de la Lauvette","",3,,000000,FFFFFF
+O38SSB01,transisere,"SSB01","VIRIVILLE-CHATENAY-COLLEGE M. MARIOTTE","",3,,000000,FFFFFF
+O38SSB02,transisere,"SSB02","ST SIMEON-ST PIERRE-COLLEGE M. MARIOTTE","",3,,000000,FFFFFF
+OVOVE22OVO20,voironnais,"VE22","VOUREY PLACE   MOIRANS COLLEGE VERGERON","",3,,000000,FFFFFF
+OVOVE23OVO20,voironnais,"VE23","ST JEAN LA MANCHE   MOIRANS LE VERGERON","",3,,000000,FFFFFF
+OZU1277,azur,"V","Caucade / Place Ste Marguerite - Lycée Thierry Maulnier","",3,,000000,FFFFFF
+OVOVE21OVO20,voironnais,"VE21","MOIRANS PETIT CRIEL   COLLEGE VERGERON","",3,,000000,FFFFFF
+O38VER02,transisere,"VER02","TREPT-ST HILAIRE BRENS-LA VERPILLIERE","",3,,000000,FFFFFF
+O38VER03,transisere,"VER03","ST JUST CHALEYSSIN-LA VERPILLIERE","",3,,000000,FFFFFF
+OIAVEIROS,ruban,"VEIROS","VEIL ROSTAND","",3,,000000,FFFFFF
+O38VER01,transisere,"VER01","CHAMAGNIEU-FRONTONAS-LA VERPILLIERE","",3,,000000,FFFFFF
+O38TIJ02,transisere,"TIJ02","VEYSSILLIEU-TIGNIEU JAMEYZIEU","",3,,000000,FFFFFF
+O38TIJ03,transisere,"TIJ03","COLLEGE ET ECOLES DE TIGNIEU JAMEYZIEU","",3,,000000,FFFFFF
+O38TIJ01,transisere,"TIJ01","VILLETTE D'ANTHON-TIGNIEU JAMEYZIEU","",3,,000000,FFFFFF
+O38TUL03,transisere,"TUL03","POLIENAS-TULLINS","",3,,000000,FFFFFF
+O38TUL04,transisere,"TUL04","MORETTE-CRAS-TULLINS","",3,,000000,FFFFFF
+O38TUL01,transisere,"TUL01","MONTAUD-TULLINS","",3,,000000,FFFFFF
+O38TUL02,transisere,"TUL02","LA RIVIERE-ST QUENTIN-TULLINS","",3,,000000,FFFFFF
+O38SMH02,transisere,"SMH02","ST MARTIN D'URIAGE-GIERES-ST M.D'HERES","",3,,000000,FFFFFF
+O38SGC03,transisere,"SGC03","AOSTE-ST GENIX SUR GUIERS","",3,,000000,FFFFFF
+O38SGE02,transisere,"SGE02","OYTIER ST OBLAS-ST GEORGES D'ESPERANCHE","",3,,000000,FFFFFF
+O38SGC01,transisere,"SGC01","ROMAGNIEU(LE FAYET)-ST GENIX  SUR GUIERS","",3,,000000,FFFFFF
+O38SGC02,transisere,"SGC02","CHIMILIN-GRANIEU-ST GENIX/GUIERS","",3,,000000,FFFFFF
+O38SHE01,transisere,"SHE01","CORDEAC-ST SEBASTIEN-ST JEAN D'HERANS (C","",3,,000000,FFFFFF
+O38SHN01,transisere,"SHN01","COMBOURSIERE-FUGIERES-ST HONORE (COR. LA","",3,,000000,FFFFFF
+O38SGE03,transisere,"SGE03","ST GEORGES COMBEROUSSE-ST GEORGES ESP","",3,,000000,FFFFFF
+O38SGE04,transisere,"SGE04","ARTAS-ST GEORGES D'ESPERANCHE","",3,,000000,FFFFFF
+OGESCO6FOGE23,gresivaudan,"SCO6F","Le Collet Malatrait - Allevard","",3,,000000,FFFFFF
+OGESCO6GOGE23,gresivaudan,"SCO6G","Ecole La Chapelle-du-Bard","",3,,000000,FFFFFF
+OGESCO6DOGE23,gresivaudan,"SCO6D","Allevard - La Chapelle-du-Bard","",3,,000000,FFFFFF
+OGESCO6EOGE23,gresivaudan,"SCO6E","Le Glapigneux - Allevard","",3,,000000,FFFFFF
+OGESCO6JOGE23,gresivaudan,"SCO6J","Moretel-de-Mailles - Ecoles St Pierre d Allevard","",3,,000000,FFFFFF
+O38SEG02,transisere,"SEG02","COTEAUX DE ST ETIENNE DE ST GEOIRS","",3,,000000,FFFFFF
+OGESCO6HOGE23,gresivaudan,"SCO6H","Montouvrard - Allevard","",3,,000000,FFFFFF
+OGESCO6IOGE23,gresivaudan,"SCO6I","Ecole de St Maximin","",3,,000000,FFFFFF
+O38SJB08,transisere,"SJB08","SAVAS MEPIN-SAINT JEAN DE BOURNAY","",3,,000000,FFFFFF
+O38SJM03,transisere,"SJM03","ST GERVAIS-VINAY-POLIENAS-ST JEAN DE M.","",3,,000000,FFFFFF
+O38SJB06,transisere,"SJB06","VILLENEUVE MARC-ST J. BOURNAY corres2090","",3,,000000,FFFFFF
+O38SJB07,transisere,"SJB07","ROYAS-S. MEPIN-ST J. BOURNAY(Corres2090)","",3,,000000,FFFFFF
+O38SLP03,transisere,"SLP03","ST PIERRE DE CHARTREUSE-ST LAURENT(Corr)","",3,,000000,FFFFFF
+O38SLP04,transisere,"SLP04","LES BOURDOIRES-ST LAURENT DU PONT COLLEG","",3,,000000,FFFFFF
+O38SLP01,transisere,"SLP01","MIRIBEL LES ECHELLES-ST LAURENT DU PONT","",3,,000000,FFFFFF
+O38SLP02,transisere,"SLP02","MIRIBEL (LES BACHES)-ST LAURENT DU PONT","",3,,000000,FFFFFF
+OVOSJ31OVO20,voironnais,"SJ31","FONTANIL CROIX ROCHETTE   ST JEAN PLACE","",3,,000000,FFFFFF
+O38SJB01,transisere,"SJB01","LIEUDIEU-VIL. DE MARC-ST JEAN DE BOURNAY","",3,,000000,FFFFFF
+OVOSJ11OVO20,voironnais,"SJ11","RIVES GARE SNCF   ST JEAN MOIRANS PLACE","",3,,000000,FFFFFF
+OVOSJ21OVO20,voironnais,"SJ21","TULLINS CONDORCET    ST JEAN PLACE","",3,,000000,FFFFFF
+O38SJB04,transisere,"SJB04","TRAMOLE-CHATONNAY-ST J.BOURNAY","",3,,000000,FFFFFF
+O38SJB05,transisere,"SJB05","CRACHIER-ARTAS-ST J. BOURNAY","",3,,000000,FFFFFF
+O38SJB02,transisere,"SJB02","MEYSSIES-VIL. DE MARC-ST JEAN DE BOURNAY","",3,,000000,FFFFFF
+O38SJB03,transisere,"SJB03","CULIN-ST AGNIN/BION-ST JEAN BOURNAY","",3,,000000,FFFFFF
+DGLS10Aa1,tcl,"S10","Joannes Carret --> Lycee Jean Perrin","",3,,00FFFF,FFFFFF
+O38PRENA,transisere,"PRENA","PRIMAIRE CRIEL DE RENAGE-RENAGE","",3,,000000,FFFFFF
+O38PRGNA,transisere,"PRGNA","PRIMAIRE LE NAN-ROMAGNIEU","",3,,000000,FFFFFF
+O38PRCLA,transisere,"PRCLA","PRIMAIRE RENCUREL","",3,,000000,FFFFFF
+O38PRE01,transisere,"PRE01","LE PERCY-PREBOIS (CORRES. MENS)","",3,,000000,FFFFFF
+OM44004,mtm,"PS01","SAUSSET INTERNE / ECOLE J.FERRY ET V.HUGO","",3,,000000,FFFFFF
+OM54120,marcouline,"PS01","Carnoux / Collège Les Gorguettes","",3,,000000,FFFFFF
+O38PRGNB,transisere,"PRGNB","PRIMAIRE LE CLERMONT-ROMAGNIEU","",3,,000000,FFFFFF
+O38PROCA,transisere,"PROCA","PRIMAIRE ROCHE","",3,,000000,FFFFFF
+O38PPOBB,transisere,"PPOBB","PRIM. ST JULIEN DE L'HERMS-POMMIER DE B.","",3,,000000,FFFFFF
+OVOPR11OVO20,voironnais,"PR11","REAUMONT BOURG   BOURG VIA MAIRIE","",3,,000000,FFFFFF
+O38PPISA,transisere,"PPISA","PRIMAIRE PISIEU-REVEL TOURDAN","",3,,000000,FFFFFF
+O38PPOBA,transisere,"PPOBA","PRIMAIRE ARZAY-BOSSIEU-POMMIER DE B.","",3,,000000,FFFFFF
+OVOPR52OVO20,voironnais,"PR52","ST GEOIRE CONSUOZ ABRIS   LAMBERTIERE","",3,,000000,FFFFFF
+OVOPR71OVO20,voironnais,"PR71","COUBLEVIE RTE DES GORGES   RUE DU 11 NOV","",3,,000000,FFFFFF
+OVOPR41OVO20,voironnais,"PR41","ST AUPRE GD VIVIER   ST AUPRE VILLAGE","",3,,000000,FFFFFF
+OVOPR51OVO20,voironnais,"PR51","MERLAS PICOUDIERE   ST GEOIRE PLAMPALAIS","",3,,000000,FFFFFF
+O38PSCFA,transisere,"PSCFA","PRIMAIRE ST CHEF","",3,,000000,FFFFFF
+O38PSCTA,transisere,"PSCTA","PRIMAIRE LE FOULON-CHARPENAY","",3,,000000,FFFFFF
+OIAPSAVA,ruban,"PSAVA","PSAVA","",3,,000000,FFFFFF
+O38PSBCA,transisere,"PSBCA","RPI ST BONNET DE CHAVAGNE-MONTAGNE","",3,,000000,FFFFFF
+OIVPSEPOIV19,viennois,"PSEP","Primaire Septeme","",3,,000000,FFFFFF
+O38PSHBA,transisere,"PSHBA","RPI ST HILAIRE DE BRENS-VENERIEU","",3,,000000,FFFFFF
+O38PSCTB,transisere,"PSCTB","PRIMAIRE MAUCHAMP-ST CLAIR","",3,,000000,FFFFFF
+O38PSEMA,transisere,"PSEMA","PRIMAIRE SEMONS-COMMELLE","",3,,000000,FFFFFF
+OM54222,marcouline,"PS03","CARNOUX / Ecole prim Frederic Mistral","",3,,000000,FFFFFF
+OM44008,mtm,"PS05","Sausset complet / college Matraja","",3,,000000,FFFFFF
+OM44045,mtm,"PS02","Sausset interne","",3,,000000,FFFFFF
+OM54121,marcouline,"PS02","Carnoux /  Collège Les Gorguettes","",3,,000000,FFFFFF
+O38PSARA,transisere,"PSARA","PRIMAIRE AUBERIVES-ST ANDRE EN ROYANS","",3,,000000,FFFFFF
+O38PSATA,transisere,"PSATA","PRIMAIRE ST ANTOINE","",3,,000000,FFFFFF
+O38PSALA,transisere,"PSALA","PRIMAIRE QUET EN BEAUMONT-LA SALLE EN BE","",3,,000000,FFFFFF
+O38PSAMA,transisere,"PSAMA","PRIMAIRE SAVAS MEPIN","",3,,000000,FFFFFF
+O38PPICA,transisere,"PPICA","RPC PIERRE CHATEL","",3,,000000,FFFFFF
+OVOPM32OVO20,voironnais,"PM32","LA BUISSE AFIPH   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM33OVO20,voironnais,"PM33","POMMIERS BARNIERS   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+O38PLGAA,transisere,"PLGAA","PRIMAIRE LIVET ET GAVET","",3,,000000,FFFFFF
+OVOPM31OVO20,voironnais,"PM31","LA BUISSE ECOLE   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM43OVO20,voironnais,"PM43","CROSSEY GATELIERE   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM44OVO20,voironnais,"PM44","CROSSEY POMPIERS   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM41OVO20,voironnais,"PM41","ST AUPRE GD VIVIER   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM42OVO20,voironnais,"PM42","ST AUPRE TURE   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+DGLPL2Aa1,tcl,"PL2","Hotel de Ville - L. Pradel --> Grange Blanche","",3,,00FFFF,FFFFFF
+DGLPL3Aa1,tcl,"PL3","Hotel de Ville - L. Pradel --> Pontet Crases","",3,,00FFFF,FFFFFF
+O38PJCAA,transisere,"PJCAA","RPI SICCIEU - DIZIMIEU","",3,,000000,FFFFFF
+DGLPL1Ar2,tcl,"PL1","Cite Internationale - Quai CDG --> Terreaux La Feuillee","",3,,00FFFF,FFFFFF
+O38PLATA,transisere,"PLATA","PRIMAIRE ST LATTIER-COTEAUX","",3,,000000,FFFFFF
+O38PLATB,transisere,"PLATB","PRIMAIRE ST LATTIER-PLAINE","",3,,000000,FFFFFF
+DGLPL4Aa1,tcl,"PL4","Hotel de Ville - L. Pradel --> St Priest Salengro","",3,,00FFFF,FFFFFF
+O38PLAFA,transisere,"PLAFA","PRIM. SAPEY-ST THEOFFREY-CHOLONGE-LAFFRE","",3,,000000,FFFFFF
+O38PMURA,transisere,"PMURA","MARCIEU-MAYRES SAVEL-LA MURE ECOLES","",3,,000000,FFFFFF
+O38PMURB,transisere,"PMURB","PRIMAIRE COGNET-PONSONNAS-LA MURE","",3,,000000,FFFFFF
+O38PMSTA,transisere,"PMSTA","MATERNELLE COUR ET BUIS-LE GONTARD","",3,,000000,FFFFFF
+O38PMTEA,transisere,"PMTEA","PRIMAIRE MONTAGNIEU","",3,,000000,FFFFFF
+O38PPBAA,transisere,"PPBAA","PRIMAIRE ST JEAN D'AVELANNE-PONT DE B.","",3,,000000,FFFFFF
+O38PPENA,transisere,"PPENA","PRIMAIRE PENOL-ORNACIEUX ECOLES","",3,,000000,FFFFFF
+O38PPAJA,transisere,"PPAJA","PRIMAIRE PAJAY","",3,,000000,FFFFFF
+O38PPANA,transisere,"PPANA","RPI PANOSSAS - VEYSSILIEU","",3,,000000,FFFFFF
+O38PMACA,transisere,"PMACA","PRIMAIRE LENTIOL-MARCOLLIN","",3,,000000,FFFFFF
+O38PMEAA,transisere,"PMEAA","PRIMAIRE MEAUDRE","",3,,000000,FFFFFF
+OVOPM45OVO20,voironnais,"PM45","CROSSEY TOLVON   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+OVOPM71OVO20,voironnais,"PM71","VOIRON GARE NORD   COUBLEVIE PLAN MENU","",3,,000000,FFFFFF
+O38PMOTA,transisere,"PMOTA","PRIMAIRE LES MOTTES","",3,,000000,FFFFFF
+O38PMPEA,transisere,"PMPEA","RPI LALLEY-ST MAURICE-MONESTIER DU PERCY","",3,,000000,FFFFFF
+O38PMIRA,transisere,"PMIRA","PRIMAIRES MIRIBEL LES ECHELLES","",3,,000000,FFFFFF
+OIVPMOIDOIV19,viennois,"PMOID","Primaire Moidieu Détourbe","",3,,000000,FFFFFF
+O38PSHNA,transisere,"PSHNA","PRIMAIRE ST HONORE","",3,,000000,FFFFFF
+DGLR3Aa3,tcl,"R3","Givors Hotel de Ville --> La Rama","",3,,00FFFF,FFFFFF
+DGLR5Ar2,tcl,"R5","St Priest Jules Ferry --> St-Pierre-de-Chandieu - Rajat","",3,,00FFFF,FFFFFF
+OMAR114,ulysse,"R114","Ecole Gouin","",3,,000000,FFFFFF
+DGLR2Aa1,tcl,"R2","Poleymieux Mairie --> Neuville","",3,,00FFFF,FFFFFF
+O38RIV02,transisere,"RIV02","RENAGE-RIVES","",3,,000000,FFFFFF
+O38RIV03,transisere,"RIV03","IZEAUX-BEAUCROISSANT-RIVES COLLEGE","",3,,000000,FFFFFF
+O38RAV01,transisere,"RAV01","GONCELIN-PONTCHARRA-LA RAVOIRE","",3,,000000,FFFFFF
+O38RIV01,transisere,"RIV01","CRIEL DE RENAGE-RIVES","",3,,000000,FFFFFF
+O38PVSAA,transisere,"PVSAA","PRIMAIRE VILLE SOUS ANJOU","",3,,000000,FFFFFF
+O38PVSCA,transisere,"PVSCA","PRIMAIRE VENOSC","",3,,000000,FFFFFF
+O38PVINA,transisere,"PVINA","PRIMAIRE QUINCIEU-VINAY","",3,,000000,FFFFFF
+O38PVLMA,transisere,"PVLMA","PRIMAIRE VILLEMOIRIEU","",3,,000000,FFFFFF
+DGLR1Ba1,tcl,"R1","Hameau de Bianne --> Meyzieu Z.i.","",3,,00FFFF,FFFFFF
+OZU1187,azur,"Q","Parc des Sports - Square Bourdet","",3,,000000,FFFFFF
+OZU1190,azur,"R","Les Cappans Croisement - Collège de l'Archet","",3,,000000,FFFFFF
+O38ROY04,transisere,"ROY04","MONTFALCON-ROYBON","",3,,000000,FFFFFF
+OM54124,marcouline,"RS01","Bédoule Poste / CES GORGUETTES","",3,,000000,FFFFFF
+O38ROY02,transisere,"ROY02","MARNANS-ROYBON","",3,,000000,FFFFFF
+O38ROY03,transisere,"ROY03","LE CHARLET-ROYBON","",3,,000000,FFFFFF
+OZU1275,azur,"S","Vallon des Fleurs - Chateauneuf","",3,,000000,FFFFFF
+DGLS1Aa1,tcl,"S1","Confluence Rambaud --> Gare Saint Paul...","",3,,00FFFF,FFFFFF
+OM54126,marcouline,"RS03","Roquefort Place Victoire / ST AUGUSTIN","",3,,000000,FFFFFF
+O38ROU01,transisere,"ROU01","LA CHAPELLE-ROUSSILLON-SALAISE SUR SANNE","",3,,000000,FFFFFF
+O38ROU02,transisere,"ROU02","SABLONS-SALAISE-ROUSSILLON","",3,,000000,FFFFFF
+O38RIV04,transisere,"RIV04","CHABONS-APPRIEU-RIVES","",3,,000000,FFFFFF
+O38ROM02,transisere,"ROM02","IZERON-ST ROMANS-ST MARCELLIN-ROMANS","",3,,000000,FFFFFF
+O38ROU05,transisere,"ROU05","MONSTEROUX-ASSIEU-ST MAURICE-ROUSSILLON","",3,,000000,FFFFFF
+O38ROY01,transisere,"ROY01","MONTFALCON-ROYBON-ST SIMEON DE BRESSIEUX","",3,,000000,FFFFFF
+O38ROU03,transisere,"ROU03","SONNAY-AGNIN-SALAISE-ROUSSILLON","",3,,000000,FFFFFF
+O38ROU04,transisere,"ROU04","REVENTIN-ST CLAIR-ST MAURICE-ROUSSILLON","",3,,000000,FFFFFF
+O38PVILC,transisere,"PVILC","PRIMAIRE LES JARRANDS-VILLARD DE LANS","",3,,000000,FFFFFF
+O38PSNEA,transisere,"PSNEA","RPI SERRE NERPOL-CHASSELAY","",3,,000000,FFFFFF
+O38PSOLA,transisere,"PSOLA","PRIMAIRE SOLEYMIEU","",3,,000000,FFFFFF
+O38PSMGA,transisere,"PSMGA","RPI ST GEOIRS-ST MICHEL-BRION","",3,,000000,FFFFFF
+O38PSMTA,transisere,"PSMTA","PRIMAIRE MONESTIER DU PERCY-ST MAURICE E","",3,,000000,FFFFFF
+O38PSQIA,transisere,"PSQIA","PRIMAIRE ST QUENTIN SUR ISERE","",3,,000000,FFFFFF
+O38PSRSA,transisere,"PSRSA","PRIMAIRE LA CHAPELLE-ST ROMAIN DE SURIEU","",3,,000000,FFFFFF
+O38PSPCA,transisere,"PSPCA","PRIMAIRE ST PIERRE DE CHARTREUSE","",3,,000000,FFFFFF
+O38PSPIA,transisere,"PSPIA","ST PAUL D'IZEAUX-LA FORTERESSE-PLAN","",3,,000000,FFFFFF
+O38PSJBA,transisere,"PSJBA","PRIMAIRE ROYAS-ST JEAN DE BOURNAY","",3,,000000,FFFFFF
+O38PSJCA,transisere,"PSJCA","PRIMAIRE ST JUST CHALEYSSIN","",3,,000000,FFFFFF
+O38PSHRA,transisere,"PSHRA","PRIMAIRE ST HILAIRE DU ROSIER","",3,,000000,FFFFFF
+O38PSINA,transisere,"PSINA","TREFFORT-SINARD (CORRESP. COLLEGE)","",3,,000000,FFFFFF
+O38PSJVA,transisere,"PSJVA","RPI NOTRE DAME DE VAULX-ST JEAN DE VAULX","",3,,000000,FFFFFF
+O38PSLBA,transisere,"PSLBA","PRIMAIRE ST LAURENT EN BEAUMONT","",3,,000000,FFFFFF
+O38PSJRA,transisere,"PSJRA","ST JULIEN DE RATZ-ST JOSEPH DE RIVIERE","",3,,000000,FFFFFF
+O38PSJSA,transisere,"PSJSA","PRIMAIRE SAINT JEAN DE SOUDAIN","",3,,000000,FFFFFF
+O38PVARB,transisere,"PVARB","PRIMAIRE VARACIEUX","",3,,000000,FFFFFF
+O38PVBOA,transisere,"PVBOA","PRIMAIRE PANISSAGE-BLANDIN-VIRIEU","",3,,000000,FFFFFF
+O38PVALA,transisere,"PVALA","CHANTELOUVE-LE PERIER-ENTRAIGUES","",3,,000000,FFFFFF
+O38PVARA,transisere,"PVARA","PRIMAIRE COTEAUX DE VARACIEUX","",3,,000000,FFFFFF
+O38PVILA,transisere,"PVILA","PRIMAIRE VILLE VIEILLE-VILLARD DE LANS","",3,,000000,FFFFFF
+O38PVILB,transisere,"PVILB","PRIMAIRE LES POUTEILS-VILLARD DE LANS","",3,,000000,FFFFFF
+O38PVBOB,transisere,"PVBOB","PRIMAIRE CHASSIGNIEU-VIRIEU S/BOURBRE","",3,,000000,FFFFFF
+O38PVEZA,transisere,"PVEZA","PRIMAIRE VEZERONCE-CURTIN","",3,,000000,FFFFFF
+O38PSVCA,transisere,"PSVCA","PRIMAIRE ST VICTOR DE CESSIEU","",3,,000000,FFFFFF
+O38PSVEA,transisere,"PSVEA","PRIMAIRE ST VERAND","",3,,000000,FFFFFF
+O38PSSMA,transisere,"PSSMA","PRIMAIRE ST SORLIN DE MORESTEL","",3,,000000,FFFFFF
+O38PSUSA,transisere,"PSUSA","PRIMAIRE SUSVILLE","",3,,000000,FFFFFF
+O38PVACA,transisere,"PVACA","PRIMAIRE VALENCIN-LE FAYET","",3,,000000,FFFFFF
+O38PVAGA,transisere,"PVAGA","RPI VALENCOGNE-ST ONDRAS","",3,,000000,FFFFFF
+O38PTECA,transisere,"PTECA","RPI BEAULIEU-TECHE","",3,,000000,FFFFFF
+O38PTREA,transisere,"PTREA","PRIMAIRE CHATEAU BAS-TREMINIS","",3,,000000,FFFFFF
+STEOCE160689STEOCESN,sncf,"","Macon - Valence - (Pierrelatte)","",2,,,
+STEOCE645618STEOCESN,sncf,"","Grenoble - Veynes","",2,,,
+STEOCE202STEOCESN,sncf,"","Roanne - St-Etienne","",2,,,
+STEOCE199STEOCESN,sncf,"","St-Etienne - Lyon - Ambérieu","",2,,,
+STEOCE156707STEOCESN,sncf,"","Lyon - St-Etienne - Firminy","",2,,,
+STEOCE12627STEOCESN,sncf,"","Villefranche - Lyon - Vienne","",2,,,
+STEOCE160687STEOCESN,sncf,"","(Macon) - Lyon - Avignon Multi Activités","",2,,,
+STEOCE2222222STEOCESN,sncf,"","Firminy - St-Etienne - Lyon","",2,,,
+STEOCE16634STEOCESN,sncf,"","Lyon - (LTP - AMB) - Chambéry","",2,,,
+STEOCE534STEOCESN,sncf,"","Belfort -Mulhouse ville","",2,,,
+STEOCESN-87756833-87756056STEOCESN,sncf,"","Breil-sur-Roya - Nice-Ville","",2,,,
+STEOCESN-87756056-87756882STEOCESN,sncf,"","Nice-Ville - Tende","",2,,,
+STEOCE55STEOCESN,sncf,"","St-Claude - Oyonnax - Bourg - Lyon Perrache","",2,,,
+STEOCE201STEOCESN,sncf,"","Roanne - Lyon","",2,,,
+STEOCESN-87775866-87775007STEOCESN,sncf,"","Le Grau-du-Roi - Nîmes","",2,,,
+STEOCE56STEOCESN,sncf,"","Lyon - Bourg-en-Bresse (via Villars)","",2,,,
+STEOCE645617STEOCESN,sncf,"","Grenoble - Gap - Briancon Multi Activités","",2,,,
+STEOCE705965STEOCESN,sncf,"","MARSEILLE/AVIGNON/ORANGE via RGC, ARS et CNV","",2,,,
+STEOCESN-87696484-87696328STEOCESN,sncf,"","Decize - Moulins-sur-Allier","",2,,,
+STEOCESN-87696328-87696005STEOCESN,sncf,"","Moulins-sur-Allier - Nevers","",2,,,
+STEOCE340STEOCESN,sncf,"","MARSEILLE/AIX/PERTUIS","",2,,,
+STEOCE705966STEOCESN,sncf,"","MARSEILLE/MIRAMAS via PDB","",2,,,
+STEOCE144653STEOCESN,sncf,"","Montpellier St Chély","",2,,,
+STEOCE216736STEOCESN,sncf,"","CARPENTRAS / AVIGNON TGV","",2,,,
+STEOCE645569STEOCESN,sncf,"","Belfort - Lyon","",2,,,
+STEOCESN-87765008-87318964STEOCESN,sncf,"","Avignon-Centre - Avignon-TGV","",2,,,
+STEOCESN-87722025-87694687STEOCESN,sncf,"","Lyon-Perrache - Paray-le-Monial","",2,,,
+STEOCE725906STEOCESN,sncf,"","Nevers - Paray - Lyon (Multi-Activités)","",2,,,
+STEOCE203STEOCESN,sncf,"","Montbrison - St-Etienne","",2,,,
+STEOCE1109941STEOCESN,sncf,"","Decize - Nevers - Moulins","",2,,,
+STEOCE645568STEOCESN,sncf,"","Belfort - Lyon Multi-activités","",2,,,
+STEOCE156708STEOCESN,sncf,"","Le Puy - Lyon","",2,,,
+STEOCE16635STEOCESN,sncf,"","Lyon - (LTP) - Chambéry - Bourg-St-Maurice","",2,,,
+STEOCESN-87763003-87751008STEOCESN,sncf,"","Gap - Marseille-St-Charles","",2,,,
+STEOCE669703STEOCESN,sncf,"","Tours-Paray-Lyon","",2,,,
+STEOCE213STEOCESN,sncf,"","Lyon - Grenoble","",2,,,
+STEOCE160686STEOCESN,sncf,"","Lyon - Marseille Multi Activités","",2,,,
+STEOCESN-87641001-87576009STEOCESN,sncf,"","Montluçon-Ville - Vierzon","",2,,,
+STEOCESN-87751404-87763003STEOCESN,sncf,"","Aix-en-Provence - Gap","",2,,,
+STEOCESN-87722025-87571000STEOCESN,sncf,"","Lyon-Perrache - Tours","",2,,,
+STEOCESN-87576207-87641001STEOCESN,sncf,"","Bourges - Montluçon-Ville","",2,,,
+STEOCE685635STEOCESN,sncf,"","IV Marseille - Nice - Menton - Vintimille","",2,,,
+STEOCE46STEOCESN,sncf,"","Geneve - Evian - Annecy - Valence - Avignon","",2,,,
+STEOCESN-87734004-87694307STEOCESN,sncf,"","Clermont-Ferrand - Montchanin","",2,,,
+STEOCESN-87757617-83045013STEOCESN,sncf,"","Cannes-la-Bocca - Ventimiglia-Stazione","",2,,,
+STEOCE725905STEOCESN,sncf,"","Paris Bercy - Dijon - Lyon (Multi-Activités)","",2,,,
+STEOCESN-87723197-87686667STEOCESN,sncf,"","Lyon-Part-Dieu - Paris-Bercy","",2,,,
+STEOCE343STEOCESN,sncf,"","IC MARSEILLE/SISTERON/BRIANCON + GAP/BRI","",2,,,
+STEOCESN-87751404-87763607STEOCESN,sncf,"","Aix-en-Provence - Briançon","",2,,,
+STEOCE384854STEOCESN,sncf,"","Montluçon / Commentry / Gannat / Clermont Fd (ligne 8)","",2,,,
+STEOCE384853STEOCESN,sncf,"","Clermont Fd / Aurillac (ligne 2)","",2,,,
+STEOCE384857STEOCESN,sncf,"","Nevers / Moulins / St Germain / Riom / Clermont Fd (ligne 9)","",2,,,
+STEOCE685637STEOCESN,sncf,"","Les Arcs - Vintimille","",2,,,
+STEOCE52STEOCESN,sncf,"","Lyon - Annecy","",2,,,
+STEOCESN-87723197-87686006STEOCESN,sncf,"","Lyon-Part-Dieu - Paris-Gare-de-Lyon","",2,,,
+STEOCE317STEOCESN,sncf,"","NICE/TENDE","",2,,,
+STEOCE67STEOCESN,sncf,"","Lyon - (LTP) - Chambéry - Modane","",2,,,
+STEOCE655STEOCESN,sncf,"","ROMANS/BRIANCON","",2,,,
+STEOCESN-87713040-87723197STEOCESN,sncf,"","Dijon-Ville - Lyon-Part-Dieu","",2,,,
+STEOCESN-87763607-87751008STEOCESN,sncf,"","Briançon - Marseille-St-Charles","",2,,,
+STEOCE647STEOCESN,sncf,"","Villefranche-La Tour de Carol","",2,,,
+STEOCE16626STEOCESN,sncf,"","Commentry / Montluçon / Vierzon / Bourges (ligne 11)","",2,,,
+STEOCE384863STEOCESN,sncf,"","Neussargues / Aurillac / Brive (ligne 10)","",2,,,
+STEOCE384864STEOCESN,sncf,"","Aurillac / Figeac / Capdenac","",2,,,
+STEOCE384852STEOCESN,sncf,"","Clermont Fd / Le Puy (ligne 3)","",2,,,
+STEOCE646STEOCESN,sncf,"","Perpignan-Villefranche","",2,,,
+OLECheminxdexFerxdexProvenceCPOLECheminxdexFerxdexProvenceTRNDxPACAx1,CFP,"CP","NICE - DIGNE LES BAINS","",2,,e50000,ffffff
+OMP3,TAM,"3","Juvignac - Lattes Centre / Pérols Étang de l'Or","",0,,000000,FFFFFF
+OMP4,TAM,"4","A / B Garcia Lorca","",0,,000000,FFFFFF
+OMP1,TAM,"1","Mosson - Odysseum","",0,,000000,FFFFFF
+OMP2,TAM,"2","SAINT-JEAN DE VÉDAS Centre - Notre-Dame de Sablassou / Jacou","",0,,000000,FFFFFF
+DGLT2r6,tcl,"T2","St-Priest Bel Air. --> Porte des Alpes","",0,,00FFF0,FFFFFF
+OM1T2OM179,rtm,"T2","TRAMWAY ARENC LE SILO-LA BLANCARDE","",0,,000000,FFFFFF
+DGLT1Ar44,tcl,"T1","IUT - Feyssine --> Debourg","",0,,00FFF0,FFFFFF
+OZU1150,azur,"T1","Henri Sappia - Hôpital Pasteur","",0,,000000,FFFFFF
+DGLT4Ar8,tcl,"T4","Gare Part Dieu --> IUT - Feyssine.","",0,,00FFF0,FFFFFF
+DGLT5a101,tcl,"T5","Essarts - Iris --> Parc du Chene","",0,,00FFF0,FFFFFF
+DGLT3a3,tcl,"T3","Gare Part  Dieu --> Meyzieu les Panettes","",0,,00FFF0,FFFFFF
+OM1T3OM179,rtm,"T3","TRAMWAY ARENC LE SILO-CASTELLANE","",0,,000000,FFFFFF
+OGRC,TAG,"C","Saint-Martin-d'Hères Condillac - Universités / Seyssins Le Prisme","",0,,000000,FFFFFF
+OGRD,TAG,"D","St M. D'Hères Etienne Grappe / St M. D'Hères Les Taillées - Universités","",0,,000000,FFFFFF
+OGRA,TAG,"A","Fontaine La Poya / Echirolles Denis Papin","",0,,000000,FFFFFF
+OGRB,TAG,"B","Grenoble Presqu'île / Gières Plaine des Sports","",0,,000000,FFFFFF
+OM1T1OM179,rtm,"T1","TRAMWAY NOAILLES-LES CAILLOLS","",0,,000000,FFFFFF
+OGRE,TAG,"E","Fontanil-Cornillon Palluel / Grenoble Louise Michel","",0,,000000,FFFFFF
+ORXRXa1,rhonexpress,"RX","Gare Part  Dieu --> Aeroport St Exupery","",0,,00FFFA,FFFFFF
+STEOCE160696STEOCESN,sncf,"","SAG - Rives - Grenoble Gières - Chambéry","",2,,,
+STEOCESN-87751420-87751008STEOCESN,sncf,"","Gardanne - Marseille-St-Charles","",2,,,
+STEOCE160695STEOCESN,sncf,"","Lyon - St-André-le-Gaz - Grenoble Gières","",2,,,
+STEOCE70STEOCESN,sncf,"","Chambéry - St Marcellin - Valence","",2,,,
+STEOCE204STEOCESN,sncf,"","Macon - Bourg-en-Bresse - Ambérieu","",2,,,
+DGL301Aa1,tcl,"A","Perrache. --> Vaulx-en-Velin La Soie","",1,,00FFFB,FFFFFF
+STEOCE312847STEOCESN,sncf,"","AVIGNON TOULON","",2,,,
+STEOCE64STEOCESN,sncf,"","Ambérieu - Chambéry","",2,,,
+STEOCESN-87734004-87775007STEOCESN,sncf,"","Clermont-Ferrand - Nîmes","",2,,,
+STEOCESN-87783605-87775007STEOCESN,sncf,"","Mende - Nîmes","",2,,,
+STEOCESN-87775213-87775007STEOCESN,sncf,"","Génolhac - Nîmes","",2,,,
+STEOCE643STEOCESN,sncf,"","Carcassonne-Quillan","",2,,,
+STEOCE48STEOCESN,sncf,"","Annecy - Chambéry","",2,,,
+STEOCE63STEOCESN,sncf,"","Annecy - St Gervais","",2,,,
+STEOCE336STEOCESN,sncf,"","MARSEILLE/LES ARCS","",2,,,
+STEOCE49STEOCESN,sncf,"","Lyon - Bellegarde - Evian - St-Gervais","",2,,,
+DGL304a1,tcl,"D","Gare de Vaise --> Gare de Venissieux","",1,,00FFFB,FFFFFF
+OM1M1OM179,rtm,"M1","METRO LA ROSE-LA FOURRAGERE","",1,,000000,FFFFFF
+DGL302Ar2,tcl,"B","Gare d'Oullins. --> Charpennes Charles Hernu .","",1,,00FFFB,FFFFFF
+DGL303r2,tcl,"C","Cuire --> Hotel de Ville - L. Pradel-","",1,,00FFFB,FFFFFF
+OM1M2OM179,rtm,"M2","METRO BOUGAINVILLE-STE MARGUERITE DROMEL","",1,,000000,FFFFFF
+STEOCE649569STEOCESN,sncf,"","Dijon / Clermont Multi-Activités","",2,,,
+OVOVO13OVO20,voironnais,"VO13","RENAGE PL CARDINALE   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO14OVO20,voironnais,"VO14","RENAGE PL CARDINALE   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO11OVO20,voironnais,"VO11","RIVES MALADIERE   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO12OVO20,voironnais,"VO12","RIVES MALADIERE   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO23OVO20,voironnais,"VO23","TULLINS CONDORCET   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO31OVO20,voironnais,"VO31","ST JEAN L ARCHAT   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO21OVO20,voironnais,"VO21","TULLINS CONDORCET   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO22OVO20,voironnais,"VO22","TULLINS MICHEL PERRET   VOIRON GARE SUD","",3,,000000,FFFFFF
+O38VIN08,transisere,"VIN08","CHANTESSE-L'ALBENC-VINAY","",3,,000000,FFFFFF
+O38VIZ03,transisere,"VIZ03","BOURG D'OISANS-VIZILLE","",3,,000000,FFFFFF
+O38VIN06,transisere,"VIN06","VARACIEUX STADE-VINAY","",3,,000000,FFFFFF
+O38VIN07,transisere,"VIN07","BEAULIEU-VINAY","",3,,000000,FFFFFF
+O38VIZ10,transisere,"VIZ10","CHAMROUSSE-VIZILLE","",3,,000000,FFFFFF
+O38VLM01,transisere,"VLM01","TIGNIEU JAMEYZIEU-CHOZEAU-VILLEMOIRIEU","",3,,000000,FFFFFF
+O38VIZ06,transisere,"VIZ06","LA MURE-LAFFREY-VIZILLE","",3,,000000,FFFFFF
+O38VIZ07,transisere,"VIZ07","LA MURE-LA MOTTE D'AVEILLANS-VIZILLE","",3,,000000,FFFFFF
+OVOVO73OVO20,voironnais,"VO73","ST BLAISE RTE MURETTE   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO74OVO20,voironnais,"VO74","REAUMONT LE BESSEY   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO71OVO20,voironnais,"VO71","LA MURETTE VILLAGE   VOIRON BRAMERET","",3,,000000,FFFFFF
+OVOVO72OVO20,voironnais,"VO72","APPRIEU LE RIVIER   VOIRON BRAMERET","",3,,000000,FFFFFF
+O38VOI03,transisere,"VOI03","ST QUENTIN-TULLINS (CORR. VOIRON)","",3,,000000,FFFFFF
+O38VOI06,transisere,"VOI06","BIZONNES-OYEU-VOIRON","",3,,000000,FFFFFF
+O38VOI01,transisere,"VOI01","LE RIVIER D'APPRIEU-REAUMONT","",3,,000000,FFFFFF
+O38VOI02,transisere,"VOI02","CRIEL DE RENAGE-VOIRON","",3,,000000,FFFFFF
+OVOVO42OVO20,voironnais,"VO42","CROSSEY GATELIERE   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO43OVO20,voironnais,"VO43","MERLAS PICOUDIERE   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO32OVO20,voironnais,"VO32","VOREPPE LOGIS NEUF   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO41OVO20,voironnais,"VO41","ST AUPRE TURE   VOIRON GARE SUD","",3,,000000,FFFFFF
+OVOVO62OVO20,voironnais,"VO62","CHARAVINES M. CLUZEL   VOIRON F. BUISSON","",3,,000000,FFFFFF
+OVOVO63OVO20,voironnais,"VO63","BILIEU PETIT BILIEU   VOIRON F. BUISSON","",3,,000000,FFFFFF
+OVOVO51OVO20,voironnais,"VO51","MASSIEU COTE D AINAN   VOIRON F. BUISSON","",3,,000000,FFFFFF
+OVOVO61OVO20,voironnais,"VO61","LE PIN LES ALLEX   VOIRON F. BUISSON","",3,,000000,FFFFFF
+O38VIN05,transisere,"VIN05","VARACIEUX-CHASSELAY-SERRE NERPOL-VINAY","",3,,000000,FFFFFF
+O38VFT05,transisere,"VFT05","OYTIER ST OBLAS-VILLEFONTAINE","",3,,000000,FFFFFF
+O38VIB13,transisere,"VIB13","MURIANETTE-DOMENE-VILLARD BONNOT","",3,,000000,FFFFFF
+O38VFT03,transisere,"VFT03","HEYRIEUX-DIEMOZ-VILLEFONTAINE","",3,,000000,FFFFFF
+O38VFT04,transisere,"VFT04","VALENCIN-HEYRIEUX-VILLEFONTAINE","",3,,000000,FFFFFF
+OIVVIE02OIV19,viennois,"VIE02","Assieu - Cheyssieu - Cotes d'Arey - Reventin Vaugris - Vienne","",3,,000000,FFFFFF
+OIVVIE03OIV19,viennois,"VIE03","Villeneuve - Meyssiez - Eyzin Pinet - Estrablin - Vienne","",3,,000000,FFFFFF
+O38VIE01,transisere,"VIE01","ROUSSILLON-REVENTIN VAUGRIS-VIENNE","",3,,000000,FFFFFF
+O38VIE02,transisere,"VIE02","COUR ET BUIS-VERNIOZ-VIENNE","",3,,000000,FFFFFF
+O38VER06,transisere,"VER06","ST ALBAN DE ROCHE-LA VERPILLIERE","",3,,000000,FFFFFF
+O38VER07,transisere,"VER07","ST ROMAIN-CHARVIEU-LA VERPILLIERE","",3,,000000,FFFFFF
+OIAVER04,ruban,"VER04","VER04","",3,,000000,FFFFFF
+O38VER05,transisere,"VER05","GRENAY-CHESNES-LA VERPILLIERE","",3,,000000,FFFFFF
+O38VFT01,transisere,"VFT01","ST ALBAN DE ROCHE-ROCHE-VILLEFONTAINE","",3,,000000,FFFFFF
+O38VFT02,transisere,"VFT02","LIEUDIEU-ST J. DE BOURNAY-VILLEFONTAINE","",3,,000000,FFFFFF
+O38VER08,transisere,"VER08","FRONTONAS-LA VERPILLIERE","",3,,000000,FFFFFF
+O38VER09,transisere,"VER09","VALENCIN-LA VERPILLIERE","",3,,000000,FFFFFF
+O38VIL07,transisere,"VIL07","COTE 2000-CORRENÇON-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL08,transisere,"VIL08","ST NIZIER-LANS EN V.-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL05,transisere,"VIL05","ENGINS-LANS EN VERCORS-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL06,transisere,"VIL06","BOIS BARBU-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIN03,transisere,"VIN03","VINAY CAMPING CHARROI-SERRE NERPOL-VINAY","",3,,000000,FFFFFF
+O38VIN04,transisere,"VIN04","COGNIN-ROVON-ST GERVAIS-VINAY","",3,,000000,FFFFFF
+O38VIN01,transisere,"VIN01","QUINCIEU-SERRE NERPOL-VINAY","",3,,000000,FFFFFF
+O38VIN02,transisere,"VIN02","ND DE L'OSIER-VATILIEU-VINAY","",3,,000000,FFFFFF
+O38VIE09,transisere,"VIE09","HEYRIEUX-SEPTEME-VIENNE","",3,,000000,FFFFFF
+O38VIF02,transisere,"VIF02","ST MARTIN DE LA CLUZE-VIF (PRIMAIRE-COLL","",3,,000000,FFFFFF
+OIVVIE04OIV19,viennois,"VIE04","Chalon - St Sorlin - Jardin - Estrablin - Vienne","",3,,000000,FFFFFF
+O38VIE08,transisere,"VIE08","ROUSSILLON-ST CLAIR-CONDRIEU-VIENNE","",3,,000000,FFFFFF
+O38VIL03,transisere,"VIL03","AUTRANS-MEAUDRE-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL04,transisere,"VIL04","RENCUREL-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL01,transisere,"VIL01","AUTRANS-MEAUDRE-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VIL02,transisere,"VIL02","AUTRANS-MEAUDRE-VILLARD DE LANS","",3,,000000,FFFFFF
+O38VOI07,transisere,"VOI07","LA FRETTE-COLOMBE-VOIRON","",3,,000000,FFFFFF
+STEOCE645595STEOCESN,sncf,"","Commentry / Montluçon / Vierzon","",2,,,
+STEOCE50STEOCESN,sncf,"","Lyon - Genève","",2,,,
+STEOCESN-87641001-87641357STEOCESN,sncf,"","Montluçon-Ville - Vallon-en-Sully","",2,,,
+STEOCE626STEOCESN,sncf,"","Avignon-Port Bou","",2,,,
+STEOCESN-87576207-87641415STEOCESN,sncf,"","Bourges - Commentry","",2,,,
+STEOCE726008STEOCESN,sncf,"","Dijon - Nevers","",2,,,
+STEOCE222STEOCESN,sncf,"","Bellegarde - Genève","",2,,,
+STEOCE104651STEOCESN,sncf,"","LIMOGES -GUERET - MONTLUCON","",2,,,
+STEOCESN-87641415-87641357STEOCESN,sncf,"","Commentry - Vallon-en-Sully","",2,,,
+STEOCE1077887STEOCESN,sncf,"","MONTLUCON BORDEAUX","",2,,,
+STEOCE4627STEOCESN,sncf,"","Toulouse / Narbonne / Nimes / Cerbère","",2,,,
+STEOCE645732STEOCESN,sncf,"","Toulouse / Figeac / Aurillac""""""""","",2,,,
+STEOCE4619STEOCESN,sncf,"","Toulouse / Latour de Carol","",2,,,
+STEOCE384859STEOCESN,sncf,"","Clermont Fd / Durtol / Volvic (ligne 14)","",2,,,
+STEOCE388859STEOCESN,sncf,"","Thiers / Clermont (ligne 6)","",2,,,
+STEOCE384849STEOCESN,sncf,"","Clermont Fd / Vic / Issoire / Brioude (ligne 1)","",2,,,
+STEOCE645562STEOCESN,sncf,"","Clermont Nîmes Multi Activité","",2,,,
+STEOCE384856STEOCESN,sncf,"","Clermont Fd pass nord / sud","",2,,,
+STEOCE124628STEOCESN,sncf,"","Directs  NA AL MDE","",2,,,
+STEOCE645563STEOCESN,sncf,"","Clermont / Roanne / Lyon","",2,,,
+STEOCESN-87734004-87696005STEOCESN,sncf,"","Clermont-Ferrand - Nevers","",2,,,
+STEOCE156702STEOCESN,sncf,"","Clermont-Fd - Lyon","",2,,,
+STEOCESN-87645002-87734004STEOCESN,sncf,"","Aurillac - Clermont-Ferrand","",2,,,
+STEOCE384862STEOCESN,sncf,"","Clermont Fd / Nimes (ligne 4)","",2,,,
+STEOCE645674STEOCESN,sncf,"","Marseille / Nîmes","",2,,,
+STEOCESN-87751008-87781104STEOCESN,sncf,"","Marseille-St-Charles - Narbonne","",2,,,
+STEOCE725919STEOCESN,sncf,"","Dijon - Bourg en Bresse (Multi-Activités)","",2,,,
+STEOCE645673STEOCESN,sncf,"","IV  MARSEILLE / NIMES / MONTPELLIER / NARBONNE","",2,,,
+STEOCE644STEOCESN,sncf,"","Nîmes-Le Grau du Roi","",2,,,
+STEOCE651STEOCESN,sncf,"","Nîmes-Mende-St Chély d'Apcher","",2,,,
+STEOCE8622STEOCESN,sncf,"","IV MARSEILLE / MONTPELLIER / NARBONNE / CERBERE Multi activités","",2,,,
+STEOCESN-87775213-87781104STEOCESN,sncf,"","Génolhac - Narbonne","",2,,,
+DGL326a1,tcl,"F2","Vieux Lyon - Cat.St Jean --> Fourviere Basilique","",7,,00FFF3,FFFFFF
+DGLZI6Aa1,tcl,"ZI6","Jean Mace --> St Fons Semard","",3,,00FFFF,FFFFFF
+DGLZI7Ar2,tcl,"ZI7","Bron Droits de l'Homme --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+DGLZI4Ar2,tcl,"ZI4","Caluire Chemin Petit --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+DGLZI5Br2,tcl,"ZI5","Rond-Point d'Italie --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+OLELignesxExpressxRegionales18OLEA81726,A81726,"LER 18","ARLES - AVIGNON TGV","",3,,59ff0d,000000
+OLELignesxExpressxRegionales19OLEA81728,A81728,"LER 19","TOULON-AIX EN PROVENCE-AEROPORT","",3,,99ff0d,000000
+DGLZI8Ar4,tcl,"ZI8","Parc des Lumieres --> St Priest Jules Ferry","",3,,00FFFF,FFFFFF
+OZU47,azur,"W","Cal Spagnol - Lycée Thierry Maulnier","",3,,000000,FFFFFF
+O38VOR01,transisere,"VOR01","GRENOBLE-SAINT EGREVE-VOREPPE","",3,,000000,FFFFFF
+OVOWOVO20,voironnais,"W","VOIRON-LA BUISSE-VOREPPE","",3,,000000,FFFFFF
+DGLZI2Aa3,tcl,"ZI2","Meyzieu Z.i. --> Z.I. Sud","",3,,00FFFF,FFFFFF
+DGLZI3Ar6,tcl,"ZI3","Cite Tase --> Vaulx-en-Velin La Soie","",3,,00FFFF,FFFFFF
+OETZEN,etang,"ZEN","Zenibus","",3,,000000,FFFFFF
+DGLZI1Ar4,tcl,"ZI1","St Priest Hotel de Ville --> Gare de Venissieux.","",3,,00FFFF,FFFFFF
+OLELignesxExpressxRegionales35OLEA81735,A81735,"LER 35","BRIANCON - GRENOBLE","",3,,0de5ff,000000
+OLELignesxExpressxRegionales36OLEA81731,A81731,"LER 36","COEUR DE VAR - AEROPORT MARSEILLE PROVENCE","",3,,59ffd9,000000
+OLELignesxExpressxRegionales31OLEA81734,A81734,"LER 31","NICE - GRENOBLE","",3,,3b26ff,ffffff
+OLELignesxExpressxRegionales33OLEA81729,A81729,"LER 33","DIGNE - GAP","",3,,0073cc,ffffff
+OM3L1,frioul,"1","Marseille If Frioul","",4,,000000,FFFFFF
+DGL325a1,tcl,"F1","Vieux Lyon - Cat.St Jean --> St Just","",7,,00FFF3,FFFFFF
+OLELignesxExpressxRegionales37OLEA81732,A81732,"LER 37","DIGNE - SISTERON","",3,,0073cc,ffffff
+OLELignesxExpressxRegionales17OLEA81725,A81725,"LER17","CARPENTRAS - AEROPORT MARSEILLE","",3,,0df219,000000
+OLELignesxExpressxRegionales23OLEA81726,A81726,"LER 23","AVIGNON - AIX EN PROVENCE","",3,,f7a600,ffffff
+OLELignesxExpressxRegionales25OLELignesxExpressxRegionales25,LER25,"LER 25","MARSEILLE - FORCALQUIER","",3,,ff5900,ffffff
+OLELignesxExpressxRegionales20OLEA81727,A81727,"LER 20","NICE - MARSEILLE","",3,,ccf200,000000
+OLELignesxExpressxRegionales22OLEle23,le23,"LER 22","AVIGNON - DIGNE LES BAINS","",3,,ffcc00,000000
+OLELignesxExpressxRegionales28OLEA81729,A81729,"LER 28","MARSEILLE - BARCELONNETTE","",3,,ff40e5,ffffff
+OLELignesxExpressxRegionales30OLEA81729,A81729,"LER 30","GAP - BARCELONNETTE","",3,,7f19e5,ffffff
+OLELignesxExpressxRegionales26OLEA81732,A81732,"LER 26","DIGNE - AEROPORT MARSEILLE PROVENCE","",3,,ff0000,ffffff
+OLELignesxExpressxRegionales27OLEA81733,A81733,"LER 27","MARSEILLE - CASTELLANE","",3,,b2000d,ffffff
+OVOCH41OVO20,voironnais,"CH41","MERLAS PICOUDIERE   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OVOCH51OVO20,voironnais,"CH51","ST SULPICE PLATIERE   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OZU1248,azur,"CD","CADAM SEMI DIRECT - Port - centre administratif","",3,,000000,FFFFFF
+OZU1253,azur,"CE","CADAM EST - Les Chênes Verts - centre administratif","",3,,000000,FFFFFF
+OVOCH63OVO20,voironnais,"CH63","PALADRU CALATRIN   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OVOCH64OVO20,voironnais,"CH64","CHARAVINES VIR. JANIN   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OVOCH61OVO20,voironnais,"CH61","LE PIN LES ALLEX   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OVOCH62OVO20,voironnais,"CH62","MONTFERRAT ECOLE   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OM925,bsd,"C862","Ver/Caz/Al/Mall","",3,,000000,FFFFFF
+DGLC9Ar10,tcl,"C9","Hopitaux Est --> Cordeliers","",3,,00FFFF,FFFFFF
+OM43005,mtm,"C8","Sausset-les-Pins - Marseille","",3,,000000,FFFFFF
+OM926,bsd,"C861","Charl-Salon","",3,,000000,FFFFFF
+OGECBOGE23,gresivaudan,"CB","Citadine B","",3,,000000,FFFFFF
+OGECCOGE23,gresivaudan,"CC","Citadine C","",3,,000000,FFFFFF
+OGECAOGE23,gresivaudan,"CA","Citadine A","",3,,000000,FFFFFF
+OIACASDEL,ruban,"CASDEL","CASSIN DELORME","",3,,000000,FFFFFF
+O38CLE01,transisere,"CLE01","ST MARTIN DE CLELLES-CLELLES ECOLES","",3,,000000,FFFFFF
+OVOCO21OVO20,voironnais,"CO21","TULLINS L ESLINARD   CAMILLE DESMOULIN","",3,,000000,FFFFFF
+O38CHB01,transisere,"CHB01","LA TOUR DU PIN-CHABONS (LEAP)","",3,,000000,FFFFFF
+O38CHM01,transisere,"CHM01","CHATONNAY-CHAMPIER","",3,,000000,FFFFFF
+O38COR02,transisere,"COR02","GONCELIN-BRIGNOUD-CORENC","",3,,000000,FFFFFF
+O38CPL01,transisere,"CPL01","GRENOBLE-AUTRANS-LA CHAPELLE EN VERCORS","",3,,000000,FFFFFF
+OVOCO22OVO20,voironnais,"CO22","TULLIN ST J. CHEPY   COLLEGE CONDORCET","",3,,000000,FFFFFF
+O38COR01,transisere,"COR01","ST VINCENT DE MERCUZE-CROLLES-CORENC","",3,,000000,FFFFFF
+OIACHAM1,ruban,"CHAM1","CHAMPOULANT 1","",3,,000000,FFFFFF
+OIACHAM2,ruban,"CHAM2","CHAMPOULANT 2","",3,,000000,FFFFFF
+OVOCH65OVO20,voironnais,"CH65","CHARAVINES PLACE MARCHE  CHIRENS COLLEGE","",3,,000000,FFFFFF
+OVOCH66OVO20,voironnais,"CH66","BILIEU PETIT BILIEU   CHIRENS COLLEGE","",3,,000000,FFFFFF
+OIACHAM5,ruban,"CHAM5","CHAM5","",3,,000000,FFFFFF
+OIACHAM6,ruban,"CHAM6","CHAMPOULANT6","",3,,000000,FFFFFF
+OIACHAM3,ruban,"CHAM3","CHAMPOULANT 3","",3,,000000,FFFFFF
+OIACHAM4,ruban,"CHAM4","CHAM4","",3,,000000,FFFFFF
+DGLC8Ar2,tcl,"C8","Vaulx-en-Velin Resistance --> Grange Blanche","",3,,00FFFF,FFFFFF
+DGLC25Br2,tcl,"C25","Sogaris - Promotrans --> Gare Part-Dieu Vivier Merle","",3,,00FFFF,FFFFFF
+DGLC26Aa5,tcl,"C26","Tonkin --> Grange Blanche","",3,,00FFFF,FFFFFF
+DGLC22Ar2,tcl,"C22","Grange Blanche --> Perrache","",3,,00FFFF,FFFFFF
+DGLC24Ba1,tcl,"C24","Gorge de Loup --> Craponne Val d'Yzeron","",3,,00FFFF,FFFFFF
+OM4C2B,mtm,"C2B","Chateauneuf les Martigues : Résidence du Port - Les Fourques","",3,,000000,FFFFFF
+OGR3,TAG,"C3","Grenoble Victor Hugo / Echirolles Centre du Graphisme","",3,,000000,FFFFFF
+OM935,bsd,"C269","Lamanon inter","",3,,000000,FFFFFF
+OM929,bsd,"C281","Vernegues-Cazan","",3,,000000,FFFFFF
+OM43022,mtm,"C1C2","Chateauneuf les Martigues - été et samedis","",3,,000000,FFFFFF
+OGR2,TAG,"C2","GRENOBLE Louise Michel / CLAIX Pont Rouge","",3,,000000,FFFFFF
+DGLC18Aa7,tcl,"C18","Hotel de Ville - L. Pradel --> Place Flammarion","",3,,00FFFF,FFFFFF
+DGLC19Aa1,tcl,"C19","Perrache --> Francheville Taffignon","",3,,00FFFF,FFFFFF
+DGLC20Ar2,tcl,"C20","Francheville Taffignon --> Bellecour Le Viste","",3,,00FFFF,FFFFFF
+DGLC21Aa1,tcl,"C21","Perrache --> Gorge de Loup.","",3,,00FFFF,FFFFFF
+DGLC2Ar2,tcl,"C2","Rillieux Semailles --> Gare Part-Dieu Vivier Merle","",3,,00FFFF,FFFFFF
+OM43021,mtm,"C2","Chateauneuf les Martigues : Résidence du Port - Les Fourques","",3,,000000,FFFFFF
+OGR5,TAG,"C5","GRENOBLE Palais de Justice / GIÈRES Universités - Biologie","",3,,000000,FFFFFF
+OGR6,TAG,"C6","GRENOBLE Presqu’Île / SAINT-MARTIN-D'HÈRES Henri Wallon","",3,,000000,FFFFFF
+OM43002,mtm,"C5","Sausset les Pins","",3,,000000,FFFFFF
+DGLC5Ar4,tcl,"C5","Vancia Chateau Berard --> Cordeliers","",3,,00FFFF,FFFFFF
+OM43004,mtm,"C7","Niolon / la Vesse/Le Rove/l'Estaque","",3,,000000,FFFFFF
+DGLC7Ba3,tcl,"C7","Jean Mace --> Hopital Lyon Sud","",3,,00FFFF,FFFFFF
+DGLC6Br2,tcl,"C6","Ecully Le Perollier --> Gare Part-Dieu Vivier Merle","",3,,00FFFF,FFFFFF
+OM43003,mtm,"C6","Ensuès la Redonne","",3,,000000,FFFFFF
+OM9231,bsd,"C385","Lancon La Fare","",3,,000000,FFFFFF
+OM43001,mtm,"C4","Carry - Sausset","",3,,000000,FFFFFF
+DGLC3Aa33,tcl,"C3","Gare Saint Paul --> Laurent Bonnevay","",3,,00FFFF,FFFFFF
+OM43000,mtm,"C3","Carry-le-rouet Gare SNCF - Le Rouet","",3,,000000,FFFFFF
+OM924,bsd,"C449","Baisses La Fare","",3,,000000,FFFFFF
+OM927,bsd,"C486","Eyguieres-Salon","",3,,000000,FFFFFF
+DGLC4Aa1,tcl,"C4","Jean Mace --> Cite Internationale","",3,,00FFFF,FFFFFF
+OGR4,TAG,"C4","Grenoble Victor Hugo / Eybens Le Verderet","",3,,000000,FFFFFF
+O38CRE01,transisere,"CRE01","MORAS-VILLEMOIRIEU-DIZIMIEU-CREMIEU","",3,,000000,FFFFFF
+OVODE11OVO20,voironnais,"DE11","ST BLAISE RAVIGNHOUSE   RIVES DESNOS","",3,,000000,FFFFFF
+OVODE12OVO20,voironnais,"DE12","REAUMONT H. FERROVIERE   RIVES DESNOS","",3,,000000,FFFFFF
+OM916,bsd,"D","La Piboule / Jospeh d'Arbaud","",3,,000000,FFFFFF
+O38DAG01,transisere,"DAG01","ST ROMAIN-PT CHERUY-DAGNEUX (ST-LOUIS)","",3,,000000,FFFFFF
+OIADIMAF,ruban,"DIMAF","Dimanche Ligne A F","",3,,000000,FFFFFF
+OIADIMCM,ruban,"DIMCM","Dimanche Lignes CM","",3,,000000,FFFFFF
+OVODE13OVO20,voironnais,"DE13","REAUMONT LE BESSEY   RIVES DESNOS","",3,,000000,FFFFFF
+OIADEL01,ruban,"DEL01","DEL01","",3,,000000,FFFFFF
+O38CSA11,transisere,"CSA11","LA FRETTE-ST HILAIRE-LA COTE ST ANDRE","",3,,000000,FFFFFF
+O38CSA12,transisere,"CSA12","PRIMARETTE-POMMIER-LA COTE ST ANDRE","",3,,000000,FFFFFF
+O38CSA09,transisere,"CSA09","BIOL-LA TOUR DU PIN-LA COTE ST ANDRE","",3,,000000,FFFFFF
+O38CSA10,transisere,"CSA10","LENTIOL-MARCILLOLES-LA COTE ST ANDRE","",3,,000000,FFFFFF
+OVODOVO20,voironnais,"D","MIRIBEL - VOIRON","",3,,000000,FFFFFF
+OIAD,ruban,"D","D","",3,,000000,FFFFFF
+OETD,etang,"D","Genevoix - Plan de campagne","",3,,000000,FFFFFF
+OIAECOLPB,ruban,"ECOLPB","ECOLE PRE-BENIT","",3,,000000,FFFFFF
+O38EDG01,transisere,"EDG01","PRIMAIRE ST CHRISTOPHE SUR GUIERS","",3,,000000,FFFFFF
+OM44012,mtm,"ES02","Port la Redonne / Ecole Primaire F Mistral","",3,,000000,FFFFFF
+OM44013,mtm,"ES03","Creux du Loup 2 / Ecole Primaire F Mistral","",3,,000000,FFFFFF
+OM44011,mtm,"ES01","Chantegrive Héron/Ecole Primaire F Mistral","",3,,000000,FFFFFF
+O38DOM02,transisere,"DOM02","REVEL-ST JEAN LE VIEUX-DOMENE","",3,,000000,FFFFFF
+OVOEOVO20,voironnais,"E","MERLAS - ST SULPICE - St GEOIRE - VOIRON","",3,,000000,FFFFFF
+OM939,bsd,"DJF","Tallagard / Les Gabins (Dimanches et Jours Fériés)","",3,,000000,FFFFFF
+O38DOM01,transisere,"DOM01","CHAMP PRES FROGES-BRIGNOUD-DOMENE","",3,,000000,FFFFFF
+OZU1271,azur,"E","Ariane / Général Saramito - Grand Palais","",3,,000000,FFFFFF
+OM811,envia,"EADHOP","EAD Hôpital","",3,,000000,FFFFFF
+OIAE,ruban,"E","E","",3,,000000,FFFFFF
+OM918,bsd,"E","La Barben / Pélissanne / Salon","",3,,000000,FFFFFF
+O38CSA08,transisere,"CSA08","ST MARCELLIN-TULLINS-LA COTE ST ANDRE","",3,,000000,FFFFFF
+OM44032,mtm,"CS03","Chateauneuf Le Jai pour Ecoles Primaire Chateauneuf","",3,,000000,FFFFFF
+OM54108,marcouline,"CS03","CASSIS Gendarmerie / Collège Les Gorguettes","",3,,000000,FFFFFF
+OM44030,mtm,"CS01","Châteauneuf-les-Martigues pour Ecole M Curie et Ecoles J.Jaurès","",3,,000000,FFFFFF
+OM54107,marcouline,"CS02","CASSIS Pompiers / Collège Les Gorguettes","",3,,000000,FFFFFF
+OM54110,marcouline,"CS05","CASSIS Cepages / Collège Les Gorguettes","",3,,000000,FFFFFF
+OM54111,marcouline,"CS06","CASSIS Cuettes / Leriche Mistral","",3,,000000,FFFFFF
+OM54109,marcouline,"CS04","CASSIS Vence / Collège Les Gorguettes","",3,,000000,FFFFFF
+OM44034,mtm,"CS05","Chateauneuf Chem de Pataflou pour Collège des amandeirets","",3,,000000,FFFFFF
+O38CRE08,transisere,"CRE08","HIERES S/AMBY-VERNAS-LEYRIEU-CREMIEU","",3,,000000,FFFFFF
+O38CRE09,transisere,"CRE09","SATOLAS ET BONCE-CREMIEU-VILLEMOIRIEU","",3,,000000,FFFFFF
+O38CRE02,transisere,"CRE02","CHAMAGNIEU - CREMIEU","",3,,000000,FFFFFF
+O38CRE07,transisere,"CRE07","TREPT(COZANCE)-ANNOISIN-CREMIEU","",3,,000000,FFFFFF
+O38CRP04,transisere,"CRP04","LES COTES DE CORPS-CORPS (CORRES. LA MUR","",3,,000000,FFFFFF
+OM54106,marcouline,"CS01","Roquefort LB / Collège Les Gorguettes","",3,,000000,FFFFFF
+O38CRE10,transisere,"CRE10","ST ROMAIN DE JALIONAS-CREMIEU","",3,,000000,FFFFFF
+O38CRP01,transisere,"CRP01","PELLAFOL-LE SAUTET-CORPS","",3,,000000,FFFFFF
+OM54116,marcouline,"CS11","CASSIS Saint-Joseph / Leriche Mistral","",3,,000000,FFFFFF
+OM44042,mtm,"CS13","Collège des Amandeirets pour la Méde Raffinerie","",3,,000000,FFFFFF
+OM44039,mtm,"CS10","La Mède Le Pougaou pour Collège des Armandeirets","",3,,000000,FFFFFF
+OM44040,mtm,"CS11","Collège des Amandeirets pour la Méde le Pougaou","",3,,000000,FFFFFF
+O38CSA06,transisere,"CSA06","VIRIVILLE-ST SIMEON-LA COTE ST ANDRE","",3,,000000,FFFFFF
+O38CSA07,transisere,"CSA07","ROYBON-ST SIMEON-LA COTE ST ANDRE","",3,,000000,FFFFFF
+OM44043,mtm,"CS14","Collège des Amandeirets pour la Méde Raffinerie","",3,,000000,FFFFFF
+OM44029,mtm,"CS15","La Mede/Chateauneuf/Marignane","",3,,000000,FFFFFF
+OM44036,mtm,"CS07","Le Jai pour Collège des Amandeirets","",3,,000000,FFFFFF
+OM54113,marcouline,"CS08","CASSIS Terrasses / Leriche Mistral","",3,,000000,FFFFFF
+OM44035,mtm,"CS06","Chateauneuf La Grande Bastide pour Collège des amandeirets","",3,,000000,FFFFFF
+OM54112,marcouline,"CS07","CASSIS Port-Miou / Leriche Mistral","",3,,000000,FFFFFF
+OM44038,mtm,"CS09","La Mède Le Port pour Collège des Amandeirets","",3,,000000,FFFFFF
+OM54115,marcouline,"CS10","CASSIS La Gare / Leriche Mistral","",3,,000000,FFFFFF
+OM44037,mtm,"CS08","La Mède Raffinerie pour Collège des Amandeirets","",3,,000000,FFFFFF
+OM54114,marcouline,"CS09","CASSIS Haut Cépages / Leriche Mistral","",3,,000000,FFFFFF
+OM934,bsd,"C172","La Fare-Salon","",3,,000000,FFFFFF
+OET97B,etang,"97B","Coopérative Agricole - F. Léger","",3,,000000,FFFFFF
+DGL98Ar2,tcl,"98","Marcy l'Etoile Campus Merieux --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OM197OM179,rtm,"97","CANEBIERE BOURSE-HOPITAL NORD","",3,,000000,FFFFFF
+OET97A,etang,"97A","Coopérative Agricole - E. Zola","",3,,000000,FFFFFF
+OET99,etang,"99","Chemin Notre dame - M. Genevoix","",3,,000000,FFFFFF
+OZU1061,azur,"99","Gare SNCF - Aéroport T.2 / T.1","",3,,000000,FFFFFF
+OET98,etang,"98","Ch. de la Transhumance - J. Monnet","",3,,000000,FFFFFF
+OZU1056,azur,"98","Aéroport T.2 / T.1 - Promenade des Arts /  Lycée Masséna","",3,,000000,FFFFFF
+DGL96Aa1,tcl,"96","Neuville --> Quincieux Boulodrome","",3,,00FFFF,FFFFFF
+OET96A,etang,"96A","Chemin notre dame - F. Léger","",3,,000000,FFFFFF
+OET96,etang,"96","Chemin notre dame - F. Léger","",3,,000000,FFFFFF
+OM196OM179,rtm,"96","HOPITAL NORD-ESTAQUE GARE","",3,,000000,FFFFFF
+OET97,etang,"97","Coopérative Agriciole  - E. Zola","",3,,000000,FFFFFF
+DGL97Ar6,tcl,"97","Ecole N.D. Bellegarde --> Le Mas Mathieu","",3,,00FFFF,FFFFFF
+OET96B,etang,"96B","Chemin notre dame - F. Léger","",3,,000000,FFFFFF
+OM196SOM179,rtm,"96S","COLLEGE VALLON DES PINS-ESTAQUE GARE","",3,,000000,FFFFFF
+O38ABR01,transisere,"ABR01","LA BATIE MONTGASCON-LES ABRETS","",3,,000000,FFFFFF
+O38ABR02,transisere,"ABR02","LA BATIE MONTGASCON-FITILIEU-LES ABRETS","",3,,000000,FFFFFF
+OM830,envia,"A30","AGGLO 30 - St Martin de Crau <> Arles","",3,,000000,FFFFFF
+OM840,envia,"A40","AGGLO 40 St Pierre de Mézoargues <> Boulbon <> Tarascon","",3,,000000,FFFFFF
+O38ABR06,transisere,"ABR06","VALENCOGNE-ST ONDRAS-LES ABRETS","",3,,000000,FFFFFF
+O38ABR07,transisere,"ABR07","ST ANDRE LE GAZ (SNCF)-LES ABRETS","",3,,000000,FFFFFF
+O38ABR03,transisere,"ABR03","ST ANDRE LE GAZ (EGLISE)-LES ABRETS","",3,,000000,FFFFFF
+O38ABR05,transisere,"ABR05","LA BATIE DIVISIN-MONTFERRAT-LES ABRETS","",3,,000000,FFFFFF
+OIAA,ruban,"A","A","",3,,000000,FFFFFF
+OVOAOVO20,voironnais,"A","TULLINS - MOIRANS - VOIRON","",3,,000000,FFFFFF
+OM810,envia,"A10","AGGLO 10 - Salin de Giraud <> Arles","",3,,000000,FFFFFF
+OM820,envia,"A20","AGGLO 20 - Tarascon <> Arles","",3,,000000,FFFFFF
+OM923,bsd,"A","Les Gabins / Aires de la Dîme / Joseph d'Arbaud","",3,,000000,FFFFFF
+OZU1269,azur,"A","Clair Horizon - Parc Impérial","",3,,000000,FFFFFF
+OET95,etang,"95","Marielie - Ste Elisabeth","",3,,000000,FFFFFF
+OM188OM179,rtm,"88","METRO NATIONAL-PLACE CADENAT","",3,,000000,FFFFFF
+OZU1124,azur,"88","Vauban - Marojade","",3,,000000,FFFFFF
+DGL87Ar2,tcl,"87","Mions Bourdelle --> Gare de Venissieux","",3,,00FFFF,FFFFFF
+DGL88Br2,tcl,"88","St Genis Gadagne --> Gare d'Oullins","",3,,00FFFF,FFFFFF
+OZU1119,azur,"89","Vauban - Levens Village","",3,,000000,FFFFFF
+OM189OM179,rtm,"89","CANEBIERE BOURSE-LE CANET JEAN JAURES","",3,,000000,FFFFFF
+DGL89Ar12,tcl,"89","Moulin Berger --> Gare de Vaise","",3,,00FFFF,FFFFFF
+DGL84Ar2,tcl,"84","Neuville --> Gare de Vaise","",3,,00FFFF,FFFFFF
+DGL85Aa1,tcl,"85","Decines Grand Large --> Meyzieu Gadelles..","",3,,00FFFF,FFFFFF
+OZU1066,azur,"84","Riquier - Baie des Fourmis","",3,,000000,FFFFFF
+OM184OM179,rtm,"84","PLACE DU 4 SEPTEMBRE-SAMATAN","",3,,000000,FFFFFF
+OM186OM179,rtm,"86","METRO PERIER-MAIRIE 6-8","",3,,000000,FFFFFF
+OZU1069,azur,"86","Bertagnia - La Plana Matisse","",3,,000000,FFFFFF
+OZU1121,azur,"85","Chênes Verts Delahaye - Cité du Soleil","",3,,000000,FFFFFF
+DGL86Ar2,tcl,"86","La Tour de Salvagny Chambettes --> Gorge de Loup","",3,,00FFFF,FFFFFF
+OM191OM179,rtm,"91","METRO LA TIMONE-LES CAILLOLS HOPITAL","",3,,000000,FFFFFF
+OET92,etang,"92","Berre - Ste Marie - St louis","",3,,000000,FFFFFF
+OZU1165,azur,"90","Vauban - Saint-André-de-la-Roche","",3,,000000,FFFFFF
+OMA907,ulysse,"907","Navette centre ville","",3,,000000,FFFFFF
+OZU1118,azur,"94","Halte Routière de l'Ara - Albert 1er / Verdun","",3,,000000,FFFFFF
+DGL95Ar12,tcl,"95","Jonage Chateau des Marres --> Meyzieu - Parc du Grand Large.","",3,,00FFFF,FFFFFF
+OM1921OM179,rtm,"921JET","METRO ROND POINT DU PRADO-LUMINY","",3,,000000,FFFFFF
+DGL93Ar4,tcl,"93","Parc Technologique --> Hopital Feyzin Venissieux","",3,,00FFFF,FFFFFF
+OMA9,ulysse,"9","Entressen Chateau d'eau - Istres Gare Routière","",3,,000000,FFFFFF
+DGL9Aa1,tcl,"9","Cordeliers --> Sathonay Castellane","",3,,00FFFF,FFFFFF
+OM89,envia,"9","EAD Fourchon","",3,,000000,FFFFFF
+OMP9,TAM,"9","Apollo - Grammont","",3,,000000,FFFFFF
+OMA15,ulysse,"9 BIS","Ligne 9 Bis","",3,,000000,FFFFFF
+DGL90Aa1,tcl,"90","Valmy - Place Ferber --> Ste Foy Chatelain.","",3,,00FFFF,FFFFFF
+OM19OM179,rtm,"9","LES CAILLOLS CENTRE URBAIN-ST JULIEN","",3,,000000,FFFFFF
+OET9,etang,"9","Les pallières - Les Pinchinades","",3,,000000,FFFFFF
+O38ABR08,transisere,"ABR08","VALENCOGNE-LA BATIE DIVISIN-LES ABRETS","",3,,000000,FFFFFF
+OM915,bsd,"C","St Louis / Morgan","",3,,000000,FFFFFF
+OM1BUSM2OM179,rtm,"BUSM2","JOLIETTE-METRO BOUGAINVILLE","",3,,000000,FFFFFF
+OZU7,azur,"C","Désambrois - Rimiez St Georges","",3,,000000,FFFFFF
+OM922,bsd,"C012","St Chamas inter","",3,,000000,FFFFFF
+OM920,bsd,"C056","Senas-Salon","",3,,000000,FFFFFF
+OIAC,ruban,"C","C","",3,,000000,FFFFFF
+OM919,bsd,"C001","Laman-Eyguiere","",3,,000000,FFFFFF
+O38BJA03,transisere,"BJA03","SATOLAS ET BONCE-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+O38BJA04,transisere,"BJA04","ST CHEF-ST SAVIN-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+OIABJA01,ruban,"BJA01","BJA01","",3,,000000,FFFFFF
+OIABJA02,ruban,"BJA02","BJA02","",3,,000000,FFFFFF
+O38BJA08,transisere,"BJA08","MORESTEL-SALAGNON-BOURGOIN  JALLIEU","",3,,000000,FFFFFF
+O38BJA09,transisere,"BJA09","ST ROMAIN DE JALIONAS-BOURGOIN","",3,,000000,FFFFFF
+O38BJA06,transisere,"BJA06","ST V. CESSIEU-SUCCIEU-SEREZIN-B.JALLIEU","",3,,000000,FFFFFF
+O38BJA07,transisere,"BJA07","BELMONT-BIOL-BOURGOIN JALLIEU","",3,,000000,FFFFFF
+DGLC15Aa1,tcl,"C15","Bachut - Mairie du 8eme --> Laurent Bonnevay","",3,,00FFFF,FFFFFF
+OM928,bsd,"C159","Berre-St Chamas","",3,,000000,FFFFFF
+DGLC13Ar4,tcl,"C13","Hotel de Ville - L. Pradel --> Grange Blanche","",3,,00FFFF,FFFFFF
+DGLC14Ar2,tcl,"C14","Les Sources --> Jean Mace","",3,,00FFFF,FFFFFF
+DGLC17Ar12,tcl,"C17","Porte des Alpes --> Charpennes Charles Hernu","",3,,00FFFF,FFFFFF
+OM933,bsd,"C171","Berre-Salon","",3,,000000,FFFFFF
+DGLC16Ar16,tcl,"C16","Surville Route de Vienne --> Charpennes Charles Hernu...","",3,,00FFFF,FFFFFF
+OM921,bsd,"C163","Lamanon-Salon","",3,,000000,FFFFFF
+OGR1,TAG,"C1","GRENOBLE Cité Jean Macé / MEYLAN Maupertuis","",3,,000000,FFFFFF
+OM43020,mtm,"C1","Chateauneuf les Martigues : Margnat - Raffinerie","",3,,000000,FFFFFF
+OM931,bsd,"C061","Lançon-Salon","",3,,000000,FFFFFF
+OM930,bsd,"C062","St Chamas/Salon","",3,,000000,FFFFFF
+DGLC11Ar2,tcl,"C11","Laurent Bonnevay --> Saxe - Gambetta.","",3,,00FFFF,FFFFFF
+DGLC12Aa13,tcl,"C12","Moulin a Vent --> Hopital Feyzin Venissieux","",3,,00FFFF,FFFFFF
+DGLC1Aa1,tcl,"C1","Gare Part-Dieu Vivier Merle --> Cuire","",3,,00FFFF,FFFFFF
+DGLC10Aa1,tcl,"C10","Bellecour Charite --> St Genis Barolles","",3,,00FFFF,FFFFFF
+O38BEA04,transisere,"BEA04","BELLEGARDE-MOISSIEU-JARCIEU-BEAUREPAIRE","",3,,000000,FFFFFF
+OM1B3BOM179,rtm,"B3B","METRO LA ROSE-TECHNOPOLE CHATEAU GOMBERT","",3,,000000,FFFFFF
+OM7BC1,mtm,"BC1","BC1","",3,,000000,FFFFFF
+OM1B3OM179,rtm,"B3","ST JEROME PARKING RELAIS-TECHNOPOLE CHATEAU GOMBERT","",3,,000000,FFFFFF
+OM1B3AOM179,rtm,"B3A","ST JEROME PARKING RELAIS-METRO MALPASSE","",3,,000000,FFFFFF
+O38BDO02,transisere,"BDO02","AURIS-MIZOEN-LE FRENEY-BOURG D'OISANS","",3,,000000,FFFFFF
+O38BDO03,transisere,"BDO03","VENOSC-BOURG D'OISANS","",3,,000000,FFFFFF
+OM7BC2,mtm,"BC2","BC2","",3,,000000,FFFFFF
+O38BDO01,transisere,"BDO01","ORNON-BOURG D'OISANS","",3,,000000,FFFFFF
+O38AVE01,transisere,"AVE01","BUVIN-LES AVENIERES","",3,,000000,FFFFFF
+O38AVE02,transisere,"AVE02","DOLOMIEU-VEYRINS-THUEL. - LES AVENIERES","",3,,000000,FFFFFF
+OIAALLEND,ruban,"ALLEND","ALLENDE","",3,,000000,FFFFFF
+OIAAUBRY,ruban,"AUBRY","AUBRY","",3,,000000,FFFFFF
+OM1B2OM179,rtm,"B2","METRO BOUGAINVILLE-VALLON DES TUVES","",3,,000000,FFFFFF
+OM97,bsd,"B","Papillons blancs / Place des Trophées / Joseph d'Arbaud","",3,,000000,FFFFFF
+OIAB,ruban,"B","B","",3,,000000,FFFFFF
+OVOBE33OVO20,voironnais,"BE33","FONTANIL CROIX ROCHETTE   MOIRANS BEGHIN","",3,,000000,FFFFFF
+OVOBE34OVO20,voironnais,"BE34","MOIRANS ESPACE JAIL   ST JEAN   BEGHIN","",3,,000000,FFFFFF
+OVOBE31OVO20,voironnais,"BE31","VOREPPE L ARCADE   MOIRANS P. BEGHIN","",3,,000000,FFFFFF
+OVOBE32OVO20,voironnais,"BE32","VOREPPE VOLOUISE   MOIRANS P. BEGHIN","",3,,000000,FFFFFF
+O38BEA02,transisere,"BEA02","LENTIOL-THODURE-BEAUFORT-BEAUREPAIRE","",3,,000000,FFFFFF
+O38BEA03,transisere,"BEA03","POMMIER DE B.-BEAUREPAIRE COLLEGE","",3,,000000,FFFFFF
+OVOBE35OVO20,voironnais,"BE35","MOIRANS BEGHIN    LE FONTANIL F. DOLTO","",3,,000000,FFFFFF
+O38BEA01,transisere,"BEA01","COUR ET BUIS-BEAUREPAIRE","",3,,000000,FFFFFF
+O38BDO08,transisere,"BDO08","RIOUPEROUX-LIVET-BOURG D'OISANS","",3,,000000,FFFFFF
+OVOBE11OVO20,voironnais,"BE11","REAUMONT LE GUICHARD   MOIRANS BEGHIN","",3,,000000,FFFFFF
+O38BDO04,transisere,"BDO04","VAUJANY-OZ-ALLEMONT-BOURG D'OISANS","",3,,000000,FFFFFF
+O38BDO05,transisere,"BDO05","LE BASSEY-LE VERT-BOURG D'OISANS","",3,,000000,FFFFFF
+OVOBE21OVO20,voironnais,"BE21","TULLINS CONDORCET   MOIRANS P. BEGHIN","",3,,000000,FFFFFF
+OVOBE22OVO20,voironnais,"BE22","TULLINS GARE SNCF   MOIRANS P. BEGHIN","",3,,000000,FFFFFF
+OVOBE12OVO20,voironnais,"BE12","APPRIEU LE RIVIER   MOIRANS BEGHIN","",3,,000000,FFFFFF
+OVOBE13OVO20,voironnais,"BE13","RIVES LES ABATTOIRES   MOIRANS BEGHIN","",3,,000000,FFFFFF
+OM9NAV1,bsd,"NAV1","Navette Libébulle D'Arbaud / Parking relais / Centre-ville","",3,,000000,FFFFFF
+OM9NAV2,bsd,"NAV2","Navette libébulle Danton / Gambetta","",3,,000000,FFFFFF
+OM9NAV,bsd,"NAV","Navette libébulle Gare / Parking relais / Centre-ville","",3,,000000,FFFFFF
+OZU1299,azur,"NAV1","Place Maréchal Juin - Le Suve","",3,,000000,FFFFFF
+OM8105,envia,"NAVIAA","NAVIA A - Arles","",3,,000000,FFFFFF
+OM8107,envia,"NAVIAS","NAVIA S - St Martin de Crau","",3,,000000,FFFFFF
+OZU1300,azur,"NAV2","Parking Sainte Anne - Hotel de Ville","",3,,000000,FFFFFF
+OM9NAV3,bsd,"NAV3","Navette libébulle Parking IUT / Lafayette / Hôpital","",3,,000000,FFFFFF
+OVONOVO20,voironnais,"N","LA BUISSE - CENTR'ALP","",3,,000000,FFFFFF
+OZU1091,azur,"N1","Noctambus EST","",3,,000000,FFFFFF
+O38MUR14,transisere,"MUR14","ST PIERRE DE MEAROTZ-LA MURE","",3,,000000,FFFFFF
+O38MUR15,transisere,"MUR15","VARCES-VIF-LA MURE","",3,,000000,FFFFFF
+OZU1087,azur,"N4","Noctambus OUEST","",3,,000000,FFFFFF
+OZU1152,azur,"N5","Noctambus MADELEINE","",3,,000000,FFFFFF
+OZU1090,azur,"N2","Noctambus CIMIEZ","",3,,000000,FFFFFF
+OZU1088,azur,"N3","Noctambus NORD","",3,,000000,FFFFFF
+OZU1274,azur,"P","Square Daudet - Urbain Bosio","",3,,000000,FFFFFF
+O38PALMA,transisere,"PALMA","PRIMAIRE VAUJANY-ALLEMONT","",3,,000000,FFFFFF
+OZU1186,azur,"O","Square Bourdet - Le Château","",3,,000000,FFFFFF
+O38PAPRA,transisere,"PAPRA","PRIMAIRE APPRIEU","",3,,000000,FFFFFF
+O38PARAA,transisere,"PARAA","RPI ARANDON-PASSINS","",3,,000000,FFFFFF
+O38PAOSA,transisere,"PAOSA","PRIMAIRE GRANIEU-AOSTE","",3,,000000,FFFFFF
+O38PAPPB,transisere,"PAPPB","RPI ST APPOLINARD-CHEVRIERES-MURINAIS","",3,,000000,FFFFFF
+OIANIV01,ruban,"NIV01","NIV01","",3,,000000,FFFFFF
+O38NIV02,transisere,"NIV02","ST GEOIRE VNE-PT BEAUVOISIN-N.VERMELLE","",3,,000000,FFFFFF
+OM8106,envia,"NAVIAT","NAVIA T - Tarascon","",3,,000000,FFFFFF
+O38NIV01,transisere,"NIV01","LES EPARRES-NIVOLAS (Cor. LD 1140)","",3,,000000,FFFFFF
+O38NIV05,transisere,"NIV05","VILLETTE D'ANTHON-NIVOLAS VERMELLE","",3,,000000,FFFFFF
+O38NIV06,transisere,"NIV06","ST ROMAIN DE JALIONAS-NIVOLAS VERMELLE","",3,,000000,FFFFFF
+O38NIV03,transisere,"NIV03","LA T. DU PIN-NIVOLAS VERMELLE (ST-MARC)","",3,,000000,FFFFFF
+O38NIV04,transisere,"NIV04","CESSIEU-LA TOUR DU PIN-NIVOLAS VERMELLE","",3,,000000,FFFFFF
+O38MUR13,transisere,"MUR13","ORIS EN RATIER-SIEVOZ-LA MURE","",3,,000000,FFFFFF
+O38MRL03,transisere,"MRL03","CHARETTE-OPTEVOZ-TREPT-MORESTEL","",3,,000000,FFFFFF
+O38MRL04,transisere,"MRL04","PASSINS-MORESTEL (CORRESPONDANCE)","",3,,000000,FFFFFF
+O38MRL01,transisere,"MRL01","LES AVENIERES-CURTIN-MORESTEL","",3,,000000,FFFFFF
+O38MRL02,transisere,"MRL02","POLEYRIEU-CREYS MEPIEU-MORESTEL","",3,,000000,FFFFFF
+O38MRL07,transisere,"MRL07","LE BAYARD-CREYS-ST VICTOR-MORESTEL","",3,,000000,FFFFFF
+O38MRL09,transisere,"MRL09","BOUVESSE-COURTENAY-MORESTEL","",3,,000000,FFFFFF
+O38MRL05,transisere,"MRL05","CREYS-MORESTEL (CORRESPONDANCE)","",3,,000000,FFFFFF
+O38MRL06,transisere,"MRL06","CORBELIN-BUVIN-MORESTEL","",3,,000000,FFFFFF
+O38MON02,transisere,"MON02","GRESSE-ST MICHEL PORTES-MONESTIER DE C.","",3,,000000,FFFFFF
+O38MON03,transisere,"MON03","MIRIBEL LANCHATRE-ST GUILLAUME-MONESTIER","",3,,000000,FFFFFF
+O38MOI01,transisere,"MOI01","POLIENAS-LA RIVIERE-ST QUENTIN-MOIRANS","",3,,000000,FFFFFF
+O38MON01,transisere,"MON01","ROISSARD-MONESTIER DE CLERMONT","",3,,000000,FFFFFF
+O38MON07,transisere,"MON07","TAD CHATEAU BERNARD-MONESTIER DE CLER.","",3,,000000,FFFFFF
+OIAMOZAS,ruban,"MOZAS","MOZAS","",3,,000000,FFFFFF
+O38MON04,transisere,"MON04","ST MARTIN DE LA CLUZE-SINARD-MONESTIER D","",3,,000000,FFFFFF
+O38MON05,transisere,"MON05","CHATEAU BERNARD-MONESTIER DE CLERMONT","",3,,000000,FFFFFF
+O38MUR05,transisere,"MUR05","LAFFREY-ND DE VAULX-LA MURE","",3,,000000,FFFFFF
+O38MUR06,transisere,"MUR06","MARCIEU-MAYRES SAVEL-PRUNIERES-LA MURE","",3,,000000,FFFFFF
+O38MTV04,transisere,"MTV04","MEPIEU-BOUVESSE QUIRIEU-MONTALIEU","",3,,000000,FFFFFF
+O38MUR01,transisere,"MUR01","COGNET-PONSONNAS-LA MURE(Ces/Lycees)","",3,,000000,FFFFFF
+O38MUR11,transisere,"MUR11","ST JEAN DE VAULX-ND DE VAULX-LA MURE","",3,,000000,FFFFFF
+O38MUR12,transisere,"MUR12","LAFFREY-CHOLONGE-LA MURE","",3,,000000,FFFFFF
+O38MUR07,transisere,"MUR07","NANTES EN RATIER-ST HONORE-LA MURE","",3,,000000,FFFFFF
+O38MUR08,transisere,"MUR08","VIZILLE-LAFFREY-SUSVILLE-LA MURE","",3,,000000,FFFFFF
+O38MRL12,transisere,"MRL12","CONCHARBIN-ST VICTOR MORESTEL-MORESTEL","",3,,000000,FFFFFF
+O38MRL13,transisere,"MRL13","BRANGUES-LE BOUCHAGE-MORESTEL","",3,,000000,FFFFFF
+O38MRL10,transisere,"MRL10","COURTENAY-ARANDON-MORESTEL","",3,,000000,FFFFFF
+O38MRL11,transisere,"MRL11","SOLEYMIEU-SERMERIEU-MORESTEL","",3,,000000,FFFFFF
+O38MTV02,transisere,"MTV02","LA BALME LES GROTTES-MONTALIEU","",3,,000000,FFFFFF
+O38MTV03,transisere,"MTV03","ST BAUDILLE DE LA TOUR-MONTALIEU","",3,,000000,FFFFFF
+O38MRL14,transisere,"MRL14","CREMIEU-SOLEYMIEU-MORESTEL","",3,,000000,FFFFFF
+O38MTV01,transisere,"MTV01","AMBLERIEU-PARMILIEU-CHARETTE-MONTALIEU","",3,,000000,FFFFFF
+O38PAUTA,transisere,"PAUTA","PRIMAIRE AUTRANS","",3,,000000,FFFFFF
+O38PCOGA,transisere,"PCOGA","MALLEVAL-COGNIN LES GORGES","",3,,000000,FFFFFF
+OIAPCRAA,ruban,"PCRAA","PCRAA","",3,,000000,FFFFFF
+O38PCLEA,transisere,"PCLEA","PRIMAIRE LE PERCY-CLELLES","",3,,000000,FFFFFF
+O38PCOBA,transisere,"PCOBA","PRIMAIRE CORBELIN","",3,,000000,FFFFFF
+O38PCRPA,transisere,"PCRPA","PRIMAIRE MONESTIER D'AMBEL-CORPS","",3,,000000,FFFFFF
+O38PCRPB,transisere,"PCRPB","PRIMAIRE STE LUCE-COTES DE CORPS-CORPS","",3,,000000,FFFFFF
+O38PCREA,transisere,"PCREA","CHARVIEU-CREMIEU (ST-AUGUSTIN)","",3,,000000,FFFFFF
+O38PCRMA,transisere,"PCRMA","PRIMAIRE CREYS MEPIEU","",3,,000000,FFFFFF
+O38PCHEA,transisere,"PCHEA","PRIMAIRE CHATTE COTEAU","",3,,000000,FFFFFF
+O38PCHEB,transisere,"PCHEB","PRIMAIRE CHATTE PLAINE","",3,,000000,FFFFFF
+O38PCH11,transisere,"PCH11","JANNEYRIAS-VILLETTE-PT DE CHERUY","",3,,000000,FFFFFF
+O38PCHBA,transisere,"PCHBA","PRIMAIRE CHABONS","",3,,000000,FFFFFF
+O38PCHTB,transisere,"PCHTB","RPI CHARETTE-PARMILIEU","",3,,000000,FFFFFF
+OIVPCHUOIV19,viennois,"PCHU","Primaire Chuzelles","",3,,000000,FFFFFF
+O38PCHLA,transisere,"PCHLA","PRIMAIRE CHELIEU","",3,,000000,FFFFFF
+O38PCHTA,transisere,"PCHTA","ST BAUDILLE DE LA TOUR-CHARETTE (MAT.)","",3,,000000,FFFFFF
+OIVPEVOIV19,viennois,"PEV","Moidieu Détourbe - Estrablin - Pont Evêque","",3,,000000,FFFFFF
+OIVPEYZOIV19,viennois,"PEYZ","Primaire Eyzin Pinet","",3,,000000,FFFFFF
+O38PER05,transisere,"PER05","ST P DE CHERENNES-ST ROMANS-PT EN ROYANS","",3,,000000,FFFFFF
+OIVPESBOIV19,viennois,"PESB","Primaire Estrablin","",3,,000000,FFFFFF
+O38PHIEA,transisere,"PHIEA","PRIMAIRE VERNAS-HIERES SUR AMBY","",3,,000000,FFFFFF
+O38PHUEA,transisere,"PHUEA","PRIMAIRE L'ALPE-D'HUEZ","",3,,000000,FFFFFF
+O38PFAVA,transisere,"PFAVA","PRIMAIRE FAVERGES DE LA TOUR","",3,,000000,FFFFFF
+O38PGERA,transisere,"PGERA","RPI ST GERVAIS-ROVON-COGNIN","",3,,000000,FFFFFF
+O38PDOLA,transisere,"PDOLA","PRIMAIRE DOLOMIEU","",3,,000000,FFFFFF
+OIAPEPAA,ruban,"PEPAA","PEPAA","",3,,000000,FFFFFF
+O38PCRSA,transisere,"PCRSA","RPI CRAS-MORETTE-VATILIEU-ND L'OSIER","",3,,000000,FFFFFF
+O38PCRTA,transisere,"PCRTA","PRIMAIRE COURTENAY","",3,,000000,FFFFFF
+O38PER03,transisere,"PER03","PRESLES-CHORANCHE-PT EN ROYANS","",3,,000000,FFFFFF
+O38PER04,transisere,"PER04","IZERON-ST ANDRE-PT EN ROYANS","",3,,000000,FFFFFF
+O38PER01,transisere,"PER01","CHATELUS-CHORANCHE-PT EN ROYANS","",3,,000000,FFFFFF
+O38PER02,transisere,"PER02","RENCUREL-PT EN ROYANS","",3,,000000,FFFFFF
+O38PCH10,transisere,"PCH10","SAINT ROMAIN DE JALIONAS-PONT DE CHERUY","",3,,000000,FFFFFF
+O38PBE07,transisere,"PBE07","BIOL-MONTREVEL-ST VICTOR-PONT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE08,transisere,"PBE08","STE BLANDINE-VIRIEU-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE05,transisere,"PBE05","FAVERGES-CHIMILIN-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE06,transisere,"PBE06","LA T. PIN-ST DIDIER-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE11,transisere,"PBE11","PALADRU-PRESSINS-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE12,transisere,"PBE12","MONTFERRAT-LA B.DIVISIN-PT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE09,transisere,"PBE09","LA B. MONTGASCON-FITILIEU-PT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE10,transisere,"PBE10","ST ANDRE LE GAZ-LES ABRETS-PT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBATA,transisere,"PBATA","PRIMAIRE LA BATIE DIVISIN","",3,,000000,FFFFFF
+O38PBDOA,transisere,"PBDOA","LA PAUTE-BOURG D'OISANS","",3,,000000,FFFFFF
+O38PAVIA,transisere,"PAVIA","RPI AVIGNONET-ST MARTIN DE LA CLUZE","",3,,000000,FFFFFF
+O38PBALA,transisere,"PBALA","RPI VERTRIEU-LA BALME LES GROTTES","",3,,000000,FFFFFF
+O38PBE03,transisere,"PBE03","MORESTEL-LES AVENIERES-PT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE04,transisere,"PBE04","ST CLAIR-ROMAGNIEU-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE01,transisere,"PBE01","CORBELIN-GRANIEU-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE02,transisere,"PBE02","AOSTE-ROMAGNIEU-LES ABRETS-P. BEAUVOISIN","",3,,000000,FFFFFF
+O38PBVQA,transisere,"PBVQA","PRIMAIRE BOUVESSE QUIRIEU","",3,,000000,FFFFFF
+O38PCH03,transisere,"PCH03","SOLEYMIEU-SICCIEU-DIZIMIEU-PT DE CHERUY","",3,,000000,FFFFFF
+O38PBOUA,transisere,"PBOUA","PRIMAIRE BOUGE CHAMBALUD","",3,,000000,FFFFFF
+OIAPBVH,ruban,"PBVH","PRE BENIT VICTOR HUGO","",3,,000000,FFFFFF
+O38PCH06,transisere,"PCH06","MORAS-CHOZEAU-PONT DE CHERUY","",3,,000000,FFFFFF
+O38PCH07,transisere,"PCH07","CHARVIEU CHAVAGNEUX-PT DE CHERUY","",3,,000000,FFFFFF
+O38PCH04,transisere,"PCH04","ST BAUDILLE-ANNOISIN-TIGNIEU-PT CHERUY","",3,,000000,FFFFFF
+O38PCH05,transisere,"PCH05","ANTHON-CHAVANOZ-PT DE CHERUY (Collège)","",3,,000000,FFFFFF
+O38PBE15,transisere,"PBE15","ST L. PONT-ENTRE 2 GUIERS-PT BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE16,transisere,"PBE16","ST GEOIRE EN VALDAINE-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE13,transisere,"PBE13","VELANNE-CHARANCIEU-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBE14,transisere,"PBE14","VELANNE-PONT DE BEAUVOISIN","",3,,000000,FFFFFF
+O38PBLIA,transisere,"PBLIA","RPI TECHE-BEAULIEU","",3,,000000,FFFFFF
+O38PBONA,transisere,"PBONA","PRIMAIRE BONNEFAMILLE","",3,,000000,FFFFFF
+O38PBFTA,transisere,"PBFTA","RPI THODURE - BEAUFORT","",3,,000000,FFFFFF
+O38PBIOA,transisere,"PBIOA","PRIMAIRE BIOL","",3,,000000,FFFFFF
+OVOML31OVO20,voironnais,"ML31","POMMIERS RD 520 VILLAGE   VOREPPE MAIRIE","",3,,000000,FFFFFF
+OVOGA71OVO20,voironnais,"GA71","LA MURETTE VILLAGE   VOIRON LA GARENNE","",3,,000000,FFFFFF
+OVOGA72OVO20,voironnais,"GA72","ST CASSIEN MALOZA   VOIRON LA GARENNE","",3,,000000,FFFFFF
+OGEG61OGE23,gresivaudan,"G61","La Ferrière - Allevard","",3,,000000,FFFFFF
+OGEG70OGE23,gresivaudan,"G70","Saint-Martin d’Uriage - Gières","",3,,000000,FFFFFF
+OVOGA75OVO20,voironnais,"GA75","LA MURETTE COURATIERE   VOIRON GARENNE","",3,,000000,FFFFFF
+OVOGA76OVO20,voironnais,"GA76","VOIRON LES TUILERIES   VOIRON LA GARENNE","",3,,000000,FFFFFF
+OVOGA73OVO20,voironnais,"GA73","LES CHARTREUX   LA GARENNE","",3,,000000,FFFFFF
+OVOGA74OVO20,voironnais,"GA74","VOIRON LAVOIR CRIEL   LA GARENNE","",3,,000000,FFFFFF
+OGEG5OGE23,gresivaudan,"G5","Pontcharra - Le Cheylas - Goncelin - Bernin","",3,,000000,FFFFFF
+OGEG50OGE23,gresivaudan,"G50","Pontcharra - Barraux - La Flachère - St-Vincent de Mercuze - Le Touvet - Gonceli","",3,,000000,FFFFFF
+OGEG4OGE23,gresivaudan,"G4","Goncelin - Froges - Bernin","",3,,000000,FFFFFF
+OGEG40OGE23,gresivaudan,"G40","Theys - Goncelin","",3,,000000,FFFFFF
+OGEG6OGE23,gresivaudan,"G6","Allevard - Goncelin - Pontcharra - Crolles","",3,,000000,FFFFFF
+OGEG60OGE23,gresivaudan,"G60","Allevard - La Chapelle-du-Bard - Le Moutaret - Saint-Maximin - Pontcharra","",3,,000000,FFFFFF
+OGEG51OGE23,gresivaudan,"G51","Chapareillan - Barraux - Pontcharra","",3,,000000,FFFFFF
+OGEG52OGE23,gresivaudan,"G52","Pontcharra - Chapareillan - Challes-les-Eaux","",3,,000000,FFFFFF
+O38HEY01,transisere,"HEY01","VALENCIN-ST J. CHALEYSSIN-HEYRIEUX","",3,,000000,FFFFFF
+O38HIE01,transisere,"HIE01","PARMILIEU-HIERES SUR AMBY (cor. 1981)","",3,,000000,FFFFFF
+OZU1182,azur,"H","Square Bourdet - Hôtel de Ville","",3,,000000,FFFFFF
+O38IDB03,transisere,"IDB03","SATOLAS-FRONTONAS-L'ISLE D'ABEAU","",3,,000000,FFFFFF
+O38IDB05,transisere,"IDB05","GRENAY-LA VERPILLIERE-L'ISLE D'ABEAU","",3,,000000,FFFFFF
+OZU1183,azur,"I","Collège A. MALRAUX - Parc des Sports","",3,,000000,FFFFFF
+O38IDB01,transisere,"IDB01","ST ALBAN DE ROCHE-ROCHE-L'ISLE D'ABEAU","",3,,000000,FFFFFF
+DGLGE6Aa1,tcl,"GE6","Charbonnieres Gare --> Charbonnieres Gare","",3,,00FFFF,FFFFFF
+O38GEN01,transisere,"GEN01","ST ROMAIN JALIONAS-ANTHON-GENAS (AZIEU)","",3,,000000,FFFFFF
+DGLGE2Ar4,tcl,"GE2","Solaize CRES --> Feyzin Gare","",3,,00FFFF,FFFFFF
+DGLGE4Aa1,tcl,"GE4","La Tour de Salvagny Gare --> Techlid Le Tronchon","",3,,00FFFF,FFFFFF
+O38GRE04,transisere,"GRE04","VIENNE-GRENOBLE","",3,,000000,FFFFFF
+OIAH,ruban,"H","H","",3,,000000,FFFFFF
+O38GEN02,transisere,"GEN02","PONT DE CHERUY-TIGNIEU-GENAS (AZIEU)","",3,,000000,FFFFFF
+O38GIE01,transisere,"GIE01","GONCELIN-VILLARD BONNOT-GIERES DON BOSCO","",3,,000000,FFFFFF
+OGEG3OGE23,gresivaudan,"G3","Villard-Bonnot - Crolles - Le Touvet - Goncelin","",3,,000000,FFFFFF
+OM44025,mtm,"ES15","Collège Petit Prince / Chantegrive Héron","",3,,000000,FFFFFF
+OM44026,mtm,"ES16","Collège Petit Prince / Miette","",3,,000000,FFFFFF
+OM44023,mtm,"ES13","Ensues Miette pour Collège Petit Prince","",3,,000000,FFFFFF
+OM44024,mtm,"ES14","Collège Petit Prince / Miette","",3,,000000,FFFFFF
+OGEESATNOGE23,gresivaudan,"ESATN","ESAT Nord","",3,,000000,FFFFFF
+OGEESATSOGE23,gresivaudan,"ESATS","ESAT Sud","",3,,000000,FFFFFF
+OM44027,mtm,"ES17","Collège Petit Prince / Chantegrive EDF","",3,,000000,FFFFFF
+OM44123,mtm,"ES19","Collège Petit Prince pour Ensues Miette","",3,,000000,FFFFFF
+OM44016,mtm,"ES06","Creux du Loup / Lycée Blériot Genevoix","",3,,000000,FFFFFF
+OM44017,mtm,"ES07","Lycée Louis Blériot/Val Ricard","",3,,000000,FFFFFF
+OM44014,mtm,"ES04","Rond Point Chantegrive/Ecole Primaire F Mistral","",3,,000000,FFFFFF
+OM44015,mtm,"ES05","Miette / Lycée Blériot Genevoix","",3,,000000,FFFFFF
+OM44021,mtm,"ES11","Ensues Creux du Loup 2 pour Collège Petit Prince","",3,,000000,FFFFFF
+OM44022,mtm,"ES12","Ensues Centre pour Collège Petit Prince","",3,,000000,FFFFFF
+OM44019,mtm,"ES09","Miette / College Petit Prince","",3,,000000,FFFFFF
+OM44020,mtm,"ES10","Madragues de Gignac pour Collège Petit Prince","",3,,000000,FFFFFF
+OIAF31,ruban,"F31","F31","",3,,000000,FFFFFF
+OABFX-A,aixenbus,"FX-A","FLEXO SECTEUR A","",3,,000000,FFFFFF
+OIAF30,ruban,"F30","F30","",3,,000000,FFFFFF
+OIAF30S,ruban,"F30S","F30S","",3,,000000,FFFFFF
+OGEG2OGE23,gresivaudan,"G2","Bernin - Villard-Bonnot - Le Versoud - Montbonnot - Meylan","",3,,000000,FFFFFF
+OGEG20OGE23,gresivaudan,"G20","Revel - Domène","",3,,000000,FFFFFF
+OABFX-B,aixenbus,"FX-B","FLEXO SECTEUR B","",3,,000000,FFFFFF
+OZU1181,azur,"G","Ecole Mozart -Ecole Daudet","",3,,000000,FFFFFF
+O38EXP3,transisere,"EXP3","EXPRESS VIZILLE-GRENOBLE (EXP-3)","",3,,000000,FFFFFF
+O38EXP4,transisere,"EXP4","EXPRESS CREMIEU-MEYZIEU","",3,,000000,FFFFFF
+O38EXP1,transisere,"EXP1","EXPRESS VOIRON-GRENOBLE-CROLLES (EXP-1)","",3,,000000,FFFFFF
+O38EXP2,transisere,"EXP2","EXPRESS CHAMP PRES FROGES-VOREPPE (EXP-2)","",3,,000000,FFFFFF
+OZU1211,azur,"F","Désembrois - Aire Saint-Michel","",3,,000000,FFFFFF
+OVOFOVO20,voironnais,"F","MONTFERRAT - BILIEU - CHIRENS - VOIRON","",3,,000000,FFFFFF
+OIAEXTERN,ruban,"EXTERN","EXTERNAT","",3,,000000,FFFFFF
+OIAF,ruban,"F","F","",3,,000000,FFFFFF
+O38IDB06,transisere,"IDB06","ST J. CHALEYSSIN-HEYRIEUX-L'ISLE D'ABEAU","",3,,000000,FFFFFF
+O38MAR08,transisere,"MAR08","ST HILAIRE-LA SONE-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR09,transisere,"MAR09","IZERON-ST PIERRE-ST SAUVEUR-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR06,transisere,"MAR06","MONTAGNE-ST LATTIER-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR07,transisere,"MAR07","ST HILAIRE DU ROSIER-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR13,transisere,"MAR13","POLIENAS-L'ALBENC-VINAY-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR14,transisere,"MAR14","ST LATTIER-ST H. DU ROSIER-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR10,transisere,"MAR10","ST QUENTIN-ST GERVAIS-ROVON-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR12,transisere,"MAR12","MORETTE-ND L'OSIER-VINAY (CORR. LYCEE)","",3,,000000,FFFFFF
+OVOMA71OVO20,voironnais,"MA71","VOIRON GARE SUD   VOIRON LA MARTELIERE","",3,,000000,FFFFFF
+O38MAR01,transisere,"MAR01","SERRE NERPOL-VARACIEUX-ST MARCELLIN","",3,,000000,FFFFFF
+OABM3,aixenbus,"M3","LA CHEVALIERE-BEAUVALLON <> PISCINE Y. BLANC","",3,,000000,FFFFFF
+OABM4,aixenbus,"M4","BELLEGARDE <> PISCINE Y. BLANC","",3,,000000,FFFFFF
+O38MAR04,transisere,"MAR04","MURINAIS-CHEVRIERES-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR05,transisere,"MAR05","ST ANTOINE-MONTAGNE-CHATTE-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR02,transisere,"MAR02","CHEVRIERES-CHATTE-ST MARCELLIN","",3,,000000,FFFFFF
+O38MAR03,transisere,"MAR03","BESSINS-ST APPOLINARD-ST MARCELLIN","",3,,000000,FFFFFF
+O38MEN07,transisere,"MEN07","ST BAUDILLE ET PIPET (LE PERRIER)-MENS","",3,,000000,FFFFFF
+O38MEN08,transisere,"MEN08","ST BAUDILLE ET PIPET-MENGLAS-MENS","",3,,000000,FFFFFF
+O38MEN05,transisere,"MEN05","CHICHILIANNE-CLELLES-MENS","",3,,000000,FFFFFF
+O38MEN06,transisere,"MEN06","LAVARS-CORNILLON EN TRIEVES-MENS","",3,,000000,FFFFFF
+O38MEN11,transisere,"MEN11","COL DE ST SEBASTIEN-MENTEYRE-MENS","",3,,000000,FFFFFF
+O38MEY01,transisere,"MEY01","BIVIERS-MONTBONNOT-MEYLAN","",3,,000000,FFFFFF
+O38MEN09,transisere,"MEN09","ST MAURICE EN TRIEVES-PREBOIS-MENS","",3,,000000,FFFFFF
+O38MEN10,transisere,"MEN10","CORDEAC-SAINT SEBASTIEN-MENS","",3,,000000,FFFFFF
+O38MAV04,transisere,"MAV04","LAFFREY-LA MOTTE D'AVEILLANS","",3,,000000,FFFFFF
+O38MEE01,transisere,"MEE01","CHATONNAY-MEYRIEU LES ETANGS corres2090","",3,,000000,FFFFFF
+O38MAV01,transisere,"MAV01","LA MURE-SUSVILLE-LA MOTTE D'AVEILLANS","",3,,000000,FFFFFF
+O38MAV03,transisere,"MAV03","LA MOTTE ST MARTIN-LA MOTTE D'AVEILLANS","",3,,000000,FFFFFF
+O38MEN03,transisere,"MEN03","TREMINIS-PREBOIS-ST BAUDILLE-MENS","",3,,000000,FFFFFF
+O38MEN04,transisere,"MEN04","GRENOBLE-MENS (INTERNES)","",3,,000000,FFFFFF
+O38MEN01,transisere,"MEN01","ST JEAN D'HERANS-MENS","",3,,000000,FFFFFF
+O38MEN02,transisere,"MEN02","TREMINIS-MENS","",3,,000000,FFFFFF
+OABM2,aixenbus,"M2","CUQUES <> MALHERBE-HOPITAL TAMARIS","",3,,000000,FFFFFF
+O38LEM02,transisere,"LEM02","APPRIEU-LE GRAND LEMPS COLLEGE","",3,,000000,FFFFFF
+O38LEM03,transisere,"LEM03","BELMONT-BIZONNES-LE GRAND LEMPS COLLEGE","",3,,000000,FFFFFF
+O38LAF01,transisere,"LAF01","LE SAPEY-LAFFREY (CORRESPONDANCE)","",3,,000000,FFFFFF
+O38LEM01,transisere,"LEM01","COLOMBE-LE GRAND LEMPS","",3,,000000,FFFFFF
+O38LEM06,transisere,"LEM06","OYEU-BURCIN-LE GRAND LEMPS COLLEGE","",3,,000000,FFFFFF
+O38LTP03,transisere,"LTP03","BOIS DE CESSIEU-ROCHETOIRIN-TOUR DU PIN","",3,,000000,FFFFFF
+O38LEM04,transisere,"LEM04","FLACHERES-LONGECHENAL-LE GRAND LEMPS","",3,,000000,FFFFFF
+O38LEM05,transisere,"LEM05","VIRIEU-CHABONS-LE GRAND LEMPS","",3,,000000,FFFFFF
+OZU1212,azur,"K","Castagniers Les Moulins - Saint Blaise Village","",3,,000000,FFFFFF
+OZU1272,azur,"L","Las Planas / Sappia - Chateauneuf","",3,,000000,FFFFFF
+OZU1184,azur,"J","Square Bourdet - Parc des Sports","",3,,000000,FFFFFF
+OMP15,TAM,"La Ronde (","Place de France - Saint-Cléophas","",3,,000000,FFFFFF
+OVOLACOVO20,voironnais,"LAC","VOIRON GARE NORD   PALADRU VILLAGE","",3,,000000,FFFFFF
+OVOLOVO20,voironnais,"L","RIVES - VOIRON","",3,,000000,FFFFFF
+OMP13,TAM,"La Navette","Universités des Sciences et Lettres - Saint-Éloi","",3,,000000,FFFFFF
+OM53014,marcouline,"M06","Cassis - Carnoux - Marseille","",3,,000000,FFFFFF
+OM54118,marcouline,"M061","Cassis - Carnoux - Marseille","",3,,000000,FFFFFF
+OM53012,marcouline,"M05","Carnoux - Cassis - La Ciotat","",3,,000000,FFFFFF
+OM54119,marcouline,"M051","La Ciotat - St Augustin","",3,,000000,FFFFFF
+OM53018,marcouline,"M09","Cassis - Carnoux - Roquefort - Géménos","",3,,000000,FFFFFF
+OABM1,aixenbus,"M1","CITE DU LIVRE <> LA TORSE-VAL SAINT ANDRE","",3,,000000,FFFFFF
+OM53015,marcouline,"M07","La Ciotat - Roquefort-la-Bedoule","",3,,000000,FFFFFF
+OM53016,marcouline,"M08","Carnoux - Cassis - Marseille par la Gineste","",3,,000000,FFFFFF
+O38LTP06,transisere,"LTP06","VIRIEU SUR BOURBRE-LA TOUR DU PIN","",3,,000000,FFFFFF
+O38LTP07,transisere,"LTP07","PT DE BEAUVOISIN-LA T.DU PIN LE CALLOUD","",3,,000000,FFFFFF
+O38LTP04,transisere,"LTP04","AOSTE-FAVERGES-LA TOUR DU PIN","",3,,000000,FFFFFF
+O38LTP05,transisere,"LTP05","BELMONT-ST VICTOR-LA TOUR DU PIN","",3,,000000,FFFFFF
+OIAM,ruban,"M","M","",3,,000000,FFFFFF
+OM53009,marcouline,"M01","Cassis Casino - Gare SNCF","",3,,000000,FFFFFF
+O38LTP09,transisere,"LTP09","CESSIEU-LA TOUR DU PIN (LE CALLOUD)","",3,,000000,FFFFFF
+OZU1273,azur,"M","La Madeleine - Parc Impérial","",3,,000000,FFFFFF
