@@ -2,6 +2,7 @@ package com.alstom.Launcher.Configurations
 
 import com.alstom.GTFSOperations.IOOperations._
 import com.alstom.GTFSOperations.{GTFSMethods, IOOperations}
+import com.alstom.utils.paris.ParisUtils.getGeoJsonPathList
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.Path
 import org.apache.spark.sql.expressions.{Window, WindowSpec}
@@ -68,17 +69,11 @@ class Lyon (implicit spark: SparkSession) {
 
    println("Start Add Shapes from GeoJson")
 
-   val geoJsonPaths_list = ArrayBuffer[String]()
-
-   if (isLocalEnv)
-     getFilesInLocalDirectory(outputPath).foreach(file => geoJsonPaths_list += file.toString)
-   else
-     getFilesInHdfsDirectory(outputPath).foreach(file => geoJsonPaths_list += file.getPath.toString)
-
+   val geoJsonPathsList = getGeoJsonPathList(outputPath)
 
    val originalShapes = dataframeList(8)
    var shapesGenerated = new mutable.ListBuffer[DataFrame]
-   for (geojsonPath <- geoJsonPaths_list) {
+   for (geojsonPath <- geoJsonPathsList) {
 
      val (fileName, fileExtension) = IOOperations.getFileNameAndExtFromPath(geojsonPath.toString)
      println(fileName)
@@ -273,7 +268,7 @@ class Lyon (implicit spark: SparkSession) {
       .withColumnRenamed("stop_sequence_dest","stop_sequence_dest_a")
 
     finalt.persist(StorageLevel.MEMORY_ONLY)
-    println(s"FinalT size is ${finalt.count}")
+    //println(s"FinalT size is ${finalt.count}")
 
 
     val tabfinal = dictprop.join(finalt,dictprop("stop_id")===finalt("stop_id_a")&&
@@ -283,7 +278,7 @@ class Lyon (implicit spark: SparkSession) {
       drop("stop_id_a","stop_id_dest_a","stop_sequence_a","stop_sequence_dest_a","shape_id_a")
 
     tabfinal.persist(StorageLevel.MEMORY_ONLY)
-    println(s"TabFinal size is ${tabfinal.count}")
+    //println(s"TabFinal size is ${tabfinal.count}")
 
     val wSpec5 = Window.partitionBy("shape_id").orderBy("stop_sequence").rowsBetween(Long.MinValue, 0)
     val wSpec6 = Window.partitionBy("shape_id").orderBy("stop_sequence_a").rowsBetween(Long.MinValue, 0)

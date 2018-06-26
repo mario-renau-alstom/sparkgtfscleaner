@@ -11,8 +11,8 @@ val scalaLoggingVersion = "3.9.0"
 
 libraryDependencies ++= Seq(
     "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-    "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
-    "org.apache.hadoop" % "hadoop-common" % hadoopVersion % "provided",
+    "org.apache.spark" %% "spark-sql" % sparkVersion  % "provided",
+    "org.apache.hadoop" % "hadoop-common" % hadoopVersion  % "provided",
     "org.jmockit" % "jmockit" % jmockitVersion % "test",
     "org.apache.spark" %% "spark-hive" % sparkVersion % "provided",
     "com.typesafe" % "config" % typeSafeConfigVersion,

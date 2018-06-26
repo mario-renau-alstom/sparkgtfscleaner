@@ -265,7 +265,7 @@ object GTFSMethods {
         withColumnRenamed("shape_pt_lon", "stop_lon").
         withColumnRenamed("shape_pt_sequence", "stop_sequence")
 
-      shapes_new.checkpoint()
+      shapes_new.cache()
 
       // Master Dict
       val master_dict =  shapes_new.join(stops.filter($"stop_id".contains("StopPoint")), Seq("stop_lat", "stop_lon")).
@@ -313,7 +313,7 @@ object GTFSMethods {
         withColumn("stop_lon_last", last("stop_lon").over(wDistLast)).
         withColumn("coor_flat", explode($"coor_list")).orderBy("shape_id","route_id","direction_id","stop_sequence").distinct()
 
-      shapesRev.checkpoint()
+      shapesRev.cache()
 
       // Get Valid GeoJson Shape for each GTFS Shape
       val wShapes = Window.partitionBy("shape_id").orderBy(asc("distance"))
@@ -362,7 +362,7 @@ object GTFSMethods {
       var shapesDFlast = shapes_cloned.alias("shapeDF").join(shapeDFlastDist.select("shape_id").alias("shapeDFlastDist"), Seq("shape_id"), "leftouter").where($"shapeDFlastDist.shape_id".isNull).drop($"shapeDFlastDist.shape_id")
       shapesDFlast.union(shapeDFlastDist).orderBy("shape_id","shape_pt_sequence")
 
-      shapesDFlast.checkpoint()
+      shapesDFlast.cache()
 
       dataframesOutput += (routes,stops,trips,stop_times,agency,calendar_dates,calendar,transfers,shapesDFlast,dict_tripId_shapeId)
       dataframesOutput.toList
@@ -453,7 +453,7 @@ object GTFSMethods {
         agg(collect_list("coor_list").alias("coor_list")).
         join(trips.select("trip_id","route_id"), Seq("route_id")).join(dict_tripId_shapeId, "trip_id").
         select("route_id","direction_id","infos","coor_list","shape_id").distinct()
-      dict_routesGTFS.count()
+      //dict_routesGTFS.count()
 
       // Routes from gtfs in geojson with their shape id and stops
       var listShapesBySeq = dict_routesGTFS.join(master_dict_cloned.select("shape_id","stop_sequence","stop_lat","stop_lon").distinct(),"shape_id").
@@ -530,10 +530,10 @@ object GTFSMethods {
       // Generate shape final
 
       val shapes_cloned = shapes.toDF("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled")
-      var shapesDFlast = shapes_cloned.alias("shapeDF").join(shapeDFlastDist.select("shape_id").alias("shapeDFlastDist"), Seq("shape_id"), "leftouter").where($"shapeDFlastDist.shape_id".isNull).drop($"shapeDFlastDist.shape_id")
+      val shapesDFlast = shapes_cloned.alias("shapeDF").join(shapeDFlastDist.select("shape_id").alias("shapeDFlastDist"), Seq("shape_id"), "leftouter").where($"shapeDFlastDist.shape_id".isNull).drop($"shapeDFlastDist.shape_id")
       shapesDFlast.union(shapeDFlastDist).orderBy("shape_id","shape_pt_sequence")
 
-      shapesDFlast.checkpoint()
+      shapesDFlast.cache()
 
       dataframesOutput += (routes,stops,trips,stop_times,agency,calendar_dates,calendar,transfers,shapesDFlast)
       dataframesOutput.toList
@@ -704,149 +704,4 @@ object GTFSMethods {
       dataframesOutput += (valid_routes,valid_stops,valid_trips,valid_stop_times,valid_agency,valid_calendar_dates,valid_calendar,valid_transfers)
       dataframesOutput.toList
     }
-
-    /*
-
-      def GTFSFeedStatus(store: GtfsDaoImpl, file: String) : GtfsDaoImpl = {
-
-        val sb = new StringBuilder
-        sb.append(" Routes: " + store.getAllRoutes.size())
-        sb.append(" Trips: " + store.getAllTrips.size())
-        sb.append(" Shapes: " + store.getAllShapePoints.size())
-        sb.append(" StopTimes: " + store.getAllStopTimes.size())
-        sb.append(" Stops: " + store.getAllStops.size())
-        sb.append(" Calendar: " + store.getAllCalendars.size())
-        sb.append(" Calendar Dates: " + store.getAllCalendarDates.size())
-        sb.append(" Transfers: " + store.getAllTransfers.size())
-        sb.append(" FareRules: " + store.getAllFareRules.size())
-        sb.append(" FareAttributes: " + store.getAllFareAttributes.size())
-        sb.append(" Frequency: " + store.getAllFrequencies.size())
-        println(sb.toString())
-        return store
-      }
-
-    */
-
-    /*
-    ANTIGUO
-    val main_join = trips.join(stop_times,"trip_id").distinct().join(routes,"route_id").distinct().join(stops,"stop_id").distinct().select("route_id","direction_id","trip_id","route_type","stop_id","stop_sequence","stop_lat","stop_lon","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible")
-      val main_join_cached = main_join.cache()
-      // generating maxtrips
-
-      val to_hash = main_join_cached.select("trip_id","route_id","direction_id","stop_id","stop_sequence").distinct().
-        withColumn("stop_sequence", 'stop_sequence.cast("int")).
-        withColumn("shape_concat", concat_ws(";",$"stop_sequence",$"route_id",$"direction_id",$"stop_id")).
-        withColumn("Test", collect_list("shape_concat").over(Window.partitionBy("trip_id")
-          .orderBy("stop_sequence")))
-
-      val maxtrip = to_hash.groupBy($"trip_id").agg(max($"stop_sequence").alias("stop_sequence")).orderBy("trip_id","stop_sequence")
-      val map_tripidtest = maxtrip.join(to_hash.select("trip_id","stop_sequence","Test"),Seq("trip_id","stop_sequence")).
-        withColumn("shape_id", hash(concat_ws(";", $"Test"))).drop("stop_sequence","Test")
-
-      // master
-
-      val master = main_join_cached.join(map_tripidtest,"trip_id")
-
-      // Calculate shape_dist_traveled
-
-      val wSpec2 = Window.partitionBy("route_id","trip_id").orderBy("stop_sequence")
-
-      val withLonLats = master.withColumn("stop_sequence",      'stop_sequence.cast("Int")).
-        withColumn("stop_lat_prev", lag("stop_lat", 1,0).over(wSpec2)).withColumn("stop_lon_prev", lag("stop_lon", 1,0).over(wSpec2))
-
-      // Generate master_shapes
-
-      val master_shapes = withLonLats.withColumn("a", sin(radians($"stop_lat_prev" - $"stop_lat") / 2) * sin(radians($"stop_lat_prev" - $"stop_lat") / 2) + cos(radians($"stop_lat")) * cos(radians($"stop_lat_prev")) * sin(radians($"stop_lon_prev" - $"stop_lon") / 2) * sin(radians($"stop_lon_prev" - $"stop_lon") / 2)).withColumn("c", atan2(sqrt($"a"), sqrt(-$"a" + 1)) * 2)
-        .withColumn("shape_dist_travelled",  when($"stop_sequence" === 0, 0).otherwise($"c" * 6371000)).select("route_id","direction_id","trip_id","route_type","stop_id","stop_sequence","stop_lat","stop_lon", "shape_id","shape_dist_travelled","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible")
-
-      val master_shapes_filtered = master_shapes.filter($"route_type" === 2)
-      val master_shapes_filtered_cached = master_shapes_filtered .cache()
-
-      // group by max combinations
-
-      val wSpec3 = Window.partitionBy("shape_id","stop_id").orderBy("distance").rowsBetween(Long.MinValue, 0)
-
-      val master_shapes_dist = master_shapes_filtered.select("shape_id","stop_id","stop_sequence").distinct().
-        join(master_shapes_filtered.select($"shape_id",$"stop_id".alias("stop_id_prev"),$"stop_sequence".alias("stop_sequence_prev")),Seq("shape_id")).
-        filter($"stop_sequence" > $"stop_sequence_prev").
-        withColumn("distance", $"stop_sequence"-$"stop_sequence_prev").dropDuplicates().orderBy("shape_id")
-      val finalt = master_shapes_dist.orderBy($"stop_sequence",$"stop_sequence_prev",$"distance").withColumn("ZZZ", collect_list("stop_id_prev").over(wSpec3))
-      val testmax = finalt.groupBy($"stop_id",$"stop_id_prev").agg(max(size($"ZZZ")).alias("distance_a")).withColumnRenamed("stop_id","stop_id_a").withColumnRenamed("stop_id_prev","stop_id_prev_a")
-      val testmax1 = testmax.join(finalt,
-        testmax("stop_id_a")<=>finalt("stop_id")&&
-          testmax("stop_id_prev_a")<=>finalt("stop_id_prev")&&
-          testmax("distance_a")<=>finalt("distance"),"leftouter").dropDuplicates()
-
-      // Final table with combinations
-
-      val tmp1 = master_shapes_filtered.withColumn("stop_id_prev", lag("stop_id", 1,0).over(wSpec2)).
-        withColumnRenamed("stop_id_prev","stop_id_final").
-        withColumnRenamed("stop_id","stop_id_init").
-        select("shape_id","stop_id_init","stop_id_final").
-        distinct()//.filter($"stop_id"==="StopPoint:8754730:800:C" && $"stop_id_prev"==="StopPoint:8739303:800:C")
-
-      val tmp2 = testmax1.drop("shape_id").distinct()//.filter($"stop_id"==="StopPoint:8754730:800:C" && $"stop_id_prev"==="StopPoint:8739303:800:C")
-      // UDF: sort array in reverse order
-
-      import scala.collection.mutable.WrappedArray
-      val sortArr = udf { arr: WrappedArray[String] =>
-        arr.sortBy(- _.size).reverse
-      }
-
-      val finaltabla =  tmp1.join(tmp2,tmp1("stop_id_init") <=> tmp2("stop_id_a")
-        && tmp1("stop_id_final") <=> tmp2("stop_id_prev_a"), "leftouter").drop("stop_id_a","stop_id_prev_a","distance_a","stop_sequence","stop_sequence_prev", "stop_id","stop_id_prev").
-        dropDuplicates().
-        filter(size($"ZZZ")>1).select($"shape_id",$"stop_id_init",$"stop_id_final", sortArr($"ZZZ") as "stops_include").withColumnRenamed("shape_id","shape_otro")
-
-      val table_seq = master_shapes_filtered_cached.join(finaltabla,
-        master_shapes_filtered_cached("shape_id") === finaltabla("shape_otro") &&
-          master_shapes_filtered_cached("stop_id") === finaltabla("stop_id_final") ,"leftouter").orderBy("stop_sequence").
-        drop("shape_otro").
-        select("route_id","shape_id","trip_id", "stop_id", "stop_sequence","stop_id_init","stop_id_final", "stops_include","direction_id","route_type","stop_lat","stop_lon","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible")
-
-      val table_final = table_seq.withColumn("stops_include", when($"stops_include".isNull, array($"stop_id")).otherwise($"stops_include")).withColumn("stops_include", explode($"stops_include")).
-        coalesce(1).orderBy("stop_sequence")
-        .withColumn("stop_sequence2", monotonically_increasing_id)
-        .drop("stop_sequence","stop_id_init","stop_id_final","stop_id")
-        .withColumnRenamed("stop_sequence2","stop_sequence")
-        .withColumnRenamed("stops_include","stop_id")
-
-      val combinedDF = table_final.withColumn("Row_Num", lit(Long.MaxValue))
-
-
-      val resultDF = combinedDF.select(
-        col("route_id"), col("trip_id"),col("shape_id"),col("stop_id"), col("stop_sequence"), col("route_type"), col("direction_id"), col("service_id"), col("trip_headsign"), col("trip_short_name"),  col("block_id"), col("wheelchair_accessible"), row_number().over(
-          Window.partitionBy(col("trip_id")).orderBy(col("Row_Num"))
-        ).alias("New_Row_Num")).withColumn("stops", $"New_Row_Num"-1)
-        .withColumnRenamed("stops", "stop_sequencea").drop("New_Row_Num","stop_sequence").withColumnRenamed("stop_sequencea", "stop_final")
-
-      val tables_join = resultDF.join(master,Seq("stop_id","trip_id","route_id","shape_id","direction_id","route_type","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible"),"leftouter").drop("stop_sequence").orderBy("stop_final").dropDuplicates().withColumnRenamed("stop_final", "stop_sequence").drop("stop_lat","stop_lon").join(stops,"stop_id").select("stop_id","trip_id","route_id","shape_id","direction_id","route_type","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible","stop_lat","stop_lon","stop_sequence")
-
-      val wSpec4 = Window.partitionBy("route_id","trip_id").orderBy("stop_sequence")
-
-      val LonLats = tables_join.withColumn("stop_sequence",      'stop_sequence.cast("Int")).
-        withColumn("stop_lat_prev", lag("stop_lat", 1,0).over(wSpec2)).withColumn("stop_lon_prev", lag("stop_lon", 1,0).over(wSpec4))
-
-      val master_table = LonLats.withColumn("a", sin(radians($"stop_lat_prev" - $"stop_lat") / 2) * sin(radians($"stop_lat_prev" - $"stop_lat") / 2) + cos(radians($"stop_lat")) * cos(radians($"stop_lat_prev")) * sin(radians($"stop_lon_prev" - $"stop_lon") / 2) * sin(radians($"stop_lon_prev" - $"stop_lon") / 2)).withColumn("c", atan2(sqrt($"a"), sqrt(-$"a" + 1)) * 2)
-        .withColumn("shape_dist_travelled",  when($"stop_sequence" === 0, 0).otherwise($"c" * 6371000)).select("route_id","direction_id","route_type","trip_id","stop_id","stop_sequence","stop_lat","stop_lon", "shape_id","shape_dist_travelled","service_id","trip_headsign","trip_short_name","block_id","wheelchair_accessible")
-
-      val shapes_df = master_table.orderBy("trip_id").withColumnRenamed("stop_lat", "shape_pt_lat").withColumnRenamed("stop_lon", "shape_pt_lon").withColumnRenamed("stop_sequence", "shape_pt_sequence").withColumnRenamed("shape_dist_travelled", "shape_dist_traveled").orderBy("shape_id","shape_pt_sequence").dropDuplicates().
-        select("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled").distinct()
-
-      val trips_df = master_table.orderBy("trip_id").select("trip_id","route_id","service_id","trip_headsign","trip_short_name","direction_id","block_id","shape_id","wheelchair_accessible").distinct()
-
-      shapes_df.coalesce(1).write.mode("overwrite").parquet(raw_path + "shapes.parquet")
-      trips_df.coalesce(1).write.mode("overwrite").parquet(raw_path + "trips.parquet")
-      agency.coalesce(1).write.mode("overwrite").parquet(raw_path + "agency.parquet")
-      calendar.coalesce(1).write.mode("overwrite").parquet(raw_path + "calendar.parquet")
-      calendar_dates.coalesce(1).write.mode("overwrite").parquet(raw_path + "calendar_dates.parquet")
-      stops.coalesce(1).write.mode("overwrite").parquet(raw_path + "stops.parquet")
-      routes.coalesce(1).write.mode("overwrite").parquet(raw_path + "routes.parquet")
-      stop_times.coalesce(1).write.mode("overwrite").parquet(raw_path + "stop_times.parquet")
-      stop_extensions.coalesce(1).write.mode("overwrite").parquet(raw_path + "stop_extensions.parquet")
-      transfers.coalesce(1).write.mode("overwrite").parquet(raw_path + "transfers.parquet")
-
-     */
-
-
 }

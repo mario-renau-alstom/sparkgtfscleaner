@@ -12,11 +12,11 @@ object ParisUtils {
     val listOfFiles = getListOfFiles(outputPath)
     val geoJsonPathsList = new ArrayBuffer[String]
 
-    if (listOfFiles isLeft) {
-      listOfFiles.asInstanceOf[List[File]].foreach(localFile => geoJsonPathsList += localFile.getPath)
+    if (listOfFiles.isLeft) {
+      listOfFiles.left.get.foreach(localFile => geoJsonPathsList += localFile.getPath)
     }
     else {
-      listOfFiles.asInstanceOf[Array[FileStatus]].foreach(hdfsFile => geoJsonPathsList += hdfsFile.getPath.toString)
+      listOfFiles.right.get.foreach(hdfsFile => geoJsonPathsList += hdfsFile.getPath.toString)
     }
     geoJsonPathsList
   }
