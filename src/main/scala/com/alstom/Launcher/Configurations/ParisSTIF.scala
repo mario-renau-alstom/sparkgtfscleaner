@@ -10,17 +10,10 @@ import org.apache.spark.sql.functions._
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
+import com.alstom.GTFSOperations.IOOperations._
+import com.alstom.utils.paris.ParisUtils._
 
-  class ParisSTIF  {
-
-   def Configure (workpath: String, urlfile: String): Unit = {
-
-    val DownloadURL = urlfile
-    val ResultURL = "stif/stif_gtfs_clean.zip"
-    val WorkPath = workpath
-    val DownloadFileName = "stif_gtfs.zip"
-    val ProcessedFileName = "stif_gtfs_clean.zip"
-  }
+  class ParisSTIF {
 
    def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, geoJsonPath: List[(String,String)], spark: SparkSession) = {
 
@@ -46,9 +39,10 @@ import scala.collection.mutable.ArrayBuffer
      println("")
 
      println("Start download GeoJson")
-     val outputPath = new Path(workPath.concat("GeoJson"))
+     val outputPath = workPath.concat("GeoJson")
      try {
-       fs.mkdirs(outputPath)
+       createDirectory(outputPath)
+
        for(geojson <- geoJsonPath) {
          IOOperations.DownloadGeoJson(geojson._1, geojson._2, outputPath)
        }
@@ -61,11 +55,9 @@ import scala.collection.mutable.ArrayBuffer
      println("")
 
      println("Start Add Shapes from GeoJson")
-     val listOfFiles = fs.listStatus(outputPath)
-     val geoJsonPaths_list = ArrayBuffer[String]()
-     listOfFiles.foreach(x => geoJsonPaths_list += x.getPath.toString)
+     val geoJsonPathsList = getGeoJsonPathList(outputPath)
      val originalShapes = dataframes(9)
-     for (geojsonPath <- geoJsonPaths_list) {
+     for (geojsonPath <- geoJsonPathsList) {
 
        val (fileName, fileExtension) = IOOperations.getFileNameAndExtFromPath(geojsonPath.toString)
        println(fileName)

@@ -101,16 +101,6 @@ object IOOperations extends LazyLogging {
     println("")
 
   }
-
-  def getListOfFiles(dir: String): List[File] = {
-    val d = new File(dir)
-    if (d.exists && d.isDirectory) {
-      d.listFiles.filter(_.isFile).toList
-    } else {
-      List[File]()
-    }
-  }
-
   def DownloadGeoJson(fileName: String, geoJsonPath: String, outputPath: String) = {
 
     // Download file into HDFS
@@ -353,9 +343,22 @@ object IOOperations extends LazyLogging {
     }
   }
 
-  def getFilesInLocalDirectory(path: DirectoryPath): Array[File] = {
 
-    (new File(path)).listFiles()
+  // Listing files
+  def getListOfFiles(dir: String): Either[List[File],Array[FileStatus]] = {
+    if (isLocalEnv)
+      Left(getFilesInLocalDirectory(dir))
+    else
+      Right(getFilesInHdfsDirectory(dir))
+  }
+
+  def getFilesInLocalDirectory(path: DirectoryPath): List[File] = {
+    val d = new File(path)
+    if (d.exists && d.isDirectory) {
+      d.listFiles.filter(_.isFile).toList
+    } else {
+      List[File]()
+    }
   }
   def getFilesInHdfsDirectory(path: DirectoryPath): Array[FileStatus] = {
       fs.listStatus(new Path(path))

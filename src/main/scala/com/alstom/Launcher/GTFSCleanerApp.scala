@@ -1,19 +1,18 @@
 package com.alstom.Launcher
 
 import com.alstom.Launcher.Configurations._
+import com.alstom.utils.ConfigUtils
 import com.alstom.utils.ConfigUtils._
-import com.alstom.utils.{ConfigUtils, SparkConfigurator}
 import com.typesafe.config.Config
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.log4j.Level
-import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 
 object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
 
-  implicit val configFile = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
+  implicit val configFile = "C:\\Users\\418471\\Desktop\\dev\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
   implicit val config: Config = getConfig(configFile)
 
   // Paths ADLS
