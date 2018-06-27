@@ -7,12 +7,13 @@ import com.typesafe.config.Config
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.log4j.Level
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.SparkConf
 
 
 object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
 
-  implicit val configFile = "C:\\Users\\418471\\Desktop\\dev\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
+  implicit val configFile = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
   implicit val config: Config = getConfig(configFile)
 
   // Paths ADLS
@@ -42,7 +43,7 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
   implicit val spark = SparkSession.builder
     .appName("SparkTest")
-    .master("local[5]")
+    .master("local[3]")
     //.enableHiveSupport()
     .getOrCreate()
 
@@ -94,7 +95,7 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
   argsToOptionMap(args)("gtfs") match {
 
-    /*case "stif" => feedURL = "https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/f24cf9dbf6f80c28b8edfdd99ea16aad/download/"
+    case "stif" => feedURL = "https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/f24cf9dbf6f80c28b8edfdd99ea16aad/download/"
       val STIFProcess = new ParisSTIF
       STIFProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, PARIS_GJSON, spark)
 
@@ -127,15 +128,20 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
       feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/5c7f2951962540d69ffe8f640d94c246/data"
       val MadridMetroProcess = new MadridMetro
       MadridMetroProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
-*/
+
 
     case "lyon" => feedURL = config.getString(LyonFeedUrl)
       val LyonProcess = new Lyon
       LyonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON)
 
-/*    case "torrejon" => feedURL = "http://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data"
-      val TorrejonProcess = new Torrejon
-      TorrejonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)*/
+    case "torrejon" =>
+      feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data"
+      val TorrejonInterUrbanosProcess = new TorrejonInterUrbanos
+      TorrejonInterUrbanosProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
+
+      feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/1a25440bf66f499bae2657ec7fb40144/data"
+      val TorrejonCercaniasProcess = new TorrejonCercanias
+      TorrejonCercaniasProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
 
     case _ => println("No option matched")
       sys.exit(1)

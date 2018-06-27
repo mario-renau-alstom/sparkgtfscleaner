@@ -1,6 +1,5 @@
 package com.alstom.GTFSOperations
 
-import java.io.File
 import java.net.URL
 import java.io.{File, FileInputStream, FileOutputStream}
 
@@ -47,7 +46,6 @@ object IOOperations extends LazyLogging {
     if (!newFile.exists) newFile.createNewFile
 
 
-    //val newFile = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\test\\resources\\data\\gtfs\\Lyon\\staging\\gtfs.zip"
     println("Start Download GTFS zip file")
     try {
       new URL(downloadURL) #> newFile !!; //Download file from URL
@@ -258,6 +256,16 @@ object IOOperations extends LazyLogging {
   }
 
   def unzip(inputPath: String, outputPath: String, spark: SparkSession): Unit = {
+    ENV match {
+      case "local" =>
+        val allzip = inputPath.listFiles.filter(_.isFile).toList.filter(x => x.getName.endsWith("zip"))
+        allzip.foreach{x =>
+
+        }
+
+
+      case _ =>
+
     import org.apache.hadoop.fs.Path
 
     val fileSystem = listLeafStatuses(fs, new Path(inputPath))
@@ -323,14 +331,15 @@ object IOOperations extends LazyLogging {
   type DestinationFilePath = String
 
   def copyFile(source: SourceFilePath, dest: DestinationFilePath): Either[Boolean, Exception] = {
+    import org.apache.commons.io.FileUtils.copyFileToDirectory
+
     ENV match {
       case "local" =>
         try {
           val sourceFile = new File(source)
           val destFile = new File(dest)
 
-          new FileOutputStream(destFile).getChannel.transferFrom(
-            new FileInputStream(sourceFile).getChannel, 0, Long.MaxValue)
+          copyFileToDirectory(sourceFile,destFile)
           Left(true)
         } catch {
           case fnf: java.io.FileNotFoundException =>
