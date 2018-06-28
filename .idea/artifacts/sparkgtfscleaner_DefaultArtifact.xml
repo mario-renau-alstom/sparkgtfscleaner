@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="sparkgtfscleaner_DefaultArtifact">
-    <output-path>$PROJECT_DIR$/out/artifacts/sparkgtfscleaner_DefaultArtifact</output-path>
-    <root id="archive" name="default_artifact.jar">
-      <element id="module-output" name="sparkgtfscleaner" />
-    </root>
-  </artifact>
-</component>
