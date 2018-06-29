@@ -3,7 +3,7 @@ package com.alstom.Launcher
 import com.alstom.Launcher.Configurations._
 import com.alstom.utils.ConfigUtils
 import com.alstom.utils.ConfigUtils._
-import com.typesafe.config.Config
+import com.typesafe.config.{Config, ConfigFactory}
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.log4j.Level
 import org.apache.spark.SparkConf
@@ -13,8 +13,12 @@ import org.apache.spark.sql.SparkSession
 object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
 
-  implicit val configFile = "C:\\Users\\GuillermoÁlvarezMart\\Documents\\MASTRIA\\forkMario\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
-  implicit val config: Config = getConfig(configFile)
+  //implicit val configFile = "C:\\Users\\GuillermoÁlvarezMart\\Documents\\MASTRIA\\forkMario\\sparkgtfscleaner\\src\\main\\resources\\application.conf"
+  implicit val configFile = "./application.conf"
+
+  implicit val config: Config =  ConfigFactory.parseResources("application.conf");
+
+
 
   // Paths ADLS
   val ONLINE_ROOT : String = config.getString(DirectoriesOnlineRoot)
@@ -37,21 +41,22 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
     var feedURL : String = null
 
     val sparkConf = new SparkConf()
-  sparkConf.set("spark.driver.memory", "1G")
-  sparkConf.set("spark.executor.memory", "1G")
+  //sparkConf.set("spark.driver.memory", "1G")
+  //sparkConf.set("spark.executor.memory", "1G")
   // Spark Session
   //implicit val spark = SparkConfigurator.getSparkSessionForEnv(config.getString(ApplicationEnv))
   System.setProperty("hadoop.home.dir", "C:/Development/winutils/hadoop-2.8.3")
 
   implicit val spark = SparkSession.builder.config(sparkConf)
     .appName("SparkTest")
-    .master("local[4]")
-    //.enableHiveSupport()
+    //.master("local[4]")
+    .enableHiveSupport()
     .getOrCreate()
 
   spark.conf.set("spark.sql.shuffle.partitions", "5")
+  spark.conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
   spark.sparkContext.setLogLevel("WARN")
-  spark.conf.set("hive.metastore.warehouse.dir","./target/spark-warehouse/")
+  //spark.conf.set("hive.metastore.warehouse.dir","./target/spark-warehouse/")
    // Logging
     val logPath = "./AlstomData/Logfile.log"
     val logLevel = Level.DEBUG

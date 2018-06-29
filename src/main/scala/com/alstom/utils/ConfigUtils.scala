@@ -21,6 +21,8 @@ trait ConfigUtils {
       Files.write(downloadFile, src.mkString("").getBytes).toFile
     }
     else new File(path)
+    val currentDirectory = new java.io.File(".").getCanonicalPath
+    println(currentDirectory)
     ConfigFactory.parseFile(file).resolve()
   }
 }
@@ -43,7 +45,7 @@ object ConfigUtils {
   val DirectoriesOnlineBackup = "directories.online.backup"
   val DirectoriesOnlineStaging = "directories.online.staging"
   val DirectoriesOnlineSource = "directories.online.source"
-  val DirectoriesWorkPath = "directories.work.path"
+  val DirectoriesWorkPath = "directories.online.work"
   val DirectoriesOnlineRaw = "directories.online.raw"
 
   // Paris

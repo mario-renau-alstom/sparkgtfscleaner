@@ -28,7 +28,8 @@ object GTFSMethods {
         case "02TclLigneMetroGeojson" => AddTcl(dataframes,geoJsonPath,originalShapes,spark)
         case "03TclLigneTramGeoJson" => AddTcl(dataframes,geoJsonPath,originalShapes,spark)
         case "04GoogleRailWayLyonGeoJson" => AddGoogle(dataframes,geoJsonPath,originalShapes,spark)
-        case _ => println("No GeoJson found");sys.exit(1)
+        case _ => {println("FATAL: No GeoJson found")
+          sys.exit(1)}//TODO:
 
       }
 
@@ -52,6 +53,7 @@ object GTFSMethods {
       val dict_tripId_shapeId = dataframes(10)
 
       // Match geojson file with dict_routes_filtered
+      println("AddSystemX GEOJson Path: "+geoJsonPath)
       val geojsonDF = spark
         .read
         .json(geoJsonPath).drop("_corrupt_record").na.drop()
@@ -176,7 +178,7 @@ object GTFSMethods {
       val shapes_cloned = shapes.toDF("shape_id","shape_pt_lat","shape_pt_lon","shape_pt_sequence","shape_dist_traveled")
       val shapesDFlast = shapes_cloned.alias("shapeDF").join(shapeDFlastDist.select("shape_id").alias("shapeDFlastDist"), Seq("shape_id"), "leftouter").
         where($"shapeDFlastDist.shape_id".isNull).drop($"shapeDFlastDist.shape_id").union(shapeDFlastDist).orderBy("shape_id","shape_pt_sequence")
-      shapesDFlast.checkpoint()
+      //shapesDFlast.checkpoint()
       dataframesOutput += (routes_newDF,stops,trips,stop_times,agency,calendar_dates,calendar,transfers,stop_extensions,shapesDFlast)
       dataframesOutput.toList
 

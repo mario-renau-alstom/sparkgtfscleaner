@@ -18,8 +18,8 @@ import scala.sys.process._
 object IOOperations extends LazyLogging {
 
   val LOCAL_ENV = "local"
-  val PROD_ENV = "prod"
-  val ENV = LOCAL_ENV
+  val PROD_ENV = "hdfs"
+  val ENV = PROD_ENV
 
 
   val isLocalEnv = ENV == LOCAL_ENV
@@ -232,10 +232,10 @@ object IOOperations extends LazyLogging {
 
   def getFileNameAndExtFromPath(path: String): (String, String) = {
 
-
-    val ext = path.split(File.separator*2).last.split('.').last
+    val separator = if (isLocalEnv) File.separator*2 else File.separator
+    val ext = path.split(separator).last.split('.').last
     println(ext)
-    val fileName = path.split(File.separator*2).last.split('.').head
+    val fileName = path.split(separator).last.split('.').head
 
     println(s"*** path: $path")
     println(s"*** fileName: $fileName")

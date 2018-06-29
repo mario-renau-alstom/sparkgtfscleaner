@@ -111,7 +111,7 @@ class Lyon (implicit spark: SparkSession) {
     var dataframes = new mutable.ListBuffer[DataFrame]
 
     println("Start Remove Duplicates")
-
+    println(spark.conf)
 
     // Mandatory files
     val agency = spark
@@ -446,24 +446,24 @@ class Lyon (implicit spark: SparkSession) {
       // the "true" setting deletes the source files once they are merged into the new output
     }
 
-    shapes.orderBy("shape_id","shape_pt_sequence").repartition(20).write.mode("overwrite").parquet(raw_path + "shapes.parquet")
+    shapes.orderBy("shape_id","shape_pt_sequence").write.mode("overwrite").parquet(raw_path + "shapes.parquet")
     println("shapes uploaded")
-    routes.repartition(1).write.mode("overwrite").parquet(raw_path + "routes.parquet")
+    routes.write.mode("overwrite").parquet(raw_path + "routes.parquet")
     println("routes uploaded")
-    stops.repartition(1).write.mode("overwrite").parquet(raw_path + "stops.parquet")
+    stops.write.mode("overwrite").parquet(raw_path + "stops.parquet")
     println("stops uploaded")
-    trips.repartition(1).write.mode("overwrite").parquet(raw_path + "trips.parquet")
+    trips.write.mode("overwrite").parquet(raw_path + "trips.parquet")
     println("trips uploaded")
     stop_times.write.mode("overwrite").parquet(raw_path + "stop_times.parquet")
     //stop_times.write.saveAsTable("stop_times")
     println("stop_times uploaded")
-    agency.repartition(1).write.mode("overwrite").parquet(raw_path + "agency.parquet")
+    agency.write.mode("overwrite").parquet(raw_path + "agency.parquet")
     println("agency uploaded")
-    calendar_dates.repartition(1).write.mode("overwrite").parquet(raw_path + "calendar_dates.parquet")
+    calendar_dates.write.mode("overwrite").parquet(raw_path + "calendar_dates.parquet")
     println("calendar_dates uploaded")
-    calendar.repartition(1).write.mode("overwrite").parquet(raw_path + "calendar.parquet")
+    calendar.write.mode("overwrite").parquet(raw_path + "calendar.parquet")
     println("calendar uploaded")
-    transfers.repartition(1).write.mode("overwrite").parquet(raw_path + "transfers.parquet")
+    transfers.write.mode("overwrite").parquet(raw_path + "transfers.parquet")
     println("transfers uploaded")
     // Write in raw path
 
