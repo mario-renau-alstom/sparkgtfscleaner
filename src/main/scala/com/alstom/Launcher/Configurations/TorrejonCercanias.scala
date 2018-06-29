@@ -2,20 +2,18 @@ package com.alstom.Launcher.Configurations
 
 import com.alstom.GTFSOperations.IOOperations._
 import com.alstom.GTFSOperations.{IOOperations, UDFS}
-import org.apache.hadoop.conf.Configuration
-import org.apache.spark.sql.functions.{col, when}
+import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
 
-class MadridMetroLigero  {
+class TorrejonCercanias  {
 
 
 
  def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, spark: SparkSession) = {
 
-   println("Madrid Metro Ligero GTFS Processing")
+   println("Torrejon Cercanias GTFS Processing")
    println("URL: " + urlfile)
    println("-----------------------------------------------")
    println("")
@@ -24,9 +22,9 @@ class MadridMetroLigero  {
    IOOperations.CleanWorkingDirectory(workPath)
    println("Finish Clean environment")
    println("")
-   IOOperations.ExtractFiles(urlfile, "madrid_metro_ligero_gtfs", workPath, backupPath, sourcesPath, spark)
+   IOOperations.ExtractFiles(urlfile, "torrejon_cercanias_gtfs", workPath, backupPath, sourcesPath, spark)
 
-   var dataframes = FixOperations(sourcesPath, "madrid_metro_ligero_gtfs", spark)
+   var dataframes = FixOperations(sourcesPath, "torrejon_cercanias_gtfs", spark)
 
    println("Start Uploading result to Azure Storage")
    UploadAzure(dataframes, rawPath, spark)
@@ -35,7 +33,7 @@ class MadridMetroLigero  {
 }
 
   def FixOperations(sourcesPath: String, fileName:String, spark: SparkSession) : List[DataFrame] = {
-
+    import spark.implicits._
     val sources_path = sourcesPath.concat("GTFSCLEAN/" + fileName + "/")
     var dataframes = new mutable.ListBuffer[DataFrame]
 
@@ -54,33 +52,36 @@ class MadridMetroLigero  {
       .read.parquet(sources_path.concat("calendar_dates.parquet")).dropDuplicates()
     val calendar = spark
       .read.parquet(sources_path.concat("calendar.parquet")).dropDuplicates()
-    var shapes = spark
+    val shapes = spark
       .read.parquet(sources_path.concat("shapes.parquet")).dropDuplicates()
-    var fare_attributes = spark
+    val fare_attributes = spark
       .read.parquet(sources_path.concat("fare_attributes.parquet")).dropDuplicates()
-    var fare_rules = spark
+    val fare_rules = spark
       .read.parquet(sources_path.concat("fare_rules.parquet")).dropDuplicates()
-    var feed_info = spark
+    val feed_info = spark
       .read.parquet(sources_path.concat("feed_info.parquet")).dropDuplicates()
-    var frequencies = spark
+    val frequencies = spark
       .read.parquet(sources_path.concat("frequencies.parquet")).dropDuplicates()
 
     println("Finish Remove Duplicates")
     println("")
 
-    println("Start Apply random color to route based on id")
+    println("Start Apply random color to route based on id and filtering based on selected routes")
 
-    var routes_newDF = routes.withColumn("route_color", when(
+    val routes_newDF = routes.filter($"route_id" === "5__C2___" || $"route_id" === "5__C7___").withColumn("route_color", when(
       col("route_color").equalTo("000000") ||
         col("route_color").equalTo("-16777216") ||
         col("route_color").isNull, UDFS.hexToLong(col("route_color"))).
       otherwise(col("route_color")))
-    //routes_newDF = routes_newDF.withColumn("route_color", UDFS.fromStrToHex(col("route_color")))
 
     println("Finish Apply random color to route based on id")
     println("")
 
-    dataframes += (routes_newDF,stops,trips,stop_times,agency,calendar_dates,calendar,shapes,fare_attributes,fare_rules,feed_info,frequencies)
+    println("Leaving only C2 and C7 routes")
+
+    val trips_newDF = trips.filter($"route_id" === "5__C2___" || $"route_id" === "5__C7___")
+    dataframes += (routes_newDF,stops,trips_newDF,stop_times,agency,calendar_dates,calendar,shapes,fare_attributes,fare_rules,feed_info,frequencies)
+
     dataframes.toList
 
   }
@@ -88,7 +89,7 @@ class MadridMetroLigero  {
   def UploadAzure(dataframes: List[DataFrame], rawPath: String, spark: SparkSession) = {
 
     import org.apache.hadoop.fs.{FileSystem, Path}
-    val raw_path = rawPath.concat("GTFSCLEAN/" + "madrid_metro_ligero_gtfs/")
+    val raw_path = rawPath.concat("GTFSCLEAN/" + "torrejon_cercanias_gtfs/")
     val routes = dataframes(0)
     val stops = dataframes(1)
     val trips = dataframes(2)
@@ -101,47 +102,6 @@ class MadridMetroLigero  {
     val fare_rules = dataframes(9)
     val feed_info = dataframes(10)
     val frequencies = dataframes(11)
-
-    import java.io.IOException
-
-    @throws[IOException]
-    def copyMerge(srcFS: FileSystem, srcDir: Path, dstFS: FileSystem, dstFile: Path, deleteSource: Boolean, conf: Configuration, addString: String) = {
-
-
-      val out = dstFS.create(dstFile)
-      try {
-        val contents = srcFS.listStatus(srcDir)
-        var i = 0
-        while ( {
-          i < contents.length
-        }) {
-          if (contents(i).isFile) {
-            val in = srcFS.open(contents(i).getPath)
-            try {
-              org.apache.hadoop.io.IOUtils.copyBytes(in, out, conf, false)
-              if (addString != null) out.write(addString.getBytes("UTF-8"))
-            } finally in.close
-          }
-
-          {
-            i += 1; i - 1
-          }
-        }
-      } finally out.close
-      if (deleteSource) srcFS.delete(srcDir, true)
-      else true
-    }
-
-    def merge(srcPath: ArrayBuffer[String], dstPath: String): Unit =  {
-
-      val hadoopConfig = new Configuration()
-      val hdfs = FileSystem.get(hadoopConfig)
-      for(df <- srcPath) {
-        val (fileName, fileExtension) = getFileNameAndExtFromPath(df.toString)
-        copyMerge(hdfs, new Path(df), hdfs, new Path(dstPath + fileName + ".csv"), true, hadoopConfig, null)
-      }
-      // the "true" setting deletes the source files once they are merged into the new output
-    }
 
     routes.coalesce(1).write.mode("overwrite").parquet(raw_path + "routes.parquet")
     println("routes uploaded")
@@ -211,5 +171,6 @@ class MadridMetroLigero  {
         merge(filesPaths_list, "adl:///data/normal/")
         */
   }
+
 }
 

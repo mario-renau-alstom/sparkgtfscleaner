@@ -1,26 +1,17 @@
 package com.alstom.Launcher.Configurations
 
-import com.alstom.GTFSOperations.IOOperations.{fs, getFileNameAndExtFromPath}
+import com.alstom.GTFSOperations.IOOperations.{getFileNameAndExtFromPath, _}
 import com.alstom.GTFSOperations.{GTFSMethods, IOOperations, UDFS}
+import com.alstom.utils.paris.ParisUtils._
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.fs.Path
 import org.apache.spark.sql.expressions.Window
-import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{DataFrame, SparkSession}
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 
-  class ParisSTIF  {
-
-   def Configure (workpath: String, urlfile: String): Unit = {
-
-    val DownloadURL = urlfile
-    val ResultURL = "stif/stif_gtfs_clean.zip"
-    val WorkPath = workpath
-    val DownloadFileName = "stif_gtfs.zip"
-    val ProcessedFileName = "stif_gtfs_clean.zip"
-  }
+  class ParisSTIF {
 
    def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, geoJsonPath: List[(String,String)], spark: SparkSession) = {
 
@@ -46,9 +37,10 @@ import scala.collection.mutable.ArrayBuffer
      println("")
 
      println("Start download GeoJson")
-     val outputPath = new Path(workPath.concat("GeoJson"))
+     val outputPath = workPath.concat("GeoJson")
      try {
-       fs.mkdirs(outputPath)
+       createDirectory(outputPath)
+
        for(geojson <- geoJsonPath) {
          IOOperations.DownloadGeoJson(geojson._1, geojson._2, outputPath)
        }
@@ -61,11 +53,9 @@ import scala.collection.mutable.ArrayBuffer
      println("")
 
      println("Start Add Shapes from GeoJson")
-     val listOfFiles = fs.listStatus(outputPath)
-     val geoJsonPaths_list = ArrayBuffer[String]()
-     listOfFiles.foreach(x => geoJsonPaths_list += x.getPath.toString)
+     val geoJsonPathsList = getGeoJsonPathList(outputPath)
      val originalShapes = dataframes(9)
-     for (geojsonPath <- geoJsonPaths_list) {
+     for (geojsonPath <- geoJsonPathsList) {
 
        val (fileName, fileExtension) = IOOperations.getFileNameAndExtFromPath(geojsonPath.toString)
        println(fileName)
@@ -381,9 +371,7 @@ import scala.collection.mutable.ArrayBuffer
       val transfers = dataframes(7)
       val stop_extensions = dataframes(8)
       val shapes = dataframes(9)
-      import org.apache.hadoop.fs.FileStatus
       import java.io.IOException
-      import java.util
 
       @throws[IOException]
       def copyMerge(srcFS: FileSystem, srcDir: Path, dstFS: FileSystem, dstFile: Path, deleteSource: Boolean, conf: Configuration, addString: String) = {

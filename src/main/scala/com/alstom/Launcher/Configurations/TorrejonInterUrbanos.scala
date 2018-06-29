@@ -2,20 +2,17 @@ package com.alstom.Launcher.Configurations
 
 import com.alstom.GTFSOperations.IOOperations._
 import com.alstom.GTFSOperations.{IOOperations, UDFS}
-import org.apache.hadoop.conf.Configuration
-import org.apache.spark.sql.functions.{col, when}
+import org.apache.spark.sql.functions._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
 
-class MadridMetroLigero  {
-
+class TorrejonInterUrbanos  {
 
 
  def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, spark: SparkSession) = {
 
-   println("Madrid Metro Ligero GTFS Processing")
+   println("Torrejon InterUrbanos GTFS Processing")
    println("URL: " + urlfile)
    println("-----------------------------------------------")
    println("")
@@ -24,9 +21,9 @@ class MadridMetroLigero  {
    IOOperations.CleanWorkingDirectory(workPath)
    println("Finish Clean environment")
    println("")
-   IOOperations.ExtractFiles(urlfile, "madrid_metro_ligero_gtfs", workPath, backupPath, sourcesPath, spark)
+   IOOperations.ExtractFiles(urlfile, "torrejon_interurbanos_gtfs", workPath, backupPath, sourcesPath, spark)
 
-   var dataframes = FixOperations(sourcesPath, "madrid_metro_ligero_gtfs", spark)
+   var dataframes = FixOperations(sourcesPath, "torrejon_interurbanos_gtfs", spark)
 
    println("Start Uploading result to Azure Storage")
    UploadAzure(dataframes, rawPath, spark)
@@ -35,7 +32,7 @@ class MadridMetroLigero  {
 }
 
   def FixOperations(sourcesPath: String, fileName:String, spark: SparkSession) : List[DataFrame] = {
-
+    import spark.implicits._
     val sources_path = sourcesPath.concat("GTFSCLEAN/" + fileName + "/")
     var dataframes = new mutable.ListBuffer[DataFrame]
 
@@ -68,9 +65,26 @@ class MadridMetroLigero  {
     println("Finish Remove Duplicates")
     println("")
 
-    println("Start Apply random color to route based on id")
-
-    var routes_newDF = routes.withColumn("route_color", when(
+    println("Start Apply random color to route based on id and filterin based on selected routes")
+    val routeList = List[String]("9__2__148_",
+      "9__3__148_",
+      "9__4__148_",
+      "9__6__148_",
+      "9__1_A_148_",
+      "9__1_B_148_",
+      "8__223___",
+      "8__224___",
+      "8__224_A__",
+      "8__226___",
+      "8__824___",
+      "8__220___",
+      "8__251___",
+      "8__252___",
+      "8__261___",
+      "8__340___",
+      "8_N_202___"
+    )
+    var routes_newDF = routes.filter($"route_id".isin(routeList:_*)).withColumn("route_color", when(
       col("route_color").equalTo("000000") ||
         col("route_color").equalTo("-16777216") ||
         col("route_color").isNull, UDFS.hexToLong(col("route_color"))).
@@ -80,7 +94,11 @@ class MadridMetroLigero  {
     println("Finish Apply random color to route based on id")
     println("")
 
-    dataframes += (routes_newDF,stops,trips,stop_times,agency,calendar_dates,calendar,shapes,fare_attributes,fare_rules,feed_info,frequencies)
+    println("Leaving only C2 and C7 routes")
+
+    val trips_newDF = trips.filter($"route_id".isin(routeList:_*))
+    dataframes += (routes_newDF,stops,trips_newDF,stop_times,agency,calendar_dates,calendar,shapes,fare_attributes,fare_rules,feed_info,frequencies)
+
     dataframes.toList
 
   }
@@ -88,7 +106,7 @@ class MadridMetroLigero  {
   def UploadAzure(dataframes: List[DataFrame], rawPath: String, spark: SparkSession) = {
 
     import org.apache.hadoop.fs.{FileSystem, Path}
-    val raw_path = rawPath.concat("GTFSCLEAN/" + "madrid_metro_ligero_gtfs/")
+    val raw_path = rawPath.concat("GTFSCLEAN/" + "torrejon_interurbanos_gtfs/")
     val routes = dataframes(0)
     val stops = dataframes(1)
     val trips = dataframes(2)
@@ -104,44 +122,6 @@ class MadridMetroLigero  {
 
     import java.io.IOException
 
-    @throws[IOException]
-    def copyMerge(srcFS: FileSystem, srcDir: Path, dstFS: FileSystem, dstFile: Path, deleteSource: Boolean, conf: Configuration, addString: String) = {
-
-
-      val out = dstFS.create(dstFile)
-      try {
-        val contents = srcFS.listStatus(srcDir)
-        var i = 0
-        while ( {
-          i < contents.length
-        }) {
-          if (contents(i).isFile) {
-            val in = srcFS.open(contents(i).getPath)
-            try {
-              org.apache.hadoop.io.IOUtils.copyBytes(in, out, conf, false)
-              if (addString != null) out.write(addString.getBytes("UTF-8"))
-            } finally in.close
-          }
-
-          {
-            i += 1; i - 1
-          }
-        }
-      } finally out.close
-      if (deleteSource) srcFS.delete(srcDir, true)
-      else true
-    }
-
-    def merge(srcPath: ArrayBuffer[String], dstPath: String): Unit =  {
-
-      val hadoopConfig = new Configuration()
-      val hdfs = FileSystem.get(hadoopConfig)
-      for(df <- srcPath) {
-        val (fileName, fileExtension) = getFileNameAndExtFromPath(df.toString)
-        copyMerge(hdfs, new Path(df), hdfs, new Path(dstPath + fileName + ".csv"), true, hadoopConfig, null)
-      }
-      // the "true" setting deletes the source files once they are merged into the new output
-    }
 
     routes.coalesce(1).write.mode("overwrite").parquet(raw_path + "routes.parquet")
     println("routes uploaded")
@@ -211,5 +191,6 @@ class MadridMetroLigero  {
         merge(filesPaths_list, "adl:///data/normal/")
         */
   }
+
 }
 

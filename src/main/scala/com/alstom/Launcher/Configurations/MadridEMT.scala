@@ -1,11 +1,9 @@
 package com.alstom.Launcher.Configurations
 
-import com.alstom.GTFSOperations.IOOperations.{fs, getFileNameAndExtFromPath}
-import com.alstom.GTFSOperations.{GTFSMethods, IOOperations, UDFS}
+import com.alstom.GTFSOperations.IOOperations.getFileNameAndExtFromPath
+import com.alstom.GTFSOperations.{IOOperations, UDFS}
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.fs.Path
-import org.apache.spark.sql.expressions.Window
-import org.apache.spark.sql.functions.{col, first, last, when}
+import org.apache.spark.sql.functions.{col, when}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 import scala.collection.mutable
@@ -13,14 +11,7 @@ import scala.collection.mutable.ArrayBuffer
 
 class MadridEMT  {
 
- def Configure (workpath: String, urlfile: String): Unit = {
 
-  val DownloadURL = urlfile
-  val ResultURL = "stif/stif_gtfs_clean.zip"
-  val WorkPath = workpath
-  val DownloadFileName = "stif_gtfs.zip"
-  val ProcessedFileName = "stif_gtfs_clean.zip"
-}
 
  def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, spark: SparkSession) = {
 
@@ -109,9 +100,7 @@ class MadridEMT  {
     val shapes = dataframes(7)
     val frequencies = dataframes(8)
 
-    import org.apache.hadoop.fs.FileStatus
     import java.io.IOException
-    import java.util
 
     @throws[IOException]
     def copyMerge(srcFS: FileSystem, srcDir: Path, dstFS: FileSystem, dstFile: Path, deleteSource: Boolean, conf: Configuration, addString: String) = {

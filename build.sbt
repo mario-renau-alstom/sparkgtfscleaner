@@ -1,16 +1,20 @@
 name := "sparkgtfscleaner"
 version := "1.0"
 scalaVersion := "2.11.8"
+
+val scalaBinaryVersion = "2.11"
+val sparkVersion = "2.1.0"
+val hadoopVersion = "2.8.3"
+val jmockitVersion = "1.34"
+val typeSafeConfigVersion = "1.3.3"
+val scalaLoggingVersion = "3.9.0"
+
 libraryDependencies ++= Seq(
-    "org.apache.spark" % "spark-core_2.11" % "2.1.0",
-    "org.apache.spark" % "spark-sql_2.11" % "2.1.0",
-    //"org.scala-lang" % "scala-reflect" % "2.11.8",
-    //"org.onebusaway" % "onebusaway-gtfs" % "1.3.4",
-    //"org.onebusaway" % "onebusaway-gtfs-modules" % "1.3.4",
-    //"org.onebusaway" % "onebusaway-gtfs-merge" % "1.3.4",
-    //"org.onebusaway" % "onebusaway-gtfs-transformer" % "1.2.0",
-    //"ch.qos.logback" % "logback-classic" % "1.1.3",
-    "org.apache.hadoop" % "hadoop-common" % "3.0.0" % "provided",
-    "org.jmockit" % "jmockit" % "1.34" % "test",
-    "org.apache.spark" %% "spark-hive" % "2.1.0"
+    "org.apache.spark" %% "spark-core" % sparkVersion, // % "provided",
+    "org.apache.spark" %% "spark-sql" % sparkVersion, // % "provided",
+    "org.apache.hadoop" % "hadoop-common" % hadoopVersion, //% "provided",
+    "org.jmockit" % "jmockit" % jmockitVersion % "test",
+    "org.apache.spark" %% "spark-hive" % sparkVersion , //% "provided",
+    "com.typesafe" % "config" % typeSafeConfigVersion,
+    "com.typesafe.scala-logging" %% "scala-logging" % scalaLoggingVersion
 )

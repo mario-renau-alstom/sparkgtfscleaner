@@ -1,41 +1,57 @@
 package com.alstom.Launcher
 
-import java.io.{File, IOException}
-
-import com.alstom.GTFSOperations.IOOperations
 import com.alstom.Launcher.Configurations._
-import com.alstom.Launcher.GTFSCleanerApp.{args, feedURL}
-import com.alstom.tools.Implicits._
-import com.alstom.tools.Logs
-import org.apache.log4j.{Level, Logger}
+import com.alstom.utils.ConfigUtils
+import com.alstom.utils.ConfigUtils._
+import com.typesafe.config.Config
+import com.typesafe.scalalogging.LazyLogging
+import org.apache.log4j.Level
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.SparkConf
 
-object GTFSCleanerApp extends App {
+
+object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
+
+
+  implicit val configFile = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\main\\resources\\application_dev.conf"
+  implicit val config: Config = getConfig(configFile)
 
   // Paths ADLS
-  var ONLINE_ROOT : String = "adl:///data/"
-  var ONLINE_BACKUP : String = ONLINE_ROOT.concat("backup/")
-  var ONLINE_SOURCE : String = ONLINE_ROOT.concat("sources/")
-  var ONLINE_STAGING : String = ONLINE_ROOT.concat("staging/")
-  var WORK_PATH : String = ONLINE_STAGING.concat("GTFSCLEAN/")
-  var ONLINE_RAW : String = ONLINE_ROOT.concat("raw/")
+  val ONLINE_ROOT : String = config.getString(DirectoriesOnlineRoot)
+  val ONLINE_BACKUP : String = config.getString(DirectoriesOnlineBackup)
+  val ONLINE_SOURCE : String = config.getString(DirectoriesOnlineSource)
+  val ONLINE_STAGING : String = config.getString(DirectoriesOnlineStaging)
+  val WORK_PATH : String = config.getString(DirectoriesWorkPath)
+  val ONLINE_RAW : String = config.getString(DirectoriesOnlineRaw)
 
   // GeoJson paths
-    var PARIS_GJSON = List(("01SystemXGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/paris/GeoJson/01SystemXGeoJson.geojson"))
+    val PARIS_GJSON = List((config.getString(ParisGjsonPath01File),
+      config.getString(ParisGjsonPath01Url)))
 
-    var LYON_GJSON = List(("01TclLigneBusGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/01TclLigneBusGeoJson.geojson"),
-      ("02TclLigneMetroGeojson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/02TclLigneMetroGeojson.geojson"),
-      ("03TclLigneTramGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/03TclLigneTramGeoJson.geojson"),
-     ("04GoogleRailWayLyonGeoJson.geojson", "https://mastriaappstoragegtfs.blob.core.windows.net/lyon/GeoJson/04GoogleRailWayLyonGeoJson.geojson"))
+    val LYON_GJSON = List(
+      (config.getString(LyionGjsonPath01File), config.getString(LyionGjsonPath01Url)),
+      (config.getString(LyionGjsonPath02File), config.getString(LyionGjsonPath02Url)),
+      (config.getString(LyionGjsonPath03File), config.getString(LyionGjsonPath03Url)),
+      (config.getString(LyionGjsonPath04File), config.getString(LyionGjsonPath04Url)))
 
     var feedURL : String = null
 
-    // Spark Session
-    val spark = SparkSession.builder.appName("GTFSCleaner").enableHiveSupport().getOrCreate()
-      //spark.conf.set("spark.sql.autoBroadcastJoinThreshold", -1)
-    spark.sparkContext.setCheckpointDir("/tmp/")
+
+  // Spark Session
+  //implicit val spark = SparkConfigurator.getSparkSessionForEnv(config.getString(ApplicationEnv))
+  System.setProperty("hadoop.home.dir", "C:/Development/winutils/hadoop-2.8.3")
+
+  implicit val spark = SparkSession.builder
+    .appName("SparkTest")
+    .master("local[3]")
+    //.enableHiveSupport()
+    .getOrCreate()
+
+  spark.conf.set("spark.sql.shuffle.partitions", "5")
+  spark.sparkContext.setLogLevel("WARN")
+  spark.conf.set("hive.metastore.warehouse.dir","./target/spark-warehouse/")
    // Logging
-    val logPath = "C:/Users/407255/Desktop/AlstomData/Logfile.log"
+    val logPath = "./AlstomData/Logfile.log"
     val logLevel = Level.DEBUG
 
   // GetOpts
@@ -114,13 +130,18 @@ object GTFSCleanerApp extends App {
       MadridMetroProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
 
 
-    case "lyon" => feedURL = "https://navitia.opendatasoft.com/explore/dataset/fr-se/files/400d7da94eaacb5e52c612f8ac28e420/download/"
+    case "lyon" => feedURL = config.getString(LyonFeedUrl)
       val LyonProcess = new Lyon
-      LyonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON, spark)
+      LyonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON)
 
-    case "torrejon" => feedURL = "http://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data"
-      val TorrejonProcess = new Torrejon
-      TorrejonProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, LYON_GJSON, spark)
+    case "torrejon" =>
+      feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data"
+      val TorrejonInterUrbanosProcess = new TorrejonInterUrbanos
+      TorrejonInterUrbanosProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
+
+      feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/1a25440bf66f499bae2657ec7fb40144/data"
+      val TorrejonCercaniasProcess = new TorrejonCercanias
+      TorrejonCercaniasProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
 
     case _ => println("No option matched")
       sys.exit(1)
