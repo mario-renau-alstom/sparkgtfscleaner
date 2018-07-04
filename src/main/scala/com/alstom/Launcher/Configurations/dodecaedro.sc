@@ -2,7 +2,7 @@
 
 import java.io._
 import java.util.zip.{ZipEntry, ZipInputStream}
- val sourcefileDir = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\test\\resources\\data\\gtfs\\Lyon\\backup\\GTFSCLEAN\\torrejon_interurbanos_gtfs"
+ val sourcefileDir = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\test\\resources\\data\\gtfs\\Lyon\\backup\\GTFSCLEAN\\torrejon_cercanias_gtfs"
  val destinationdir = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\test\\resources\\data\\gtfs\\Lyon\\staging"
  val backupdir = new File(sourcefileDir)
  val allzip = backupdir.listFiles.filter(_.isFile).toList.filter { file => file.getName.endsWith("zip")}

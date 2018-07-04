@@ -1,7 +1,8 @@
 package com.alstom.GTFSOperations
 
 import java.net.URL
-import java.io.{File, FileInputStream, FileOutputStream}
+import java.io.{File, FileInputStream, FileOutputStream, IOException}
+import java.util.zip.{ZipEntry, ZipInputStream}
 
 import com.alstom.tools.com.cotdp.hadoop.ZipFileInputFormat
 import com.typesafe.scalalogging.LazyLogging
@@ -85,15 +86,19 @@ object IOOperations extends LazyLogging {
 
     for (fileX <- filesPaths_list) {
       val (fileName, fileExtension) = getFileNameAndExtFromPath(fileX.toString)
-      println(s" FileName is $fileName")
-      println(s" sources_path is $sources_path" )
+      //println(s" FileName is $fileName")
+      //println(s" sources_path is $sources_path" )
+      println(sources_path + "/" + fileName + ".parquet")
       spark
         .read
+        .option("encoding", "UTF-8")
         .option("header", "true")
         .csv(fileX.toString)
         .write
+        .option("encoding", "UTF-8")
         .mode("overwrite")
-        .parquet(sources_path + "/" + fileName + ".parquet")
+        .save(sources_path + "/" + fileName + ".parquet")
+
     }
     println("Finish Converting to Parquet files [Source]")
     println("")
@@ -232,13 +237,13 @@ object IOOperations extends LazyLogging {
 
 
     val ext = path.split(File.separator*2).last.split('.').last
-    println(ext)
+    //println(ext)
     val fileName = path.split(File.separator*2).last.split('.').head
-
+/*
     println(s"*** path: $path")
     println(s"*** fileName: $fileName")
     println(s"*** ext: $ext")
-
+*/
     return (fileName, ext)
 
   }
@@ -258,33 +263,72 @@ object IOOperations extends LazyLogging {
   def unzip(inputPath: String, outputPath: String, spark: SparkSession): Unit = {
     ENV match {
       case "local" =>
-        val allzip = inputPath.listFiles.filter(_.isFile).toList.filter(x => x.getName.endsWith("zip"))
-        allzip.foreach{x =>
+        val originDir = new File(inputPath)
+        val allzip = originDir.listFiles.filter(_.isFile).toList.filter(x => x.getName.endsWith("zip"))
+        allzip.foreach { x =>
+          val buffer = new Array[Byte](1024)
 
+          try {
+            //zip file content
+            val zis: ZipInputStream = new ZipInputStream(new FileInputStream(x));
+            //get the zipped file list entry
+            var ze: ZipEntry = zis.getNextEntry();
+
+            while (ze != null) {
+
+              val fileName = ze.getName();
+              val newFile = new File(outputPath + File.separator + fileName);
+
+              System.out.println("file unzip : " + newFile.getAbsoluteFile());
+
+              //create folders
+              new File(newFile.getParent()).mkdirs();
+
+              val fos = new FileOutputStream(newFile);
+
+              var len: Int = zis.read(buffer);
+
+              while (len > 0) {
+
+                fos.write(buffer, 0, len)
+                len = zis.read(buffer)
+              }
+
+              fos.close()
+              ze = zis.getNextEntry()
+            }
+
+            zis.closeEntry()
+            zis.close()
+
+          } catch {
+            case e: IOException => println("exception caught: " + e.getMessage)
+          }
         }
+
 
 
       case _ =>
 
-    import org.apache.hadoop.fs.Path
+        import org.apache.hadoop.fs.Path
 
-    val fileSystem = listLeafStatuses(fs, new Path(inputPath))
+        val fileSystem = listLeafStatuses(fs, new Path(inputPath))
 
-    val allzip = fileSystem.filter(_.getPath.getName.endsWith("zip"))
+        val allzip = fileSystem.filter(_.getPath.getName.endsWith("zip"))
 
-    allzip.foreach { x =>
-      val zipFileRDD = spark.sparkContext.newAPIHadoopFile(
-        x.getPath.toString,
-        classOf[ZipFileInputFormat],
-        classOf[Text],
-        classOf[BytesWritable], hadoopConf)
+        allzip.foreach { x =>
+          val zipFileRDD = spark.sparkContext.newAPIHadoopFile(
+            x.getPath.toString,
+            classOf[ZipFileInputFormat],
+            classOf[Text],
+            classOf[BytesWritable], hadoopConf)
 
-      zipFileRDD.foreach { y =>
-        ProcessFile(y._1.toString, y._2, outputPath)
-      }
+          zipFileRDD.foreach { y =>
+            ProcessFile(y._1.toString, y._2, outputPath)
+          }
+        }
     }
   }
-
 
   import org.apache.hadoop.fs.{FileSystem, Path}
 
