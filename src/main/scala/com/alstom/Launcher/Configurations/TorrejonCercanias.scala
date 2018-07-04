@@ -9,7 +9,8 @@ import scala.collection.mutable
 
 class TorrejonCercanias  {
 
-//sdfda
+
+
 
  def Process(workPath: String, backupPath: String, sourcesPath: String, rawPath: String, urlfile: String, spark: SparkSession) = {
 
@@ -70,6 +71,7 @@ class TorrejonCercanias  {
 
     val routes_newDF = routes.filter( routes("\uFEFFroute_id") === "5__C2___" || routes("\uFEFFroute_id") === "5__C7___").
       withColumn("route_color", when(
+
       col("route_color").equalTo("000000") ||
         col("route_color").equalTo("-16777216") ||
         col("route_color").isNull, UDFS.hexToLong(col("route_color"))).
@@ -81,6 +83,7 @@ class TorrejonCercanias  {
     println("Leaving only C2 and C7 routes on trips file")
 
     val trips_newDF = trips.filter(trips("\uFEFFroute_id") === "5__C2___" || trips("\uFEFFroute_id") === "5__C7___")
+
     dataframes += (routes_newDF,stops,trips_newDF,stop_times,agency,calendar_dates,calendar,shapes,fare_attributes,fare_rules,feed_info,frequencies)
 
     dataframes.toList
@@ -114,6 +117,7 @@ class TorrejonCercanias  {
     stop_times.write.mode("overwrite").parquet(raw_path + "stop_times.parquet")
     println("stop_times uploaded")
     shapes.orderBy("\uFEFFshape_id","shape_pt_sequence").write.mode("overwrite").parquet(raw_path + "shapes.parquet")
+
     println("shapes uploaded")
 
     agency.coalesce(1).write.mode("overwrite").parquet(raw_path + "agency.parquet")

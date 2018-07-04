@@ -47,6 +47,7 @@ object IOOperations extends LazyLogging {
     if (!newFile.exists) newFile.createNewFile
 
 
+
     println("Start Download GTFS zip file")
     try {
       new URL(downloadURL) #> newFile !!; //Download file from URL
@@ -98,6 +99,7 @@ object IOOperations extends LazyLogging {
         .option("encoding", "UTF-8")
         .mode("overwrite")
         .save(sources_path + "/" + fileName + ".parquet")
+
 
     }
     println("Finish Converting to Parquet files [Source]")
@@ -244,6 +246,7 @@ object IOOperations extends LazyLogging {
     println(s"*** fileName: $fileName")
     println(s"*** ext: $ext")
 */
+
     return (fileName, ext)
 
   }
@@ -267,6 +270,7 @@ object IOOperations extends LazyLogging {
         val allzip = originDir.listFiles.filter(_.isFile).toList.filter(x => x.getName.endsWith("zip"))
         allzip.foreach { x =>
           val buffer = new Array[Byte](1024)
+
 
           try {
             //zip file content
@@ -382,6 +386,7 @@ object IOOperations extends LazyLogging {
         try {
           val sourceFile = new File(source)
           val destFile = new File(dest)
+
 
           copyFileToDirectory(sourceFile,destFile)
           Left(true)

@@ -14,6 +14,7 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
 
 
   implicit val configFile = "C:\\Development\\GitHub\\sparkgtfscleaner\\src\\main\\resources\\application.conf"
+
   implicit val config: Config = getConfig(configFile)
 
   // Paths ADLS
@@ -140,6 +141,7 @@ object GTFSCleanerApp extends App with LazyLogging with ConfigUtils  {
       val TorrejonInterUrbanosProcess = new TorrejonInterUrbanos
       TorrejonInterUrbanosProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
 */
+
       feedURL = "https://crtm.maps.arcgis.com/sharing/rest/content/items/1a25440bf66f499bae2657ec7fb40144/data"
       val TorrejonCercaniasProcess = new TorrejonCercanias
       TorrejonCercaniasProcess.Process(WORK_PATH, ONLINE_BACKUP, ONLINE_SOURCE, ONLINE_RAW, feedURL, spark)
